@@ -1,0 +1,1670 @@
+2015-01-13T13:43:42.189Z - info: [90mGET / [32m200 [90m4ms - 1.52kb[0m
+
+2015-01-13T13:43:42.212Z - info: [90mGET /lib/jquery.js [33m404 [90m3ms[0m
+
+2015-01-13T13:43:42.217Z - info: [90mGET /cat/lib/cat.css [32m200 [90m8ms - 11.91kb[0m
+
+2015-01-13T13:43:42.217Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m7ms - 15.26kb[0m
+
+2015-01-13T13:43:42.217Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m7ms - 3.6kb[0m
+
+2015-01-13T13:43:42.217Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m7ms - 19.89kb[0m
+
+2015-01-13T13:43:42.217Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m7ms - 34.7kb[0m
+
+2015-01-13T13:43:42.220Z - info: [90mGET /cat/lib/chai.js [32m200 [90m6ms - 117.99kb[0m
+
+2015-01-13T13:43:42.222Z - info: [90mGET /cat/lib/cat.js [32m200 [90m3ms - 116.48kb[0m
+
+2015-01-13T13:43:42.224Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m3ms - 2.48kb[0m
+
+2015-01-13T13:43:42.270Z - info: [90mGET /cat/config/testdata.json [32m200 [90m4ms - 152b[0m
+
+2015-01-13T13:43:42.273Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.25kb[0m
+
+2015-01-13T13:43:42.284Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m5ms - 68b[0m
+
+2015-01-13T13:43:42.301Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 406b[0m
+
+2015-01-13T13:43:42.304Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 516b[0m
+
+2015-01-13T13:43:42.304Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 509b[0m
+
+2015-01-13T13:43:42.323Z - info: [90mGET /assert?testName=generalJSError&name=generalJSError&type=test&message=Uncaught%20ReferenceError:%20$%20is%20not%20defined%20%20;file:%20%20http://localhost:8089/cat/lib/cat.js%20%20;line:%20%203405%20%20;column:%2017%20%20;error:%20ReferenceError:%20$%20is%20not%20defined&status=failure&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 230b[0m
+
+2015-01-13T13:43:42.336Z - info: [90mGET /lib/jquery.js [33m404 [90m1ms[0m
+
+2015-01-13T13:44:08.962Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T13:46:08.274Z - info: [90mGET / [32m200 [90m8ms - 1.52kb[0m
+
+2015-01-13T13:46:08.284Z - info: [90mGET /lib/jquery.js [33m404 [90m3ms[0m
+
+2015-01-13T13:46:08.287Z - info: [90mGET /cat/lib/cat.css [32m200 [90m5ms - 11.91kb[0m
+
+2015-01-13T13:46:08.288Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-13T13:46:08.288Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-13T13:46:08.289Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m7ms - 19.89kb[0m
+
+2015-01-13T13:46:08.292Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m2ms - 34.7kb[0m
+
+2015-01-13T13:46:08.314Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m11ms - 2.48kb[0m
+
+2015-01-13T13:46:08.314Z - info: [90mGET /cat/lib/chai.js [32m200 [90m17ms - 117.99kb[0m
+
+2015-01-13T13:46:08.314Z - info: [90mGET /cat/lib/cat.js [32m200 [90m12ms - 115.04kb[0m
+
+2015-01-13T13:46:08.378Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-13T13:46:08.387Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.25kb[0m
+
+2015-01-13T13:46:08.405Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m4ms - 68b[0m
+
+2015-01-13T13:46:08.423Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m3ms - 406b[0m
+
+2015-01-13T13:46:08.428Z - info: [90mGET /page1/iframe1.html [32m200 [90m4ms - 516b[0m
+
+2015-01-13T13:46:08.428Z - info: [90mGET /page2/iframe2.html [32m200 [90m2ms - 509b[0m
+
+2015-01-13T13:46:08.443Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-13T13:46:24.280Z - info: [90mGET /lib/jquery.js [33m404 [90m1ms[0m
+
+2015-01-13T13:46:24.285Z - info: [90mGET /assert?testName=generalJSError&name=generalJSError&type=test&message=Uncaught%20ReferenceError:%20$%20is%20not%20defined%20%20;file:%20%20http://localhost:8089/cat/lib/cat.js%20%20;line:%20%203406%20%20;column:%2017%20%20;error:%20ReferenceError:%20$%20is%20not%20defined&status=failure&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 230b[0m
+
+2015-01-13T13:46:50.893Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 62b[0m
+
+2015-01-13T13:49:34.103Z - info: [90mGET / [32m200 [90m4ms - 1.51kb[0m
+
+2015-01-13T13:49:34.125Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-13T13:49:34.126Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-13T13:49:34.126Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-13T13:49:34.126Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-13T13:49:34.126Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-13T13:49:34.127Z - info: [90mGET /lib/jquery.js [32m200 [90m8ms - 266.8kb[0m
+
+2015-01-13T13:49:34.185Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m13ms - 2.48kb[0m
+
+2015-01-13T13:49:34.186Z - info: [90mGET /cat/lib/chai.js [32m200 [90m18ms - 117.99kb[0m
+
+2015-01-13T13:49:34.186Z - info: [90mGET /cat/lib/cat.js [32m200 [90m14ms - 116.48kb[0m
+
+2015-01-13T13:49:34.261Z - info: [90mGET /cat/config/testdata.json [32m200 [90m0ms - 152b[0m
+
+2015-01-13T13:49:34.270Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.25kb[0m
+
+2015-01-13T13:49:34.281Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m4ms - 68b[0m
+
+2015-01-13T13:49:34.295Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 406b[0m
+
+2015-01-13T13:49:34.299Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 510b[0m
+
+2015-01-13T13:49:34.299Z - info: [90mGET /page2/iframe2.html [32m200 [90m3ms - 503b[0m
+
+2015-01-13T13:49:34.309Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-13T13:49:34.321Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T13:49:34.355Z - info: [90mGET /lib/jquery.js [36m304 [90m4ms[0m
+
+2015-01-13T13:59:15.641Z - info: [90mGET / [32m200 [90m4ms - 1.51kb[0m
+
+2015-01-13T13:59:15.665Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-13T13:59:15.666Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m7ms - 15.26kb[0m
+
+2015-01-13T13:59:15.666Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m7ms - 3.6kb[0m
+
+2015-01-13T13:59:15.666Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m7ms - 19.89kb[0m
+
+2015-01-13T13:59:15.666Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m7ms - 34.7kb[0m
+
+2015-01-13T13:59:15.667Z - info: [90mGET /lib/jquery.js [32m200 [90m10ms - 266.8kb[0m
+
+2015-01-13T13:59:15.718Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m4ms - 5kb[0m
+
+2015-01-13T13:59:15.718Z - info: [90mGET /cat/lib/chai.js [32m200 [90m11ms - 117.99kb[0m
+
+2015-01-13T13:59:15.718Z - info: [90mGET /cat/lib/cat.js [32m200 [90m5ms - 116.48kb[0m
+
+2015-01-13T13:59:15.787Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-13T13:59:15.796Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-13T13:59:15.804Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m3ms - 68b[0m
+
+2015-01-13T13:59:15.820Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 229b[0m
+
+2015-01-13T13:59:15.832Z - info: [90mGET /page1/iframe1.html [32m200 [90m10ms - 1.16kb[0m
+
+2015-01-13T13:59:15.832Z - info: [90mGET /page2/iframe2.html [32m200 [90m10ms - 503b[0m
+
+2015-01-13T13:59:15.834Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m9ms - 24.79kb[0m
+
+2015-01-13T13:59:15.877Z - info: [90mGET /lib/jquery.js [36m304 [90m4ms[0m
+
+2015-01-13T13:59:15.878Z - info: [90mGET /cat/lib/cat.css [36m304 [90m4ms[0m
+
+2015-01-13T13:59:15.879Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m3ms[0m
+
+2015-01-13T13:59:15.879Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m4ms[0m
+
+2015-01-13T13:59:15.881Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m6ms[0m
+
+2015-01-13T13:59:15.882Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m1ms[0m
+
+2015-01-13T13:59:15.883Z - info: [90mGET /cat/lib/chai.js [36m304 [90m0ms[0m
+
+2015-01-13T13:59:15.892Z - info: [90mGET /cat/lib/cat.js [36m304 [90m2ms[0m
+
+2015-01-13T13:59:15.897Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m1ms[0m
+
+2015-01-13T13:59:16.046Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m7ms[0m
+
+2015-01-13T13:59:16.049Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m2ms[0m
+
+2015-01-13T13:59:42.481Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T14:01:34.465Z - info: [90mGET / [32m200 [90m6ms - 1.5kb[0m
+
+2015-01-13T14:01:34.491Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-13T14:01:34.492Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m8ms - 15.26kb[0m
+
+2015-01-13T14:01:34.492Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m8ms - 3.6kb[0m
+
+2015-01-13T14:01:34.492Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m7ms - 19.89kb[0m
+
+2015-01-13T14:01:34.492Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m7ms - 34.7kb[0m
+
+2015-01-13T14:01:34.492Z - info: [90mGET /lib/jquery.js [32m200 [90m12ms - 266.8kb[0m
+
+2015-01-13T14:01:34.548Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m16ms - 7.49kb[0m
+
+2015-01-13T14:01:34.554Z - info: [90mGET /cat/lib/chai.js [32m200 [90m24ms - 117.99kb[0m
+
+2015-01-13T14:01:34.554Z - info: [90mGET /cat/lib/cat.js [32m200 [90m22ms - 116.48kb[0m
+
+2015-01-13T14:01:34.620Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-13T14:01:34.627Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-13T14:01:34.639Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m4ms - 68b[0m
+
+2015-01-13T14:01:34.659Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 229b[0m
+
+2015-01-13T14:01:34.670Z - info: [90mGET /iframe1.html [32m200 [90m11ms - 1.13kb[0m
+
+2015-01-13T14:01:34.671Z - info: [90mGET /iframe2.html [32m200 [90m12ms - 500b[0m
+
+2015-01-13T14:01:34.675Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m4ms - 24.79kb[0m
+
+2015-01-13T14:01:34.714Z - info: [90mGET /lib/jquery.js [36m304 [90m5ms[0m
+
+2015-01-13T14:01:34.718Z - info: [90mGET /cat/lib/cat.css [36m304 [90m9ms[0m
+
+2015-01-13T14:01:34.724Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m14ms[0m
+
+2015-01-13T14:01:34.730Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m18ms[0m
+
+2015-01-13T14:01:34.736Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m25ms[0m
+
+2015-01-13T14:01:34.738Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m26ms[0m
+
+2015-01-13T14:01:34.742Z - info: [90mGET /cat/lib/chai.js [36m304 [90m2ms[0m
+
+2015-01-13T14:01:34.745Z - info: [90mGET /cat/lib/cat.js [36m304 [90m4ms[0m
+
+2015-01-13T14:01:34.745Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m3ms[0m
+
+2015-01-13T14:01:34.844Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-13T14:01:34.859Z - info: [90mGET /cat/config/cat.json [32m200 [90m8ms - 1.29kb[0m
+
+2015-01-13T14:01:34.878Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m5ms - 68b[0m
+
+2015-01-13T14:01:34.886Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 586b[0m
+
+2015-01-13T14:01:35.415Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T14:02:01.316Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 62b[0m
+
+2015-01-13T14:02:03.309Z - info: [90mGET / [32m200 [90m1ms - 1.5kb[0m
+
+2015-01-13T14:02:03.327Z - info: [90mGET /cat/lib/cat.css [32m200 [90m3ms - 11.91kb[0m
+
+2015-01-13T14:02:03.327Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m3ms - 15.26kb[0m
+
+2015-01-13T14:02:03.328Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m4ms - 3.6kb[0m
+
+2015-01-13T14:02:03.328Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m4ms - 19.89kb[0m
+
+2015-01-13T14:02:03.328Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m3ms - 34.7kb[0m
+
+2015-01-13T14:02:03.329Z - info: [90mGET /lib/jquery.js [32m200 [90m6ms - 266.8kb[0m
+
+2015-01-13T14:02:03.332Z - info: [90mGET /cat/lib/chai.js [32m200 [90m2ms - 117.99kb[0m
+
+2015-01-13T14:02:03.338Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-13T14:02:03.338Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 116.48kb[0m
+
+2015-01-13T14:02:03.435Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-13T14:02:03.443Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-13T14:02:03.450Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 68b[0m
+
+2015-01-13T14:02:03.456Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 229b[0m
+
+2015-01-13T14:02:03.460Z - info: [90mGET /iframe1.html [32m200 [90m3ms - 1.13kb[0m
+
+2015-01-13T14:02:03.460Z - info: [90mGET /iframe2.html [32m200 [90m1ms - 500b[0m
+
+2015-01-13T14:02:03.491Z - info: [90mGET /lib/jquery.js [36m304 [90m3ms[0m
+
+2015-01-13T14:02:03.491Z - info: [90mGET /cat/lib/cat.css [36m304 [90m2ms[0m
+
+2015-01-13T14:02:03.492Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m3ms[0m
+
+2015-01-13T14:02:03.492Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m3ms[0m
+
+2015-01-13T14:02:03.492Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m1ms[0m
+
+2015-01-13T14:02:03.494Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m2ms[0m
+
+2015-01-13T14:02:03.498Z - info: [90mGET /cat/lib/chai.js [36m304 [90m1ms[0m
+
+2015-01-13T14:02:03.499Z - info: [90mGET /cat/lib/cat.js [36m304 [90m1ms[0m
+
+2015-01-13T14:02:03.499Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m0ms[0m
+
+2015-01-13T14:02:03.627Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-13T14:02:03.640Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.29kb[0m
+
+2015-01-13T14:02:03.648Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 68b[0m
+
+2015-01-13T14:02:03.657Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 586b[0m
+
+2015-01-13T14:02:03.673Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-13T14:02:04.199Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 62b[0m
+
+2015-01-13T14:02:30.141Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m7ms - 62b[0m
+
+2015-01-13T14:02:30.332Z - info: [90mGET / [32m200 [90m5ms - 1.5kb[0m
+
+2015-01-13T14:02:30.357Z - info: [90mGET /lib/jquery.js [32m200 [90m6ms - 266.8kb[0m
+
+2015-01-13T14:02:30.377Z - info: [90mGET /cat/lib/cat.css [32m200 [90m21ms - 11.91kb[0m
+
+2015-01-13T14:02:30.377Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m19ms - 15.26kb[0m
+
+2015-01-13T14:02:30.378Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m19ms - 3.6kb[0m
+
+2015-01-13T14:02:30.378Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m18ms - 19.89kb[0m
+
+2015-01-13T14:02:30.378Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m18ms - 34.7kb[0m
+
+2015-01-13T14:02:30.379Z - info: [90mGET /cat/lib/chai.js [32m200 [90m15ms - 117.99kb[0m
+
+2015-01-13T14:02:30.424Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m8ms - 7.49kb[0m
+
+2015-01-13T14:02:30.424Z - info: [90mGET /cat/lib/cat.js [32m200 [90m8ms - 116.48kb[0m
+
+2015-01-13T14:02:30.461Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-13T14:02:30.468Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.29kb[0m
+
+2015-01-13T14:02:30.476Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 68b[0m
+
+2015-01-13T14:02:30.483Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 229b[0m
+
+2015-01-13T14:02:30.490Z - info: [90mGET /iframe1.html [32m200 [90m5ms - 723b[0m
+
+2015-01-13T14:02:30.491Z - info: [90mGET /iframe2.html [32m200 [90m2ms - 500b[0m
+
+2015-01-13T14:02:30.503Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m4ms - 24.79kb[0m
+
+2015-01-13T14:02:30.576Z - info: [90mGET /lib/jquery.js [36m304 [90m13ms[0m
+
+2015-01-13T14:02:57.154Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T14:03:33.433Z - info: [90mGET / [32m200 [90m9ms - 1.5kb[0m
+
+2015-01-13T14:03:33.490Z - info: [90mGET /cat/lib/cat.css [32m200 [90m35ms - 11.91kb[0m
+
+2015-01-13T14:03:33.490Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m32ms - 15.26kb[0m
+
+2015-01-13T14:03:33.491Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m33ms - 3.6kb[0m
+
+2015-01-13T14:03:33.491Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m32ms - 19.89kb[0m
+
+2015-01-13T14:03:33.491Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m31ms - 34.7kb[0m
+
+2015-01-13T14:03:33.505Z - info: [90mGET /lib/jquery.js [32m200 [90m52ms - 266.8kb[0m
+
+2015-01-13T14:03:33.553Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m5ms - 7.49kb[0m
+
+2015-01-13T14:03:33.553Z - info: [90mGET /cat/lib/chai.js [32m200 [90m9ms - 117.99kb[0m
+
+2015-01-13T14:03:33.553Z - info: [90mGET /cat/lib/cat.js [32m200 [90m7ms - 116.48kb[0m
+
+2015-01-13T14:03:33.637Z - info: [90mGET /cat/config/testdata.json [32m200 [90m0ms - 152b[0m
+
+2015-01-13T14:03:33.648Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-13T14:03:33.661Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m5ms - 68b[0m
+
+2015-01-13T14:03:33.677Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 229b[0m
+
+2015-01-13T14:03:33.691Z - info: [90mGET /iframe1.html [32m200 [90m13ms - 723b[0m
+
+2015-01-13T14:03:33.691Z - info: [90mGET /iframe2.html [32m200 [90m13ms - 500b[0m
+
+2015-01-13T14:03:33.694Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m3ms - 24.79kb[0m
+
+2015-01-13T14:03:33.729Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-13T14:03:55.219Z - info: [90mGET / [32m200 [90m6ms - 1.5kb[0m
+
+2015-01-13T14:03:55.244Z - info: [90mGET /lib/jquery.js [32m200 [90m4ms - 266.8kb[0m
+
+2015-01-13T14:03:55.307Z - info: [90mGET /cat/lib/cat.css [32m200 [90m27ms - 11.91kb[0m
+
+2015-01-13T14:03:55.307Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m27ms - 15.26kb[0m
+
+2015-01-13T14:03:55.308Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m27ms - 3.6kb[0m
+
+2015-01-13T14:03:55.308Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m27ms - 19.89kb[0m
+
+2015-01-13T14:03:55.309Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m7ms - 34.7kb[0m
+
+2015-01-13T14:03:55.310Z - info: [90mGET /cat/lib/chai.js [32m200 [90m6ms - 117.99kb[0m
+
+2015-01-13T14:03:55.326Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-13T14:03:55.326Z - info: [90mGET /cat/lib/cat.js [32m200 [90m8ms - 116.48kb[0m
+
+2015-01-13T14:03:55.384Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-13T14:03:55.395Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-13T14:03:55.411Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m7ms - 68b[0m
+
+2015-01-13T14:03:55.426Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 229b[0m
+
+2015-01-13T14:03:55.442Z - info: [90mGET /iframe1.html [32m200 [90m16ms - 1.13kb[0m
+
+2015-01-13T14:03:55.442Z - info: [90mGET /iframe2.html [32m200 [90m15ms - 500b[0m
+
+2015-01-13T14:03:55.446Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-13T14:03:55.480Z - info: [90mGET /lib/jquery.js [36m304 [90m7ms[0m
+
+2015-01-13T14:03:55.484Z - info: [90mGET /cat/lib/cat.css [36m304 [90m9ms[0m
+
+2015-01-13T14:03:55.486Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m10ms[0m
+
+2015-01-13T14:03:55.489Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m13ms[0m
+
+2015-01-13T14:03:55.490Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m12ms[0m
+
+2015-01-13T14:03:55.492Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m14ms[0m
+
+2015-01-13T14:03:55.493Z - info: [90mGET /cat/lib/cat.js [36m304 [90m2ms[0m
+
+2015-01-13T14:03:55.495Z - info: [90mGET /cat/lib/chai.js [36m304 [90m1ms[0m
+
+2015-01-13T14:03:55.497Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m1ms[0m
+
+2015-01-13T14:03:55.601Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-13T14:03:55.609Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-13T14:03:55.616Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 68b[0m
+
+2015-01-13T14:03:55.621Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 586b[0m
+
+2015-01-13T14:03:56.147Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T14:04:22.092Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-13T14:06:34.121Z - info: [90mGET / [32m200 [90m5ms - 1.51kb[0m
+
+2015-01-13T14:06:34.147Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-13T14:06:34.147Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-13T14:06:34.148Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m7ms - 3.6kb[0m
+
+2015-01-13T14:06:34.148Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m7ms - 19.89kb[0m
+
+2015-01-13T14:06:34.148Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m6ms - 34.7kb[0m
+
+2015-01-13T14:06:34.149Z - info: [90mGET /lib/jquery.js [32m200 [90m10ms - 266.8kb[0m
+
+2015-01-13T14:06:34.199Z - info: [90mGET /cat/lib/chai.js [32m200 [90m4ms - 117.99kb[0m
+
+2015-01-13T14:06:34.217Z - info: [90mGET /cat/lib/cat.js [32m200 [90m15ms - 116.48kb[0m
+
+2015-01-13T14:06:34.223Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m14ms - 7.49kb[0m
+
+2015-01-13T14:06:34.284Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-13T14:06:34.295Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.29kb[0m
+
+2015-01-13T14:06:34.305Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m3ms - 68b[0m
+
+2015-01-13T14:06:34.325Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m4ms - 229b[0m
+
+2015-01-13T14:06:34.344Z - info: [90mGET /page1/iframe1.html [32m200 [90m19ms - 1.16kb[0m
+
+2015-01-13T14:06:34.345Z - info: [90mGET /page2/iframe2.html [32m200 [90m19ms - 503b[0m
+
+2015-01-13T14:06:34.373Z - info: [90mGET /lib/jquery.js [36m304 [90m22ms[0m
+
+2015-01-13T14:06:34.373Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m39ms - 24.79kb[0m
+
+2015-01-13T14:06:34.394Z - info: [90mGET /cat/lib/cat.css [36m304 [90m20ms[0m
+
+2015-01-13T14:06:34.397Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m23ms[0m
+
+2015-01-13T14:06:34.397Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m20ms[0m
+
+2015-01-13T14:06:34.398Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m18ms[0m
+
+2015-01-13T14:06:34.403Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m23ms[0m
+
+2015-01-13T14:06:34.404Z - info: [90mGET /cat/lib/chai.js [36m304 [90m20ms[0m
+
+2015-01-13T14:06:34.404Z - info: [90mGET /cat/lib/cat.js [36m304 [90m4ms[0m
+
+2015-01-13T14:06:34.418Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m1ms[0m
+
+2015-01-13T14:06:34.494Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m2ms[0m
+
+2015-01-13T14:06:34.506Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m3ms[0m
+
+2015-01-13T14:07:00.984Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-14T08:12:00.479Z - info: [90mGET / [32m200 [90m6ms - 1.51kb[0m
+
+2015-01-14T08:12:00.533Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m4ms - 3.6kb[0m
+
+2015-01-14T08:12:00.535Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-14T08:12:00.535Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-14T08:12:00.536Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m7ms - 19.89kb[0m
+
+2015-01-14T08:12:00.536Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m6ms - 34.7kb[0m
+
+2015-01-14T08:12:00.537Z - info: [90mGET /lib/jquery.js [32m200 [90m10ms - 266.8kb[0m
+
+2015-01-14T08:12:00.585Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m8ms - 7.49kb[0m
+
+2015-01-14T08:12:00.585Z - info: [90mGET /cat/lib/cat.js [32m200 [90m10ms - 115.04kb[0m
+
+2015-01-14T08:12:00.586Z - info: [90mGET /cat/lib/chai.js [32m200 [90m19ms - 117.99kb[0m
+
+2015-01-14T08:12:00.704Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T08:12:13.055Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-14T08:12:19.859Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.29kb[0m
+
+2015-01-14T08:12:19.873Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m7ms - 68b[0m
+
+2015-01-14T08:12:19.890Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 229b[0m
+
+2015-01-14T08:12:19.894Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 1.16kb[0m
+
+2015-01-14T08:12:19.895Z - info: [90mGET /page2/iframe2.html [32m200 [90m4ms - 503b[0m
+
+2015-01-14T08:12:19.949Z - info: [90mGET /cat/lib/cat.css [32m200 [90m29ms - 11.91kb[0m
+
+2015-01-14T08:12:19.949Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m29ms - 15.26kb[0m
+
+2015-01-14T08:12:19.949Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m27ms - 3.6kb[0m
+
+2015-01-14T08:12:19.950Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m27ms - 19.89kb[0m
+
+2015-01-14T08:12:19.950Z - info: [90mGET /cat/lib/chai.js [32m200 [90m31ms - 117.99kb[0m
+
+2015-01-14T08:12:19.969Z - info: [90mGET /lib/jquery.js [32m200 [90m49ms - 266.8kb[0m
+
+2015-01-14T08:12:19.969Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m19ms - 34.7kb[0m
+
+2015-01-14T08:12:19.970Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m18ms - 7.49kb[0m
+
+2015-01-14T08:12:19.970Z - info: [90mGET /cat/lib/cat.js [32m200 [90m19ms - 115.04kb[0m
+
+2015-01-14T08:12:25.857Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m2ms[0m
+
+2015-01-14T08:12:41.918Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m2ms[0m
+
+2015-01-14T08:13:08.360Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27secondScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-14T08:13:55.409Z - info: [90mGET / [32m200 [90m1ms - 1.51kb[0m
+
+2015-01-14T08:13:55.445Z - info: [90mGET /cat/lib/cat.css [32m200 [90m14ms - 11.91kb[0m
+
+2015-01-14T08:13:55.445Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m14ms - 15.26kb[0m
+
+2015-01-14T08:13:55.445Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m13ms - 3.6kb[0m
+
+2015-01-14T08:13:55.445Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m13ms - 19.89kb[0m
+
+2015-01-14T08:13:55.450Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m17ms - 34.7kb[0m
+
+2015-01-14T08:13:55.453Z - info: [90mGET /lib/jquery.js [32m200 [90m23ms - 266.8kb[0m
+
+2015-01-14T08:13:55.453Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m3ms - 7.49kb[0m
+
+2015-01-14T08:13:55.454Z - info: [90mGET /cat/lib/chai.js [32m200 [90m6ms - 117.99kb[0m
+
+2015-01-14T08:13:55.454Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 115.08kb[0m
+
+2015-01-14T08:13:55.572Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-14T08:13:55.577Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.29kb[0m
+
+2015-01-14T08:13:55.585Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 68b[0m
+
+2015-01-14T08:13:55.593Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 229b[0m
+
+2015-01-14T08:13:55.597Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 1.16kb[0m
+
+2015-01-14T08:13:55.597Z - info: [90mGET /page2/iframe2.html [32m200 [90m2ms - 503b[0m
+
+2015-01-14T08:13:55.637Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T08:13:55.643Z - info: [90mGET /cat/lib/cat.css [36m304 [90m1ms[0m
+
+2015-01-14T08:13:55.644Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m2ms[0m
+
+2015-01-14T08:13:55.647Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m4ms[0m
+
+2015-01-14T08:13:55.649Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m2ms[0m
+
+2015-01-14T08:13:55.649Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m1ms[0m
+
+2015-01-14T08:13:55.650Z - info: [90mGET /cat/lib/chai.js [36m304 [90m2ms[0m
+
+2015-01-14T08:13:55.650Z - info: [90mGET /cat/lib/cat.js [36m304 [90m2ms[0m
+
+2015-01-14T08:13:55.651Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m1ms[0m
+
+2015-01-14T08:13:55.883Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T08:13:55.890Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m0ms[0m
+
+2015-01-14T08:13:55.923Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T08:14:22.274Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27secondScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m5ms - 62b[0m
+
+2015-01-14T08:49:26.443Z - info: [90mGET / [32m200 [90m4ms - 1kb[0m
+
+2015-01-14T08:49:26.467Z - info: [90mGET /lib/jquery.js [32m200 [90m11ms - 266.8kb[0m
+
+2015-01-14T08:49:26.522Z - info: [90mGET /page1/iframe1.html [32m200 [90m7ms - 1.16kb[0m
+
+2015-01-14T08:49:26.522Z - info: [90mGET /page2/iframe2.html [32m200 [90m4ms - 503b[0m
+
+2015-01-14T08:49:26.570Z - info: [90mGET /lib/jquery.js [36m304 [90m3ms[0m
+
+2015-01-14T08:49:26.571Z - info: [90mGET /cat/lib/cat.css [32m200 [90m4ms - 11.91kb[0m
+
+2015-01-14T08:49:26.583Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m11ms - 15.26kb[0m
+
+2015-01-14T08:49:26.584Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m11ms - 3.6kb[0m
+
+2015-01-14T08:49:26.584Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m9ms - 19.89kb[0m
+
+2015-01-14T08:49:26.584Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-14T08:49:26.586Z - info: [90mGET /cat/lib/chai.js [32m200 [90m2ms - 117.99kb[0m
+
+2015-01-14T08:49:26.598Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 115.12kb[0m
+
+2015-01-14T08:49:26.604Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m3ms - 7.49kb[0m
+
+2015-01-14T08:49:26.709Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T08:49:26.716Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T08:49:26.748Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m5ms - 24.79kb[0m
+
+2015-01-14T08:50:18.829Z - info: [90mGET / [32m200 [90m10ms - 1kb[0m
+
+2015-01-14T08:50:18.841Z - info: [90mGET /lib/jquery.js [32m200 [90m2ms - 266.8kb[0m
+
+2015-01-14T08:50:18.873Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 1.16kb[0m
+
+2015-01-14T08:50:18.874Z - info: [90mGET /page2/iframe2.html [32m200 [90m3ms - 503b[0m
+
+2015-01-14T08:50:18.903Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m5ms - 15.26kb[0m
+
+2015-01-14T08:50:18.904Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-14T08:50:18.904Z - info: [90mGET /cat/lib/cat.css [32m200 [90m8ms - 11.91kb[0m
+
+2015-01-14T08:50:18.905Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m5ms - 19.89kb[0m
+
+2015-01-14T08:50:18.906Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m6ms - 34.7kb[0m
+
+2015-01-14T08:50:18.907Z - info: [90mGET /cat/lib/chai.js [32m200 [90m6ms - 117.99kb[0m
+
+2015-01-14T08:50:18.920Z - info: [90mGET /lib/jquery.js [36m304 [90m7ms[0m
+
+2015-01-14T08:50:18.923Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T08:50:18.923Z - info: [90mGET /cat/lib/cat.js [32m200 [90m9ms - 115.16kb[0m
+
+2015-01-14T08:50:19.057Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m0ms[0m
+
+2015-01-14T08:50:19.062Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T08:50:19.141Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T08:50:56.163Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T08:50:56.187Z - info: [90mGET /lib/jquery.js [32m200 [90m3ms - 266.8kb[0m
+
+2015-01-14T08:50:56.249Z - info: [90mGET /page1/iframe1.html [32m200 [90m5ms - 1.16kb[0m
+
+2015-01-14T08:50:56.250Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T08:50:56.287Z - info: [90mGET /cat/lib/cat.css [32m200 [90m9ms - 11.91kb[0m
+
+2015-01-14T08:50:56.288Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m9ms - 15.26kb[0m
+
+2015-01-14T08:50:56.288Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m8ms - 3.6kb[0m
+
+2015-01-14T08:50:56.288Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m8ms - 19.89kb[0m
+
+2015-01-14T08:50:56.288Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m8ms - 34.7kb[0m
+
+2015-01-14T08:50:56.290Z - info: [90mGET /cat/lib/chai.js [32m200 [90m8ms - 117.99kb[0m
+
+2015-01-14T08:50:56.303Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T08:50:56.304Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 115.22kb[0m
+
+2015-01-14T08:50:56.309Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T08:50:56.555Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T08:50:56.565Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m0ms[0m
+
+2015-01-14T08:50:56.590Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T08:53:47.677Z - info: [90mGET / [32m200 [90m13ms - 1kb[0m
+
+2015-01-14T08:53:47.698Z - info: [90mGET /lib/jquery.js [32m200 [90m6ms - 266.8kb[0m
+
+2015-01-14T08:53:47.753Z - info: [90mGET /page1/iframe1.html [32m200 [90m14ms - 1.14kb[0m
+
+2015-01-14T08:53:47.767Z - info: [90mGET /page2/iframe2.html [32m200 [90m17ms - 503b[0m
+
+2015-01-14T08:53:47.773Z - info: [90mGET /lib/jquery.js [36m304 [90m5ms[0m
+
+2015-01-14T08:53:47.804Z - info: [90mGET /page1/cat/lib/cat.css [33m404 [90m26ms[0m
+
+2015-01-14T08:53:47.826Z - info: [90mGET /page1/cat/lib/underscore-min.js [33m404 [90m19ms[0m
+
+2015-01-14T08:53:47.827Z - info: [90mGET /page1/cat/lib/jsutils-min.js [33m404 [90m18ms[0m
+
+2015-01-14T08:53:47.827Z - info: [90mGET /page1/cat/lib/tmr-min.js [33m404 [90m16ms[0m
+
+2015-01-14T08:53:47.827Z - info: [90mGET /page1/cat/lib/jspath.js [33m404 [90m3ms[0m
+
+2015-01-14T08:53:47.829Z - info: [90mGET /page1/cat/lib/chai.js [33m404 [90m2ms[0m
+
+2015-01-14T08:53:47.840Z - info: [90mGET /page1/cat/lib/cat.js [33m404 [90m3ms[0m
+
+2015-01-14T08:53:47.872Z - info: [90mGET /page1/cat/lib/cat.src.js [33m404 [90m1ms[0m
+
+2015-01-14T08:55:24.680Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T08:55:24.702Z - info: [90mGET /lib/jquery.js [32m200 [90m10ms - 266.8kb[0m
+
+2015-01-14T08:55:24.742Z - info: [90mGET /page1/iframe1.html [32m200 [90m0ms - 1.14kb[0m
+
+2015-01-14T08:55:24.751Z - info: [90mGET /page2/iframe2.html [32m200 [90m4ms - 503b[0m
+
+2015-01-14T08:55:24.829Z - info: [90mGET /lib/jquery.js [36m304 [90m3ms[0m
+
+2015-01-14T08:55:24.841Z - info: [90mGET /page1/cat/lib/cat.css [33m404 [90m1ms[0m
+
+2015-01-14T08:55:24.850Z - info: [90mGET /page1/cat/lib/underscore-min.js [33m404 [90m1ms[0m
+
+2015-01-14T08:55:24.858Z - info: [90mGET /page1/cat/lib/jsutils-min.js [33m404 [90m7ms[0m
+
+2015-01-14T08:55:24.859Z - info: [90mGET /page1/cat/lib/tmr-min.js [33m404 [90m7ms[0m
+
+2015-01-14T08:55:24.859Z - info: [90mGET /page1/cat/lib/jspath.js [33m404 [90m7ms[0m
+
+2015-01-14T08:55:24.870Z - info: [90mGET /page1/cat/lib/chai.js [33m404 [90m1ms[0m
+
+2015-01-14T08:55:24.905Z - info: [90mGET /page1/cat/lib/cat.js [33m404 [90m1ms[0m
+
+2015-01-14T08:55:24.906Z - info: [90mGET /page1/cat/lib/cat.src.js [33m404 [90m0ms[0m
+
+2015-01-14T08:57:46.745Z - info: [90mGET / [32m200 [90m7ms - 1kb[0m
+
+2015-01-14T08:57:46.757Z - info: [90mGET /lib/jquery.js [32m200 [90m3ms - 266.8kb[0m
+
+2015-01-14T08:57:46.828Z - info: [90mGET /page1/iframe1.html [32m200 [90m6ms - 1.16kb[0m
+
+2015-01-14T08:57:46.832Z - info: [90mGET /page2/iframe2.html [32m200 [90m5ms - 503b[0m
+
+2015-01-14T08:57:46.880Z - info: [90mGET /lib/jquery.js [36m304 [90m7ms[0m
+
+2015-01-14T08:57:46.889Z - info: [90mGET /cat/lib/cat.css [32m200 [90m15ms - 11.91kb[0m
+
+2015-01-14T08:57:46.890Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m16ms - 15.26kb[0m
+
+2015-01-14T08:57:46.890Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m14ms - 3.6kb[0m
+
+2015-01-14T08:57:46.891Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m13ms - 19.89kb[0m
+
+2015-01-14T08:57:46.894Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m15ms - 34.7kb[0m
+
+2015-01-14T08:57:46.904Z - info: [90mGET /cat/lib/chai.js [32m200 [90m9ms - 117.99kb[0m
+
+2015-01-14T08:57:46.909Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m10ms - 7.49kb[0m
+
+2015-01-14T08:57:46.909Z - info: [90mGET /cat/lib/cat.js [32m200 [90m12ms - 116.48kb[0m
+
+2015-01-14T08:57:47.039Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m3ms[0m
+
+2015-01-14T08:57:47.047Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T08:57:47.162Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m8ms - 24.79kb[0m
+
+2015-01-14T09:02:58.772Z - info: [90mGET / [32m200 [90m8ms - 1kb[0m
+
+2015-01-14T09:02:58.782Z - info: [90mGET /lib/jquery.js [32m200 [90m3ms - 266.8kb[0m
+
+2015-01-14T09:02:58.825Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.17kb[0m
+
+2015-01-14T09:02:58.828Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T09:02:58.880Z - info: [90mGET /cat/lib/cat.css [32m200 [90m9ms - 11.91kb[0m
+
+2015-01-14T09:02:58.880Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m10ms - 15.26kb[0m
+
+2015-01-14T09:02:58.883Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m12ms - 3.6kb[0m
+
+2015-01-14T09:02:58.883Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m9ms - 19.89kb[0m
+
+2015-01-14T09:02:58.883Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m7ms - 34.7kb[0m
+
+2015-01-14T09:02:58.886Z - info: [90mGET /cat/lib/chai.js [32m200 [90m9ms - 117.99kb[0m
+
+2015-01-14T09:02:58.898Z - info: [90mGET /cat/lib/cat.js [32m200 [90m1ms - 116.48kb[0m
+
+2015-01-14T09:02:58.905Z - info: [90mGET /lib/jquery.js [36m304 [90m4ms[0m
+
+2015-01-14T09:02:58.905Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m3ms - 7.49kb[0m
+
+2015-01-14T09:02:59.005Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m4ms[0m
+
+2015-01-14T09:02:59.011Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:02:59.053Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m3ms - 24.79kb[0m
+
+2015-01-14T09:03:00.617Z - info: [90mGET / [32m200 [90m2ms - 1kb[0m
+
+2015-01-14T09:03:00.632Z - info: [90mGET /lib/jquery.js [32m200 [90m2ms - 266.8kb[0m
+
+2015-01-14T09:03:00.667Z - info: [90mGET /page1/iframe1.html [32m200 [90m2ms - 1.17kb[0m
+
+2015-01-14T09:03:00.668Z - info: [90mGET /page2/iframe2.html [32m200 [90m2ms - 503b[0m
+
+2015-01-14T09:03:00.727Z - info: [90mGET /cat/lib/cat.css [32m200 [90m18ms - 11.91kb[0m
+
+2015-01-14T09:03:00.729Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m20ms - 15.26kb[0m
+
+2015-01-14T09:03:00.729Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m19ms - 3.6kb[0m
+
+2015-01-14T09:03:00.730Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m20ms - 19.89kb[0m
+
+2015-01-14T09:03:00.730Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m19ms - 34.7kb[0m
+
+2015-01-14T09:03:00.733Z - info: [90mGET /cat/lib/chai.js [32m200 [90m22ms - 117.99kb[0m
+
+2015-01-14T09:03:00.734Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T09:03:00.737Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m5ms - 7.49kb[0m
+
+2015-01-14T09:03:00.737Z - info: [90mGET /cat/lib/cat.js [32m200 [90m6ms - 116.48kb[0m
+
+2015-01-14T09:03:00.863Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:03:00.871Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m0ms[0m
+
+2015-01-14T09:03:00.897Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:06:06.788Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T09:06:06.804Z - info: [90mGET /lib/jquery.js [32m200 [90m4ms - 266.8kb[0m
+
+2015-01-14T09:06:06.835Z - info: [90mGET /page1/iframe1.html [32m200 [90m2ms - 1.16kb[0m
+
+2015-01-14T09:06:06.836Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T09:06:06.870Z - info: [90mGET /cat/lib/cat.css [32m200 [90m11ms - 11.91kb[0m
+
+2015-01-14T09:06:06.871Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m12ms - 15.26kb[0m
+
+2015-01-14T09:06:06.872Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m5ms - 3.6kb[0m
+
+2015-01-14T09:06:06.873Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-14T09:06:06.878Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m10ms - 34.7kb[0m
+
+2015-01-14T09:06:06.879Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T09:06:06.879Z - info: [90mGET /cat/lib/chai.js [32m200 [90m11ms - 117.99kb[0m
+
+2015-01-14T09:06:06.881Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m6ms - 7.49kb[0m
+
+2015-01-14T09:06:06.881Z - info: [90mGET /cat/lib/cat.js [32m200 [90m8ms - 116.48kb[0m
+
+2015-01-14T09:06:06.980Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:06:06.988Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:06:07.186Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:08:04.775Z - info: [90mGET / [32m200 [90m7ms - 1kb[0m
+
+2015-01-14T09:08:04.796Z - info: [90mGET /lib/jquery.js [32m200 [90m7ms - 266.8kb[0m
+
+2015-01-14T09:08:04.871Z - info: [90mGET /page1/iframe1.html [32m200 [90m11ms - 1.16kb[0m
+
+2015-01-14T09:08:04.899Z - info: [90mGET /page2/iframe2.html [32m200 [90m19ms - 503b[0m
+
+2015-01-14T09:08:04.935Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:08:04.981Z - info: [90mGET /cat/lib/cat.css [32m200 [90m45ms - 11.91kb[0m
+
+2015-01-14T09:08:04.983Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m47ms - 15.26kb[0m
+
+2015-01-14T09:08:04.983Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m43ms - 3.6kb[0m
+
+2015-01-14T09:08:04.984Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m41ms - 19.89kb[0m
+
+2015-01-14T09:08:04.984Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m34ms - 34.7kb[0m
+
+2015-01-14T09:08:04.988Z - info: [90mGET /cat/lib/chai.js [32m200 [90m26ms - 117.99kb[0m
+
+2015-01-14T09:08:04.988Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T09:08:04.989Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 116.48kb[0m
+
+2015-01-14T09:08:05.114Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m2ms[0m
+
+2015-01-14T09:08:05.124Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m2ms[0m
+
+2015-01-14T09:08:05.154Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m3ms - 24.79kb[0m
+
+2015-01-14T09:11:23.256Z - info: [90mGET / [32m200 [90m3ms - 1kb[0m
+
+2015-01-14T09:11:23.277Z - info: [90mGET /lib/jquery.js [32m200 [90m1ms - 266.8kb[0m
+
+2015-01-14T09:11:23.369Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.21kb[0m
+
+2015-01-14T09:11:23.392Z - info: [90mGET /page2/iframe2.html [32m200 [90m5ms - 503b[0m
+
+2015-01-14T09:11:23.455Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:11:23.456Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-14T09:11:23.457Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-14T09:11:23.457Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-14T09:11:23.457Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-14T09:11:23.457Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m4ms - 34.7kb[0m
+
+2015-01-14T09:11:23.466Z - info: [90mGET /cat/lib/chai.js [32m200 [90m1ms - 117.99kb[0m
+
+2015-01-14T09:11:23.486Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-14T09:11:23.486Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 116.48kb[0m
+
+2015-01-14T09:11:23.616Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:11:23.627Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:11:23.647Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:11:54.810Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T09:11:54.869Z - info: [90mGET /lib/jquery.js [32m200 [90m1ms - 266.8kb[0m
+
+2015-01-14T09:11:54.911Z - info: [90mGET /page1/iframe1.html [32m200 [90m2ms - 1.22kb[0m
+
+2015-01-14T09:11:54.972Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T09:11:54.987Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T09:11:55.024Z - info: [90mGET /cat/lib/cat.css [32m200 [90m4ms - 11.91kb[0m
+
+2015-01-14T09:11:55.024Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m3ms - 15.26kb[0m
+
+2015-01-14T09:11:55.024Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m3ms - 3.6kb[0m
+
+2015-01-14T09:11:55.025Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m3ms - 19.89kb[0m
+
+2015-01-14T09:11:55.026Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m4ms - 34.7kb[0m
+
+2015-01-14T09:11:55.027Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-14T09:11:55.031Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 116.48kb[0m
+
+2015-01-14T09:11:55.037Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m0ms - 7.49kb[0m
+
+2015-01-14T09:11:55.059Z - info: [90mGET /lib/jquery.js [32m200 [90m2ms - 266.8kb[0m
+
+2015-01-14T09:11:55.115Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:11:55.128Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:11:55.153Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T09:13:35.979Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T09:13:36.087Z - info: [90mGET /lib/jquery.js [32m200 [90m4ms - 266.8kb[0m
+
+2015-01-14T09:13:36.125Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 1.22kb[0m
+
+2015-01-14T09:13:36.126Z - info: [90mGET /page2/iframe2.html [32m200 [90m2ms - 503b[0m
+
+2015-01-14T09:13:36.198Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-14T09:13:36.198Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-14T09:13:36.198Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-14T09:13:36.198Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-14T09:13:36.198Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m6ms - 34.7kb[0m
+
+2015-01-14T09:13:36.201Z - info: [90mGET /cat/lib/chai.js [32m200 [90m8ms - 117.99kb[0m
+
+2015-01-14T09:13:36.205Z - info: [90mGET /cat/lib/cat.js [32m200 [90m5ms - 115.06kb[0m
+
+2015-01-14T09:13:36.206Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T09:13:36.207Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m3ms - 7.49kb[0m
+
+2015-01-14T09:13:36.396Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m4ms[0m
+
+2015-01-14T09:13:36.398Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m6ms[0m
+
+2015-01-14T09:13:36.427Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m4ms - 24.79kb[0m
+
+2015-01-14T09:13:45.694Z - info: [90mGET / [32m200 [90m2ms - 1kb[0m
+
+2015-01-14T09:13:45.716Z - info: [90mGET /lib/jquery.js [32m200 [90m6ms - 266.8kb[0m
+
+2015-01-14T09:13:45.759Z - info: [90mGET /page1/iframe1.html [32m200 [90m2ms - 1.22kb[0m
+
+2015-01-14T09:13:45.760Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T09:13:45.792Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-14T09:13:45.792Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m4ms - 15.26kb[0m
+
+2015-01-14T09:13:45.792Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m3ms - 3.6kb[0m
+
+2015-01-14T09:13:45.794Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m5ms - 19.89kb[0m
+
+2015-01-14T09:13:45.795Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-14T09:13:45.795Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-14T09:13:45.799Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:13:45.800Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T09:13:45.800Z - info: [90mGET /cat/lib/cat.js [32m200 [90m3ms - 115.08kb[0m
+
+2015-01-14T09:13:46.174Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T09:15:00.182Z - info: [90mGET / [32m200 [90m3ms - 1kb[0m
+
+2015-01-14T09:15:00.183Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:15:00.186Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m0ms[0m
+
+2015-01-14T09:15:00.224Z - info: [90mGET /lib/jquery.js [32m200 [90m1ms - 266.8kb[0m
+
+2015-01-14T09:15:00.286Z - info: [90mGET /page1/iframe1.html [32m200 [90m26ms - 1.18kb[0m
+
+2015-01-14T09:15:00.286Z - info: [90mGET /page2/iframe2.html [32m200 [90m5ms - 503b[0m
+
+2015-01-14T09:15:00.338Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T09:15:00.339Z - info: [90mGET /cat/lib/cat.css [32m200 [90m2ms - 11.91kb[0m
+
+2015-01-14T09:15:00.340Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m2ms - 15.26kb[0m
+
+2015-01-14T09:15:00.341Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m3ms - 3.6kb[0m
+
+2015-01-14T09:15:00.341Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m3ms - 19.89kb[0m
+
+2015-01-14T09:15:00.341Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m3ms - 34.7kb[0m
+
+2015-01-14T09:15:00.343Z - info: [90mGET /cat/lib/chai.js [32m200 [90m2ms - 117.99kb[0m
+
+2015-01-14T09:15:00.352Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T09:15:00.352Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 115.1kb[0m
+
+2015-01-14T09:15:00.574Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T09:16:38.601Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m8ms[0m
+
+2015-01-14T09:16:38.602Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m0ms[0m
+
+2015-01-14T09:16:38.603Z - info: [90mGET / [32m200 [90m10ms - 1kb[0m
+
+2015-01-14T09:16:38.653Z - info: [90mGET /lib/jquery.js [32m200 [90m1ms - 266.8kb[0m
+
+2015-01-14T09:16:38.715Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.18kb[0m
+
+2015-01-14T09:16:38.716Z - info: [90mGET /page2/iframe2.html [32m200 [90m0ms - 503b[0m
+
+2015-01-14T09:16:38.785Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:16:38.787Z - info: [90mGET /cat/lib/cat.css [32m200 [90m4ms - 11.91kb[0m
+
+2015-01-14T09:16:38.787Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m3ms - 15.26kb[0m
+
+2015-01-14T09:16:38.787Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m3ms - 3.6kb[0m
+
+2015-01-14T09:16:38.787Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m3ms - 19.89kb[0m
+
+2015-01-14T09:16:38.787Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m2ms - 34.7kb[0m
+
+2015-01-14T09:16:38.789Z - info: [90mGET /cat/lib/chai.js [32m200 [90m1ms - 117.99kb[0m
+
+2015-01-14T09:16:38.798Z - info: [90mGET /cat/lib/cat.js [32m200 [90m3ms - 115.14kb[0m
+
+2015-01-14T09:16:38.800Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-14T09:16:39.089Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:17:26.142Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T09:17:26.145Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m3ms[0m
+
+2015-01-14T09:17:26.148Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:17:26.193Z - info: [90mGET /lib/jquery.js [32m200 [90m1ms - 266.8kb[0m
+
+2015-01-14T09:17:26.239Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.18kb[0m
+
+2015-01-14T09:17:26.242Z - info: [90mGET /page2/iframe2.html [32m200 [90m3ms - 503b[0m
+
+2015-01-14T09:17:26.324Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:17:26.325Z - info: [90mGET /cat/lib/cat.css [32m200 [90m3ms - 11.91kb[0m
+
+2015-01-14T09:17:26.325Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m2ms - 15.26kb[0m
+
+2015-01-14T09:17:26.332Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m1ms - 3.6kb[0m
+
+2015-01-14T09:17:26.334Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m1ms - 19.89kb[0m
+
+2015-01-14T09:17:26.336Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m3ms - 34.7kb[0m
+
+2015-01-14T09:17:26.337Z - info: [90mGET /cat/lib/chai.js [32m200 [90m3ms - 117.99kb[0m
+
+2015-01-14T09:17:26.337Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 115.2kb[0m
+
+2015-01-14T09:17:26.338Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T09:17:26.751Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:18:35.038Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m2ms[0m
+
+2015-01-14T09:18:35.039Z - info: [90mGET / [32m200 [90m3ms - 1kb[0m
+
+2015-01-14T09:18:39.008Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:18:39.008Z - info: [90mGET / [32m200 [90m2ms - 1kb[0m
+
+2015-01-14T09:18:39.071Z - info: [90mGET /lib/jquery.js [32m200 [90m10ms - 266.8kb[0m
+
+2015-01-14T09:18:39.115Z - info: [90mGET /page1/iframe1.html [32m200 [90m5ms - 1.18kb[0m
+
+2015-01-14T09:18:39.115Z - info: [90mGET /page2/iframe2.html [32m200 [90m4ms - 503b[0m
+
+2015-01-14T09:18:39.148Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:18:39.171Z - info: [90mGET /cat/lib/cat.css [32m200 [90m14ms - 11.91kb[0m
+
+2015-01-14T09:18:39.171Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m13ms - 15.26kb[0m
+
+2015-01-14T09:18:39.174Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m16ms - 3.6kb[0m
+
+2015-01-14T09:18:39.174Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m16ms - 19.89kb[0m
+
+2015-01-14T09:18:39.174Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m15ms - 34.7kb[0m
+
+2015-01-14T09:18:39.181Z - info: [90mGET /cat/lib/chai.js [32m200 [90m22ms - 117.99kb[0m
+
+2015-01-14T09:18:39.195Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m18ms - 7.49kb[0m
+
+2015-01-14T09:18:39.195Z - info: [90mGET /cat/lib/cat.js [32m200 [90m20ms - 115.27kb[0m
+
+2015-01-14T09:18:39.320Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m0ms - 24.79kb[0m
+
+2015-01-14T09:18:53.621Z - info: [90mGET /,cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:18:54.581Z - info: [90mGET /,cat/config/cat.json [33m404 [90m1ms[0m
+
+2015-01-14T09:19:35.631Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T09:19:35.646Z - info: [90mGET /lib/jquery.js [32m200 [90m1ms - 266.8kb[0m
+
+2015-01-14T09:19:35.704Z - info: [90mGET /page1/iframe1.html [32m200 [90m5ms - 1.18kb[0m
+
+2015-01-14T09:19:35.704Z - info: [90mGET /page2/iframe2.html [32m200 [90m4ms - 503b[0m
+
+2015-01-14T09:19:35.738Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-14T09:19:35.738Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m4ms - 15.26kb[0m
+
+2015-01-14T09:19:35.739Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m5ms - 3.6kb[0m
+
+2015-01-14T09:19:35.739Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m4ms - 19.89kb[0m
+
+2015-01-14T09:19:35.739Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m4ms - 34.7kb[0m
+
+2015-01-14T09:19:35.745Z - info: [90mGET /cat/lib/chai.js [32m200 [90m8ms - 117.99kb[0m
+
+2015-01-14T09:19:35.777Z - info: [90mGET /lib/jquery.js [36m304 [90m1ms[0m
+
+2015-01-14T09:19:35.778Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 115.28kb[0m
+
+2015-01-14T09:19:35.779Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-14T09:19:35.977Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:19:38.074Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-14T09:19:38.626Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.25kb[0m
+
+2015-01-14T09:19:38.637Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m5ms - 68b[0m
+
+2015-01-14T09:19:38.666Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 408b[0m
+
+2015-01-14T09:19:38.677Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-14T09:20:44.581Z - info: [90mGET / [32m200 [90m1ms - 1kb[0m
+
+2015-01-14T09:20:44.596Z - info: [90mGET /lib/jquery.js [32m200 [90m3ms - 266.8kb[0m
+
+2015-01-14T09:20:44.635Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.18kb[0m
+
+2015-01-14T09:20:44.637Z - info: [90mGET /page2/iframe2.html [32m200 [90m3ms - 503b[0m
+
+2015-01-14T09:20:44.661Z - info: [90mGET /cat/lib/cat.css [32m200 [90m5ms - 11.91kb[0m
+
+2015-01-14T09:20:44.662Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m5ms - 15.26kb[0m
+
+2015-01-14T09:20:44.662Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m5ms - 3.6kb[0m
+
+2015-01-14T09:20:44.662Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m5ms - 19.89kb[0m
+
+2015-01-14T09:20:44.662Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-14T09:20:44.664Z - info: [90mGET /cat/lib/chai.js [32m200 [90m6ms - 117.99kb[0m
+
+2015-01-14T09:20:44.671Z - info: [90mGET /cat/lib/cat.js [32m200 [90m6ms - 115.29kb[0m
+
+2015-01-14T09:20:44.673Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m6ms - 7.49kb[0m
+
+2015-01-14T09:20:44.675Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:20:44.790Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-14T09:20:44.797Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.25kb[0m
+
+2015-01-14T09:20:44.804Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 68b[0m
+
+2015-01-14T09:20:44.809Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 408b[0m
+
+2015-01-14T09:20:44.827Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-14T09:20:44.937Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T09:30:07.501Z - info: [90mGET / [32m200 [90m5ms - 1.51kb[0m
+
+2015-01-14T09:30:07.522Z - info: [90mGET /lib/jquery.js [32m200 [90m7ms - 266.8kb[0m
+
+2015-01-14T09:30:07.531Z - info: [90mGET /cat/lib/cat.css [32m200 [90m11ms - 11.91kb[0m
+
+2015-01-14T09:30:07.532Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m11ms - 15.26kb[0m
+
+2015-01-14T09:30:07.534Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m11ms - 3.6kb[0m
+
+2015-01-14T09:30:07.534Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m10ms - 19.89kb[0m
+
+2015-01-14T09:30:07.534Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m10ms - 34.7kb[0m
+
+2015-01-14T09:30:07.536Z - info: [90mGET /cat/lib/chai.js [32m200 [90m9ms - 117.99kb[0m
+
+2015-01-14T09:30:07.604Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-14T09:30:07.605Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 115.29kb[0m
+
+2015-01-14T09:30:07.647Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.18kb[0m
+
+2015-01-14T09:30:07.649Z - info: [90mGET /page2/iframe2.html [32m200 [90m2ms - 503b[0m
+
+2015-01-14T09:30:07.713Z - info: [90mGET /lib/jquery.js [36m304 [90m3ms[0m
+
+2015-01-14T09:30:07.714Z - info: [90mGET /cat/lib/cat.css [36m304 [90m3ms[0m
+
+2015-01-14T09:30:07.717Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m3ms[0m
+
+2015-01-14T09:30:07.717Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m2ms[0m
+
+2015-01-14T09:30:07.718Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m1ms[0m
+
+2015-01-14T09:30:07.721Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m3ms[0m
+
+2015-01-14T09:30:07.725Z - info: [90mGET /cat/lib/chai.js [36m304 [90m3ms[0m
+
+2015-01-14T09:30:07.727Z - info: [90mGET /cat/lib/cat.js [36m304 [90m0ms[0m
+
+2015-01-14T09:30:07.727Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m0ms[0m
+
+2015-01-14T09:30:07.729Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m0ms - 24.79kb[0m
+
+2015-01-14T09:30:07.864Z - info: [90mGET /cat/config/testdata.json [32m200 [90m0ms - 152b[0m
+
+2015-01-14T09:30:07.875Z - info: [90mGET /cat/config/cat.json [32m200 [90m3ms - 1.29kb[0m
+
+2015-01-14T09:30:07.889Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m5ms - 68b[0m
+
+2015-01-14T09:30:07.911Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m2ms - 408b[0m
+
+2015-01-14T09:30:34.568Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 62b[0m
+
+2015-01-14T09:30:39.078Z - info: [90mGET / [32m200 [90m4ms - 1.53kb[0m
+
+2015-01-14T09:30:39.098Z - info: [90mGET /cat/lib/cat.css [32m200 [90m3ms - 11.91kb[0m
+
+2015-01-14T09:30:39.098Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m3ms - 15.26kb[0m
+
+2015-01-14T09:30:39.098Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m3ms - 3.6kb[0m
+
+2015-01-14T09:30:39.099Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m4ms - 19.89kb[0m
+
+2015-01-14T09:30:39.099Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m4ms - 34.7kb[0m
+
+2015-01-14T09:30:39.099Z - info: [90mGET /lib/jquery.js [32m200 [90m5ms - 266.8kb[0m
+
+2015-01-14T09:30:39.106Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-14T09:30:39.107Z - info: [90mGET /cat/lib/chai.js [32m200 [90m3ms - 117.99kb[0m
+
+2015-01-14T09:30:39.107Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 115.29kb[0m
+
+2015-01-14T09:30:39.187Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-14T09:30:39.194Z - info: [90mGET /cat/config/cat.json [32m200 [90m0ms - 1.29kb[0m
+
+2015-01-14T09:30:39.201Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 68b[0m
+
+2015-01-14T09:30:39.207Z - info: [90mGET /scraps?scrap=firstScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 406b[0m
+
+2015-01-14T09:30:39.209Z - info: [90mGET /page1/iframe1.html [32m200 [90m1ms - 1.18kb[0m
+
+2015-01-14T09:30:39.212Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T09:30:39.249Z - info: [90mGET /lib/jquery.js [36m304 [90m4ms[0m
+
+2015-01-14T09:30:39.250Z - info: [90mGET /cat/lib/cat.css [36m304 [90m5ms[0m
+
+2015-01-14T09:30:39.250Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m2ms[0m
+
+2015-01-14T09:30:39.250Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m2ms[0m
+
+2015-01-14T09:30:39.250Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m2ms[0m
+
+2015-01-14T09:30:39.251Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m3ms[0m
+
+2015-01-14T09:30:39.253Z - info: [90mGET /cat/lib/chai.js [36m304 [90m1ms[0m
+
+2015-01-14T09:30:39.262Z - info: [90mGET /cat/lib/cat.js [36m304 [90m3ms[0m
+
+2015-01-14T09:30:39.275Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m15ms[0m
+
+2015-01-14T09:30:39.409Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-14T09:30:39.417Z - info: [90mGET /cat/config/cat.json [36m304 [90m1ms[0m
+
+2015-01-14T09:30:39.426Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [36m304 [90m1ms[0m
+
+2015-01-14T09:30:39.432Z - info: [90mGET /scraps?scrap=secondScrap&testId=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m1ms - 408b[0m
+
+2015-01-14T09:30:39.455Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m5ms - 24.79kb[0m
+
+2015-01-14T09:31:05.878Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 62b[0m
+
+2015-01-14T09:31:06.104Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=e47d4209-c41e-b3c7-8615-d315f3578fd1 [32m200 [90m0ms - 62b[0m
+
+2015-01-14T09:47:52.202Z - info: [90mGET / [32m200 [90m16ms - 1.53kb[0m
+
+2015-01-14T09:47:52.230Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m8ms - 3.6kb[0m
+
+2015-01-14T09:47:52.235Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m14ms - 15.26kb[0m
+
+2015-01-14T09:47:52.235Z - info: [90mGET /cat/lib/cat.css [32m200 [90m14ms - 11.91kb[0m
+
+2015-01-14T09:47:52.235Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m13ms - 34.7kb[0m
+
+2015-01-14T09:47:52.237Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m14ms - 19.89kb[0m
+
+2015-01-14T09:47:52.238Z - info: [90mGET /lib/jquery.js [32m200 [90m18ms - 266.8kb[0m
+
+2015-01-14T09:47:52.255Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m7ms - 7.49kb[0m
+
+2015-01-14T09:47:52.257Z - info: [90mGET /cat/lib/chai.js [32m200 [90m15ms - 117.99kb[0m
+
+2015-01-14T09:47:52.257Z - info: [90mGET /cat/lib/cat.js [32m200 [90m12ms - 115.29kb[0m
+
+2015-01-14T09:47:52.328Z - info: [90mGET /cat/config/testdata.json [32m200 [90m0ms - 152b[0m
+
+2015-01-14T09:47:52.336Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.29kb[0m
+
+2015-01-14T09:47:52.346Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m3ms - 68b[0m
+
+2015-01-14T09:47:52.362Z - info: [90mGET /scraps?scrap=firstScrap&testId=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m2ms - 229b[0m
+
+2015-01-14T09:47:52.364Z - info: [90mGET /page1/iframe1.html [32m200 [90m2ms - 1.18kb[0m
+
+2015-01-14T09:47:52.364Z - info: [90mGET /page2/iframe2.html [32m200 [90m1ms - 503b[0m
+
+2015-01-14T09:47:52.372Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T09:47:52.429Z - info: [90mGET /lib/jquery.js [36m304 [90m6ms[0m
+
+2015-01-14T09:47:52.431Z - info: [90mGET /cat/lib/cat.css [36m304 [90m6ms[0m
+
+2015-01-14T09:47:52.432Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m7ms[0m
+
+2015-01-14T09:47:52.432Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m7ms[0m
+
+2015-01-14T09:47:52.434Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m8ms[0m
+
+2015-01-14T09:47:52.435Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m1ms[0m
+
+2015-01-14T09:47:52.438Z - info: [90mGET /cat/lib/chai.js [36m304 [90m2ms[0m
+
+2015-01-14T09:47:52.446Z - info: [90mGET /cat/lib/cat.js [36m304 [90m2ms[0m
+
+2015-01-14T09:47:52.447Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m1ms[0m
+
+2015-01-14T09:47:52.526Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-14T09:47:52.533Z - info: [90mGET /cat/config/cat.json [36m304 [90m1ms[0m
+
+2015-01-14T09:47:52.541Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [36m304 [90m1ms[0m
+
+2015-01-14T09:47:52.550Z - info: [90mGET /scraps?scrap=secondScrap&testId=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m1ms - 586b[0m
+
+2015-01-14T09:47:52.596Z - info: [90mGET /favicon.ico [33m404 [90m6ms[0m
+
+2015-01-14T09:47:53.081Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m1ms - 62b[0m
+
+2015-01-14T09:48:19.025Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m0ms - 62b[0m
+
+2015-01-14T09:49:17.668Z - info: [90mGET / [32m200 [90m2ms - 1.53kb[0m
+
+2015-01-14T09:49:17.690Z - info: [90mGET /cat/lib/cat.css [32m200 [90m8ms - 11.91kb[0m
+
+2015-01-14T09:49:17.691Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m9ms - 15.26kb[0m
+
+2015-01-14T09:49:17.692Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m10ms - 3.6kb[0m
+
+2015-01-14T09:49:17.697Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m13ms - 19.89kb[0m
+
+2015-01-14T09:49:17.698Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m14ms - 34.7kb[0m
+
+2015-01-14T09:49:17.699Z - info: [90mGET /lib/jquery.js [32m200 [90m19ms - 266.8kb[0m
+
+2015-01-14T09:49:17.704Z - info: [90mGET /cat/lib/chai.js [32m200 [90m11ms - 117.99kb[0m
+
+2015-01-14T09:49:17.704Z - info: [90mGET /cat/lib/cat.js [32m200 [90m9ms - 115.3kb[0m
+
+2015-01-14T09:49:17.704Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m7ms - 7.49kb[0m
+
+2015-01-14T09:49:17.796Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-14T09:49:31.291Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-14T09:50:23.186Z - info: [90mGET /cat/config/cat.json [32m200 [90m9ms - 1.25kb[0m
+
+2015-01-14T09:50:23.188Z - info: [90mGET / [32m200 [90m9ms - 1kb[0m
+
+2015-01-14T09:50:23.199Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m8ms - 68b[0m
+
+2015-01-14T09:50:23.221Z - info: [90mGET /page1/iframe1.html [32m200 [90m3ms - 1.16kb[0m
+
+2015-01-14T09:50:23.223Z - info: [90mGET /page2/iframe2.html [32m200 [90m3ms - 503b[0m
+
+2015-01-14T09:50:23.265Z - info: [90mGET /lib/jquery.js [32m200 [90m4ms - 266.8kb[0m
+
+2015-01-14T09:50:23.343Z - info: [90mGET /page1/iframe1.html [32m200 [90m10ms - 1.16kb[0m
+
+2015-01-14T09:50:23.344Z - info: [90mGET /page2/iframe2.html [32m200 [90m11ms - 503b[0m
+
+2015-01-14T09:50:23.381Z - info: [90mGET /lib/jquery.js [36m304 [90m6ms[0m
+
+2015-01-14T09:50:23.387Z - info: [90mGET /cat/lib/cat.css [32m200 [90m10ms - 11.91kb[0m
+
+2015-01-14T09:50:23.387Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m10ms - 15.26kb[0m
+
+2015-01-14T09:50:23.387Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m10ms - 3.6kb[0m
+
+2015-01-14T09:50:23.387Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m8ms - 19.89kb[0m
+
+2015-01-14T09:50:23.387Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m8ms - 34.7kb[0m
+
+2015-01-14T09:50:23.388Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-14T09:50:23.391Z - info: [90mGET /cat/lib/cat.js [32m200 [90m3ms - 115.03kb[0m
+
+2015-01-14T09:50:23.396Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-14T09:50:23.641Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-14T09:56:51.087Z - info: [90mGET / [32m200 [90m3ms - 1kb[0m
+
+2015-01-14T09:56:51.102Z - info: [90mGET /page1/cat/config/testdata.json [33m404 [90m1ms[0m
+
+2015-01-14T09:56:51.104Z - info: [90mGET /page1/cat/config/cat.json [33m404 [90m0ms[0m
+
+2015-01-14T09:56:51.145Z - info: [90mGET /lib/jquery.js [32m200 [90m3ms - 266.8kb[0m
+
+2015-01-14T09:56:51.213Z - info: [90mGET /page1/iframe1.html [32m200 [90m9ms - 1.18kb[0m
+
+2015-01-14T09:56:51.218Z - info: [90mGET /page2/iframe2.html [32m200 [90m9ms - 503b[0m
+
+2015-01-14T09:56:51.251Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-14T09:56:51.252Z - info: [90mGET /cat/lib/cat.css [32m200 [90m2ms - 11.91kb[0m
+
+2015-01-14T09:56:51.255Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m2ms - 15.26kb[0m
+
+2015-01-14T09:56:51.256Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m1ms - 3.6kb[0m
+
+2015-01-14T09:56:51.260Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m3ms - 19.89kb[0m
+
+2015-01-14T09:56:51.261Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m3ms - 34.7kb[0m
+
+2015-01-14T09:56:51.266Z - info: [90mGET /cat/lib/chai.js [32m200 [90m2ms - 117.99kb[0m
+
+2015-01-14T09:56:51.277Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-14T09:56:51.278Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 115.29kb[0m
+
+2015-01-14T09:56:51.457Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m3ms - 24.79kb[0m
+
+2015-01-14T09:57:23.984Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-14T09:57:24.594Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.25kb[0m
+
+2015-01-14T09:57:24.601Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m2ms - 68b[0m
+
+2015-01-14T09:57:24.607Z - info: [90mGET /scraps?scrap=secondScrap&testId=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m2ms - 408b[0m
+
+2015-01-14T09:57:24.626Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=64a3700a-55d9-d576-b3a5-1009c480f8f8 [32m200 [90m1ms - 62b[0m
+
+2015-01-20T09:30:36.666Z - info: [90mGET / [32m200 [90m5ms - 1.66kb[0m
+
+2015-01-20T09:30:36.678Z - info: [90mGET /lib/jquery.js [32m200 [90m3ms - 266.8kb[0m
+
+2015-01-20T09:30:36.687Z - info: [90mGET /cat/lib/cat.css [32m200 [90m4ms - 11.91kb[0m
+
+2015-01-20T09:30:36.690Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-20T09:30:36.691Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-20T09:30:36.692Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-20T09:30:36.692Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m6ms - 34.7kb[0m
+
+2015-01-20T09:30:36.692Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-20T09:30:36.693Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 117.02kb[0m
+
+2015-01-20T09:30:36.694Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m1ms - 7.49kb[0m
+
+2015-01-20T09:30:36.776Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-20T09:30:36.782Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.29kb[0m
+
+2015-01-20T09:30:36.791Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m4ms - 68b[0m
+
+2015-01-20T09:30:36.807Z - info: [90mGET /scraps?scrap=firstScrap&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m3ms - 229b[0m
+
+2015-01-20T09:30:36.814Z - info: [90mGET /page1/iframe1.html [32m200 [90m6ms - 1.31kb[0m
+
+2015-01-20T09:30:36.815Z - info: [90mGET /page2/iframe2.html [32m200 [90m6ms - 503b[0m
+
+2015-01-20T09:30:36.878Z - info: [90mGET /lib/jquery.js [36m304 [90m2ms[0m
+
+2015-01-20T09:30:36.887Z - info: [90mGET /cat/lib/cat.css [36m304 [90m3ms[0m
+
+2015-01-20T09:30:36.887Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m2ms[0m
+
+2015-01-20T09:30:36.888Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m3ms[0m
+
+2015-01-20T09:30:36.889Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m3ms[0m
+
+2015-01-20T09:30:36.889Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m3ms[0m
+
+2015-01-20T09:30:36.889Z - info: [90mGET /cat/lib/chai.js [36m304 [90m3ms[0m
+
+2015-01-20T09:30:36.892Z - info: [90mGET /cat/lib/cat.js [36m304 [90m1ms[0m
+
+2015-01-20T09:30:36.897Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m0ms[0m
+
+2015-01-20T09:30:36.942Z - info: [90mGET /cat/config/testdata.json [36m304 [90m1ms[0m
+
+2015-01-20T09:30:36.946Z - info: [90mGET /cat/config/cat.json [36m304 [90m1ms[0m
+
+2015-01-20T09:30:36.953Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m1ms[0m
+
+2015-01-20T09:30:36.959Z - info: [90mGET /scraps?scrap=secondScrap&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m2ms - 586b[0m
+
+2015-01-20T09:30:36.982Z - info: [90mGET /favicon.ico [33m404 [90m4ms[0m
+
+2015-01-20T09:30:37.476Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m0ms - 62b[0m
+
+2015-01-20T09:31:03.469Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27firstScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 62b[0m
+
+2015-01-20T09:31:30.848Z - info: [90mGET / [32m200 [90m7ms - 1.66kb[0m
+
+2015-01-20T09:31:30.884Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-20T09:31:30.884Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-20T09:31:30.885Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m7ms - 3.6kb[0m
+
+2015-01-20T09:31:30.885Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-20T09:31:30.885Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m6ms - 34.7kb[0m
+
+2015-01-20T09:31:30.886Z - info: [90mGET /lib/jquery.js [32m200 [90m10ms - 266.8kb[0m
+
+2015-01-20T09:31:30.895Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m2ms - 7.49kb[0m
+
+2015-01-20T09:31:30.896Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-20T09:31:30.896Z - info: [90mGET /cat/lib/cat.js [32m200 [90m4ms - 117.02kb[0m
+
+2015-01-20T09:31:30.925Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-20T09:31:30.927Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.31kb[0m
+
+2015-01-20T09:31:30.934Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m4ms[0m
+
+2015-01-20T09:31:30.948Z - info: [90mGET /scraps?scrap=firstScrap&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 406b[0m
+
+2015-01-20T09:31:30.951Z - info: [90mGET /page1/iframe1.html [32m200 [90m2ms - 1.31kb[0m
+
+2015-01-20T09:31:30.952Z - info: [90mGET /page2/iframe2.html [32m200 [90m3ms - 503b[0m
+
+2015-01-20T09:31:30.967Z - info: [90mGET /lib/jquery.js [36m304 [90m4ms[0m
+
+2015-01-20T09:31:30.976Z - info: [90mGET /cat/lib/cat.css [36m304 [90m2ms[0m
+
+2015-01-20T09:31:30.976Z - info: [90mGET /cat/lib/underscore-min.js [36m304 [90m1ms[0m
+
+2015-01-20T09:31:30.977Z - info: [90mGET /cat/lib/jsutils-min.js [36m304 [90m2ms[0m
+
+2015-01-20T09:31:30.977Z - info: [90mGET /cat/lib/tmr-min.js [36m304 [90m2ms[0m
+
+2015-01-20T09:31:30.977Z - info: [90mGET /cat/lib/jspath.js [36m304 [90m2ms[0m
+
+2015-01-20T09:31:30.978Z - info: [90mGET /cat/lib/chai.js [36m304 [90m3ms[0m
+
+2015-01-20T09:31:30.979Z - info: [90mGET /cat/lib/cat.js [36m304 [90m0ms[0m
+
+2015-01-20T09:31:30.984Z - info: [90mGET /cat/lib/cat.src.js [36m304 [90m0ms[0m
+
+2015-01-20T09:31:31.021Z - info: [90mGET /cat/config/testdata.json [32m200 [90m0ms - 152b[0m
+
+2015-01-20T09:31:31.026Z - info: [90mGET /cat/config/cat.json [32m200 [90m4ms - 1.31kb[0m
+
+2015-01-20T09:31:31.035Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m2ms[0m
+
+2015-01-20T09:31:31.040Z - info: [90mGET /scraps?scrap=secondScrap&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 408b[0m
+
+2015-01-20T09:31:31.055Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m1ms[0m
+
+2015-01-20T09:31:57.609Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27secondScrap%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m0ms - 62b[0m
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../lib/jquery.js"></script>
+    <!--
+        @[scrap
+        @@name catImport
+        @@import[
+           ../cat/lib/cat.js
+        ]
+        ]@
+    --><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
+</head>
+<body>
+    <h1>Hello from iframe1</h1>
+    <div>
+        <button id="secondButton" type="button" onclick='$("#checkSecond").val("check second")'>Click Second</button>
+        <input id="checkSecond" type="text">
+    </div>
+    <!--
+     @[scrap
+         @@name secondScrap
+         @@embed true
+         @@jqm clickButton("#secondButton")
+     ]@
+     --><script>_cat.core.action(this, {"pkgName":"iframe.page1.iframe1.html.secondScrap"},this);</script>
+</body>
+</html>

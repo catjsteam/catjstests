@@ -1,0 +1,15 @@
+[Tue Jan 13 2015 15:39:23 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 13 2015 15:39:23 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 36940
+[Tue Jan 13 2015 15:39:23 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/iframe
+[Tue Jan 13 2015 15:39:23 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"init":"cat","argv":{"remain":[],"cooked":["--init","cat"],"original":["-i"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/iframe"}}}
+[Tue Jan 13 2015 15:39:23 GMT+0200 (IST)] INFO watch: false kill: -1 process: 36940
+[Tue Jan 13 2015 15:45:52 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 13 2015 15:45:52 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 37065
+[Tue Jan 13 2015 15:45:52 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/iframe
+[Tue Jan 13 2015 15:45:52 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@server.start"],"argv":{"remain":[],"cooked":["--task","t@server.start"],"original":["-s"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/iframe"}}}
+[Tue Jan 13 2015 15:45:52 GMT+0200 (IST)] INFO watch: false kill: -1 process: 37065
+[Tue Jan 13 2015 15:45:52 GMT+0200 (IST)] ERROR "[Config Project Loader] error occured, probably not valid cat project [catproject.json]; Error: ENOENT, no such file or directory '/Users/ransnir/Documents/workspace/catjstests/app/iframe/catproject.json'"

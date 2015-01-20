@@ -1,0 +1,694 @@
+2015-01-15T13:53:32.414Z - info: [90mGET / [32m200 [90m9ms - 39.6kb[0m
+
+2015-01-15T13:53:32.502Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m7ms - 15.67kb[0m
+
+2015-01-15T13:53:32.503Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m7ms - 52.67kb[0m
+
+2015-01-15T13:53:32.509Z - info: [90mGET /cat/lib/cat.css [32m200 [90m11ms - 11.91kb[0m
+
+2015-01-15T13:53:32.510Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m16ms - 216.05kb[0m
+
+2015-01-15T13:53:32.511Z - info: [90mGET /js/jquery.js [32m200 [90m15ms - 266.8kb[0m
+
+2015-01-15T13:53:32.511Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m14ms - 188.68kb[0m
+
+2015-01-15T13:53:32.511Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m3ms - 15.26kb[0m
+
+2015-01-15T13:53:32.559Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m4ms - 3.6kb[0m
+
+2015-01-15T13:53:32.562Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m2ms - 19.89kb[0m
+
+2015-01-15T13:53:32.567Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m3ms - 34.7kb[0m
+
+2015-01-15T13:53:32.569Z - info: [90mGET /cat/lib/chai.js [32m200 [90m2ms - 117.99kb[0m
+
+2015-01-15T13:53:32.579Z - info: [90mGET /cat/lib/cat.js [32m200 [90m2ms - 116.76kb[0m
+
+2015-01-15T13:53:32.601Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m4ms - 5.15kb[0m
+
+2015-01-15T13:53:32.609Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m1ms - 12.06kb[0m
+
+2015-01-15T13:53:32.616Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m1ms - 196.23kb[0m
+
+2015-01-15T13:53:32.796Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T13:53:32.802Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.3kb[0m
+
+2015-01-15T13:53:32.912Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m5ms - 68b[0m
+
+2015-01-15T13:53:32.935Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m2ms - 412b[0m
+
+2015-01-15T13:53:32.980Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T13:53:33.288Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m2ms - 24.79kb[0m
+
+2015-01-15T13:53:42.880Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m1ms - 45.28kb[0m
+
+2015-01-15T13:53:42.910Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m5ms - 15.67kb[0m
+
+2015-01-15T13:53:42.910Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m4ms - 52.67kb[0m
+
+2015-01-15T13:53:42.911Z - info: [90mGET /cat/lib/cat.css [32m200 [90m4ms - 11.91kb[0m
+
+2015-01-15T13:53:42.912Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m6ms - 188.68kb[0m
+
+2015-01-15T13:53:42.913Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m9ms - 216.05kb[0m
+
+2015-01-15T13:53:42.913Z - info: [90mGET /js/jquery.js [32m200 [90m8ms - 266.8kb[0m
+
+2015-01-15T13:53:42.920Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m1ms - 15.26kb[0m
+
+2015-01-15T13:53:42.925Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m4ms - 3.6kb[0m
+
+2015-01-15T13:53:42.926Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m4ms - 19.89kb[0m
+
+2015-01-15T13:53:42.928Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-15T13:53:42.936Z - info: [90mGET /cat/lib/chai.js [32m200 [90m9ms - 117.99kb[0m
+
+2015-01-15T13:53:42.949Z - info: [90mGET /cat/lib/cat.js [32m200 [90m22ms - 116.76kb[0m
+
+2015-01-15T13:53:42.953Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m25ms - 5.15kb[0m
+
+2015-01-15T13:53:42.953Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m24ms - 12.06kb[0m
+
+2015-01-15T13:53:43.195Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T13:53:43.202Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.3kb[0m
+
+2015-01-15T13:53:43.207Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 68b[0m
+
+2015-01-15T13:53:43.213Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m2ms - 430b[0m
+
+2015-01-15T13:53:43.226Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T13:53:43.517Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m3ms - 24.79kb[0m
+
+2015-01-15T13:55:43.150Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&error=run-mode=tests%20catjs%20manager%20%27checkboxVerticalScroll%27%20is%20not%20reachable%20or%20not%20exists,%20review%20the%20test%20name%20and/or%20the%20tests%20code.&status=End&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 62b[0m
+
+2015-01-15T13:57:23.170Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m1ms - 45.28kb[0m
+
+2015-01-15T13:57:23.196Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m8ms - 15.67kb[0m
+
+2015-01-15T13:57:23.196Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m7ms - 52.67kb[0m
+
+2015-01-15T13:57:23.196Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-15T13:57:23.200Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m13ms - 216.05kb[0m
+
+2015-01-15T13:57:23.201Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m8ms - 188.68kb[0m
+
+2015-01-15T13:57:23.201Z - info: [90mGET /js/jquery.js [32m200 [90m12ms - 266.8kb[0m
+
+2015-01-15T13:57:23.202Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m2ms - 15.26kb[0m
+
+2015-01-15T13:57:23.284Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m27ms - 3.6kb[0m
+
+2015-01-15T13:57:23.285Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m27ms - 19.89kb[0m
+
+2015-01-15T13:57:23.285Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m27ms - 34.7kb[0m
+
+2015-01-15T13:57:23.292Z - info: [90mGET /cat/lib/chai.js [32m200 [90m27ms - 117.99kb[0m
+
+2015-01-15T13:57:23.294Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m10ms - 5.15kb[0m
+
+2015-01-15T13:57:23.294Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m10ms - 12.06kb[0m
+
+2015-01-15T13:57:23.295Z - info: [90mGET /cat/lib/cat.js [32m200 [90m13ms - 115.45kb[0m
+
+2015-01-15T13:57:23.582Z - info: [90mGET /cat/config/testdata.json [32m200 [90m2ms - 152b[0m
+
+2015-01-15T13:57:23.587Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.3kb[0m
+
+2015-01-15T13:57:23.596Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 68b[0m
+
+2015-01-15T13:57:23.602Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 241b[0m
+
+2015-01-15T13:57:23.622Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m2ms - 6.1kb[0m
+
+2015-01-15T13:57:23.955Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-15T13:57:34.128Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m7ms - 45.28kb[0m
+
+2015-01-15T13:57:34.149Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m3ms - 15.67kb[0m
+
+2015-01-15T13:57:34.151Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m5ms - 52.67kb[0m
+
+2015-01-15T13:57:34.151Z - info: [90mGET /cat/lib/cat.css [32m200 [90m5ms - 11.91kb[0m
+
+2015-01-15T13:57:34.152Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m6ms - 188.68kb[0m
+
+2015-01-15T13:57:34.153Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m8ms - 216.05kb[0m
+
+2015-01-15T13:57:34.154Z - info: [90mGET /js/jquery.js [32m200 [90m8ms - 266.8kb[0m
+
+2015-01-15T13:57:34.155Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m2ms - 15.26kb[0m
+
+2015-01-15T13:57:34.165Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m4ms - 3.6kb[0m
+
+2015-01-15T13:57:34.166Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-15T13:57:34.166Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m5ms - 19.89kb[0m
+
+2015-01-15T13:57:34.170Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m4ms - 5.15kb[0m
+
+2015-01-15T13:57:34.170Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-15T13:57:34.170Z - info: [90mGET /cat/lib/cat.js [32m200 [90m5ms - 115.45kb[0m
+
+2015-01-15T13:57:34.174Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m2ms - 12.06kb[0m
+
+2015-01-15T13:57:34.406Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-15T13:57:34.406Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.3kb[0m
+
+2015-01-15T13:57:34.415Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m3ms - 68b[0m
+
+2015-01-15T13:57:34.429Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m2ms - 241b[0m
+
+2015-01-15T13:57:34.435Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T13:57:34.754Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m5ms - 24.79kb[0m
+
+2015-01-15T13:57:56.342Z - info: [90mGET / [32m200 [90m6ms - 39.6kb[0m
+
+2015-01-15T13:57:56.365Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m6ms - 15.67kb[0m
+
+2015-01-15T13:57:56.366Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m6ms - 52.67kb[0m
+
+2015-01-15T13:57:56.366Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-15T13:57:56.367Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m7ms - 188.68kb[0m
+
+2015-01-15T13:57:56.368Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m10ms - 216.05kb[0m
+
+2015-01-15T13:57:56.368Z - info: [90mGET /js/jquery.js [32m200 [90m9ms - 266.8kb[0m
+
+2015-01-15T13:57:56.435Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m37ms - 15.26kb[0m
+
+2015-01-15T13:57:56.435Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m35ms - 3.6kb[0m
+
+2015-01-15T13:57:56.435Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m34ms - 19.89kb[0m
+
+2015-01-15T13:57:56.435Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m34ms - 34.7kb[0m
+
+2015-01-15T13:57:56.493Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m56ms - 5.15kb[0m
+
+2015-01-15T13:57:56.494Z - info: [90mGET /cat/lib/chai.js [32m200 [90m61ms - 117.99kb[0m
+
+2015-01-15T13:57:56.499Z - info: [90mGET /cat/lib/cat.js [32m200 [90m65ms - 115.45kb[0m
+
+2015-01-15T13:57:56.503Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m56ms - 12.06kb[0m
+
+2015-01-15T13:57:56.523Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m18ms - 196.23kb[0m
+
+2015-01-15T13:57:56.697Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-15T13:57:56.700Z - info: [90mGET /cat/config/cat.json [32m200 [90m2ms - 1.3kb[0m
+
+2015-01-15T13:57:56.712Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m7ms - 68b[0m
+
+2015-01-15T13:57:56.800Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m6ms - 412b[0m
+
+2015-01-15T13:57:56.811Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m9ms - 6.1kb[0m
+
+2015-01-15T13:57:57.032Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-15T13:57:59.640Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m1ms - 45.28kb[0m
+
+2015-01-15T13:57:59.677Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m14ms - 15.67kb[0m
+
+2015-01-15T13:57:59.678Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m13ms - 52.67kb[0m
+
+2015-01-15T13:57:59.678Z - info: [90mGET /cat/lib/cat.css [32m200 [90m12ms - 11.91kb[0m
+
+2015-01-15T13:57:59.681Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m16ms - 188.68kb[0m
+
+2015-01-15T13:57:59.681Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m20ms - 216.05kb[0m
+
+2015-01-15T13:57:59.682Z - info: [90mGET /js/jquery.js [32m200 [90m18ms - 266.8kb[0m
+
+2015-01-15T13:57:59.684Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-15T13:57:59.690Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m5ms - 3.6kb[0m
+
+2015-01-15T13:57:59.691Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m5ms - 19.89kb[0m
+
+2015-01-15T13:57:59.693Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-15T13:57:59.695Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m6ms - 5.15kb[0m
+
+2015-01-15T13:57:59.695Z - info: [90mGET /cat/lib/chai.js [32m200 [90m7ms - 117.99kb[0m
+
+2015-01-15T13:57:59.696Z - info: [90mGET /cat/lib/cat.js [32m200 [90m7ms - 115.45kb[0m
+
+2015-01-15T13:57:59.705Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m4ms - 12.06kb[0m
+
+2015-01-15T13:57:59.946Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T13:57:59.951Z - info: [90mGET /cat/config/cat.json [32m200 [90m0ms - 1.3kb[0m
+
+2015-01-15T13:57:59.956Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 68b[0m
+
+2015-01-15T13:57:59.962Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 430b[0m
+
+2015-01-15T13:57:59.976Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T13:58:00.269Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m4ms - 24.79kb[0m
+
+2015-01-15T14:01:44.797Z - info: [90mGET / [32m200 [90m6ms - 39.6kb[0m
+
+2015-01-15T14:01:44.809Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m2ms - 15.67kb[0m
+
+2015-01-15T14:01:44.810Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m4ms - 216.05kb[0m
+
+2015-01-15T14:01:44.811Z - info: [90mGET /js/jquery.js [32m200 [90m4ms - 266.8kb[0m
+
+2015-01-15T14:01:44.825Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m8ms - 52.67kb[0m
+
+2015-01-15T14:01:44.825Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-15T14:01:44.828Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m8ms - 15.26kb[0m
+
+2015-01-15T14:01:44.828Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m10ms - 188.68kb[0m
+
+2015-01-15T14:01:44.828Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m7ms - 3.6kb[0m
+
+2015-01-15T14:01:44.829Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m5ms - 19.89kb[0m
+
+2015-01-15T14:01:44.830Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m1ms - 34.7kb[0m
+
+2015-01-15T14:01:44.840Z - info: [90mGET /cat/lib/chai.js [32m200 [90m5ms - 117.99kb[0m
+
+2015-01-15T14:01:44.842Z - info: [90mGET /cat/lib/cat.js [32m200 [90m6ms - 115.66kb[0m
+
+2015-01-15T14:01:44.843Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m5ms - 5.15kb[0m
+
+2015-01-15T14:01:44.843Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m4ms - 12.06kb[0m
+
+2015-01-15T14:01:44.849Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m8ms - 196.23kb[0m
+
+2015-01-15T14:01:44.860Z - info: [90mGET / [32m200 [90m1ms - 39.6kb[0m
+
+2015-01-15T14:01:44.905Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m10ms - 15.67kb[0m
+
+2015-01-15T14:01:44.907Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m11ms - 52.67kb[0m
+
+2015-01-15T14:01:44.911Z - info: [90mGET /cat/lib/cat.css [32m200 [90m14ms - 11.91kb[0m
+
+2015-01-15T14:01:44.911Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m17ms - 216.05kb[0m
+
+2015-01-15T14:01:44.912Z - info: [90mGET /js/jquery.js [32m200 [90m17ms - 266.8kb[0m
+
+2015-01-15T14:01:44.912Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m16ms - 188.68kb[0m
+
+2015-01-15T14:01:44.920Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m2ms - 15.26kb[0m
+
+2015-01-15T14:01:44.944Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-15T14:01:44.945Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m4ms - 19.89kb[0m
+
+2015-01-15T14:01:44.945Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m4ms - 34.7kb[0m
+
+2015-01-15T14:01:44.948Z - info: [90mGET /cat/lib/chai.js [32m200 [90m2ms - 117.99kb[0m
+
+2015-01-15T14:01:44.954Z - info: [90mGET /cat/lib/cat.js [32m200 [90m5ms - 115.66kb[0m
+
+2015-01-15T14:01:44.961Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m4ms - 5.15kb[0m
+
+2015-01-15T14:01:44.966Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m2ms - 12.06kb[0m
+
+2015-01-15T14:01:44.974Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m2ms - 196.23kb[0m
+
+2015-01-15T14:01:45.239Z - info: [90mGET /cat/config/testdata.json [32m200 [90m3ms - 152b[0m
+
+2015-01-15T14:01:45.243Z - info: [90mGET /cat/config/cat.json [32m200 [90m0ms - 1.3kb[0m
+
+2015-01-15T14:01:45.253Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m5ms - 68b[0m
+
+2015-01-15T14:01:45.276Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m3ms - 412b[0m
+
+2015-01-15T14:01:45.280Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T14:01:45.497Z - info: [90mGET /cat/lib/underscore-min.map [32m200 [90m1ms - 24.79kb[0m
+
+2015-01-15T14:03:10.492Z - info: [90mGET / [32m200 [90m6ms - 39.6kb[0m
+
+2015-01-15T14:03:14.927Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m4ms - 15.67kb[0m
+
+2015-01-15T14:03:14.928Z - info: [90mGET /cat/lib/cat.css [32m200 [90m5ms - 11.91kb[0m
+
+2015-01-15T14:03:14.929Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m6ms - 52.67kb[0m
+
+2015-01-15T14:03:14.931Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m8ms - 188.68kb[0m
+
+2015-01-15T14:03:14.932Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m10ms - 216.05kb[0m
+
+2015-01-15T14:03:14.934Z - info: [90mGET /js/jquery.js [32m200 [90m11ms - 266.8kb[0m
+
+2015-01-15T14:03:14.935Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m5ms - 15.26kb[0m
+
+2015-01-15T14:03:14.936Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m2ms - 3.6kb[0m
+
+2015-01-15T14:03:14.936Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m1ms - 19.89kb[0m
+
+2015-01-15T14:03:14.945Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m1ms - 34.7kb[0m
+
+2015-01-15T14:03:14.966Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m17ms - 5.15kb[0m
+
+2015-01-15T14:03:14.966Z - info: [90mGET /cat/lib/chai.js [32m200 [90m18ms - 117.99kb[0m
+
+2015-01-15T14:03:14.967Z - info: [90mGET /cat/lib/cat.js [32m200 [90m18ms - 115.71kb[0m
+
+2015-01-15T14:03:14.967Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m16ms - 12.06kb[0m
+
+2015-01-15T14:03:14.982Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m7ms - 196.23kb[0m
+
+2015-01-15T14:03:15.113Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T14:03:15.116Z - info: [90mGET /cat/config/cat.json [32m200 [90m0ms - 1.3kb[0m
+
+2015-01-15T14:03:15.124Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m3ms[0m
+
+2015-01-15T14:03:15.135Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m2ms - 412b[0m
+
+2015-01-15T14:03:15.148Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T14:03:15.563Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m1ms - 45.28kb[0m
+
+2015-01-15T14:03:15.600Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m19ms - 15.67kb[0m
+
+2015-01-15T14:03:15.601Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m19ms - 52.67kb[0m
+
+2015-01-15T14:03:15.602Z - info: [90mGET /cat/lib/cat.css [32m200 [90m16ms - 11.91kb[0m
+
+2015-01-15T14:03:15.611Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m26ms - 188.68kb[0m
+
+2015-01-15T14:03:15.613Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m33ms - 216.05kb[0m
+
+2015-01-15T14:03:15.617Z - info: [90mGET /js/jquery.js [32m200 [90m35ms - 266.8kb[0m
+
+2015-01-15T14:03:15.617Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m14ms - 15.26kb[0m
+
+2015-01-15T14:03:15.623Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m11ms - 3.6kb[0m
+
+2015-01-15T14:03:15.626Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m9ms - 19.89kb[0m
+
+2015-01-15T14:03:15.630Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m2ms - 34.7kb[0m
+
+2015-01-15T14:03:15.647Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m8ms - 5.15kb[0m
+
+2015-01-15T14:03:15.647Z - info: [90mGET /cat/lib/chai.js [32m200 [90m13ms - 117.99kb[0m
+
+2015-01-15T14:03:15.647Z - info: [90mGET /cat/lib/cat.js [32m200 [90m8ms - 115.71kb[0m
+
+2015-01-15T14:03:15.670Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m14ms - 12.06kb[0m
+
+2015-01-15T14:03:15.726Z - info: [90mGET /cat/config/testdata.json [36m304 [90m1ms[0m
+
+2015-01-15T14:03:15.728Z - info: [90mGET /cat/config/cat.json [36m304 [90m1ms[0m
+
+2015-01-15T14:03:15.732Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m0ms[0m
+
+2015-01-15T14:03:15.737Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 430b[0m
+
+2015-01-15T14:03:15.750Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [36m304 [90m0ms[0m
+
+2015-01-15T14:03:16.193Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 62b[0m
+
+2015-01-15T14:03:26.906Z - info: [90mGET / [32m200 [90m6ms - 39.6kb[0m
+
+2015-01-15T14:03:26.917Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m2ms - 15.67kb[0m
+
+2015-01-15T14:03:26.919Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m5ms - 216.05kb[0m
+
+2015-01-15T14:03:26.920Z - info: [90mGET /js/jquery.js [32m200 [90m5ms - 266.8kb[0m
+
+2015-01-15T14:03:26.933Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m8ms - 52.67kb[0m
+
+2015-01-15T14:03:26.933Z - info: [90mGET /cat/lib/cat.css [32m200 [90m7ms - 11.91kb[0m
+
+2015-01-15T14:03:26.933Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m6ms - 15.26kb[0m
+
+2015-01-15T14:03:26.935Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m8ms - 188.68kb[0m
+
+2015-01-15T14:03:26.935Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m5ms - 3.6kb[0m
+
+2015-01-15T14:03:26.936Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m4ms - 19.89kb[0m
+
+2015-01-15T14:03:26.937Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m1ms - 34.7kb[0m
+
+2015-01-15T14:03:26.948Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m4ms - 5.15kb[0m
+
+2015-01-15T14:03:26.949Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m4ms - 12.06kb[0m
+
+2015-01-15T14:03:26.949Z - info: [90mGET /cat/lib/chai.js [32m200 [90m6ms - 117.99kb[0m
+
+2015-01-15T14:03:26.949Z - info: [90mGET /cat/lib/cat.js [32m200 [90m5ms - 115.71kb[0m
+
+2015-01-15T14:03:26.951Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m4ms - 196.23kb[0m
+
+2015-01-15T14:03:27.105Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T14:03:27.107Z - info: [90mGET /cat/config/cat.json [32m200 [90m0ms - 1.3kb[0m
+
+2015-01-15T14:03:27.122Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m4ms[0m
+
+2015-01-15T14:03:27.136Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m2ms - 412b[0m
+
+2015-01-15T14:03:27.173Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T14:03:27.462Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m1ms - 45.28kb[0m
+
+2015-01-15T14:03:27.479Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m5ms - 216.05kb[0m
+
+2015-01-15T14:03:27.481Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m4ms - 15.67kb[0m
+
+2015-01-15T14:03:27.495Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m3ms - 52.67kb[0m
+
+2015-01-15T14:03:27.508Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m16ms - 188.68kb[0m
+
+2015-01-15T14:03:27.519Z - info: [90mGET /js/jquery.js [32m200 [90m27ms - 266.8kb[0m
+
+2015-01-15T14:03:27.536Z - info: [90mGET /cat/lib/cat.css [32m200 [90m23ms - 11.91kb[0m
+
+2015-01-15T14:03:27.539Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m15ms - 15.26kb[0m
+
+2015-01-15T14:03:27.547Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m19ms - 3.6kb[0m
+
+2015-01-15T14:03:27.547Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m17ms - 19.89kb[0m
+
+2015-01-15T14:03:27.548Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m17ms - 34.7kb[0m
+
+2015-01-15T14:03:27.550Z - info: [90mGET /cat/lib/chai.js [32m200 [90m18ms - 117.99kb[0m
+
+2015-01-15T14:03:27.554Z - info: [90mGET /cat/lib/cat.js [32m200 [90m15ms - 115.71kb[0m
+
+2015-01-15T14:03:27.554Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m8ms - 5.15kb[0m
+
+2015-01-15T14:03:27.557Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m7ms - 12.06kb[0m
+
+2015-01-15T14:03:27.612Z - info: [90mGET /cat/config/testdata.json [36m304 [90m1ms[0m
+
+2015-01-15T14:03:27.614Z - info: [90mGET /cat/config/cat.json [36m304 [90m1ms[0m
+
+2015-01-15T14:03:27.618Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m1ms[0m
+
+2015-01-15T14:03:27.624Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 430b[0m
+
+2015-01-15T14:03:27.633Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [36m304 [90m1ms[0m
+
+2015-01-15T14:03:27.959Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m1ms[0m
+
+2015-01-15T14:06:04.444Z - info: [90mGET / [32m200 [90m7ms - 39.7kb[0m
+
+2015-01-15T14:06:04.456Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m2ms - 15.67kb[0m
+
+2015-01-15T14:06:04.460Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m7ms - 216.05kb[0m
+
+2015-01-15T14:06:04.461Z - info: [90mGET /js/jquery.js [32m200 [90m7ms - 266.8kb[0m
+
+2015-01-15T14:06:04.477Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m7ms - 52.67kb[0m
+
+2015-01-15T14:06:04.477Z - info: [90mGET /cat/lib/cat.css [32m200 [90m6ms - 11.91kb[0m
+
+2015-01-15T14:06:04.478Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m7ms - 15.26kb[0m
+
+2015-01-15T14:06:04.478Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-15T14:06:04.478Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-15T14:06:04.478Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m7ms - 188.68kb[0m
+
+2015-01-15T14:06:04.489Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-15T14:06:04.491Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m5ms - 16.66kb[0m
+
+2015-01-15T14:06:04.492Z - info: [90mGET /cat/lib/chai.js [32m200 [90m8ms - 117.99kb[0m
+
+2015-01-15T14:06:04.492Z - info: [90mGET /cat/lib/cat.js [32m200 [90m7ms - 117.02kb[0m
+
+2015-01-15T14:06:04.493Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m5ms - 12.06kb[0m
+
+2015-01-15T14:06:04.493Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m4ms - 196.23kb[0m
+
+2015-01-15T14:06:04.621Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T14:06:04.625Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.48kb[0m
+
+2015-01-15T14:06:04.636Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m5ms[0m
+
+2015-01-15T14:06:04.647Z - info: [90mGET /scraps?scrap=formWidgetsScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 420b[0m
+
+2015-01-15T14:06:04.649Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 412b[0m
+
+2015-01-15T14:06:04.687Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m2ms - 6.1kb[0m
+
+2015-01-15T14:06:05.490Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m2ms - 45.62kb[0m
+
+2015-01-15T14:06:05.518Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m4ms - 15.67kb[0m
+
+2015-01-15T14:06:05.519Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m4ms - 52.67kb[0m
+
+2015-01-15T14:06:05.520Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m7ms - 216.05kb[0m
+
+2015-01-15T14:06:05.521Z - info: [90mGET /cat/lib/cat.css [32m200 [90m5ms - 11.91kb[0m
+
+2015-01-15T14:06:05.523Z - info: [90mGET /js/jquery.js [32m200 [90m9ms - 266.8kb[0m
+
+2015-01-15T14:06:05.529Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m13ms - 188.68kb[0m
+
+2015-01-15T14:06:05.535Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m3ms - 15.26kb[0m
+
+2015-01-15T14:06:05.546Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m6ms - 3.6kb[0m
+
+2015-01-15T14:06:05.554Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m11ms - 19.89kb[0m
+
+2015-01-15T14:06:05.554Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m9ms - 34.7kb[0m
+
+2015-01-15T14:06:05.561Z - info: [90mGET /cat/lib/chai.js [32m200 [90m16ms - 117.99kb[0m
+
+2015-01-15T14:06:05.562Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m12ms - 16.66kb[0m
+
+2015-01-15T14:06:05.563Z - info: [90mGET /cat/lib/cat.js [32m200 [90m14ms - 117.02kb[0m
+
+2015-01-15T14:06:05.563Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m10ms - 12.06kb[0m
+
+2015-01-15T14:06:05.620Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-15T14:06:05.622Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.48kb[0m
+
+2015-01-15T14:06:05.629Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m1ms[0m
+
+2015-01-15T14:06:05.633Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 430b[0m
+
+2015-01-15T14:06:05.636Z - info: [90mGET /scraps?scrap=checkboxVerticalGroupScroll&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 440b[0m
+
+2015-01-15T14:06:05.637Z - info: [90mGET /scraps?scrap=setCheckC&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 404b[0m
+
+2015-01-15T14:06:05.638Z - info: [90mGET /scraps?scrap=setCheckB&testId=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m1ms - 404b[0m
+
+2015-01-15T14:06:05.651Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-15T14:06:07.462Z - info: [90mGET /assert?testName=setCheckC&name=setCheckC&type=test&message=Test%20Passed&status=success&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 80b[0m
+
+2015-01-15T14:06:08.460Z - info: [90mGET /assert?testName=setCheckB&name=setCheckB&type=test&message=Test%20Passed&status=success&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [32m200 [90m0ms - 80b[0m
+
+2015-01-15T14:06:08.471Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=25ddbb57-2785-10a1-ff06-4fe8e603126a [36m304 [90m0ms[0m
+
+2015-01-20T09:38:38.171Z - info: [90mGET / [32m200 [90m5ms - 39.7kb[0m
+
+2015-01-20T09:38:38.188Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m4ms - 15.67kb[0m
+
+2015-01-20T09:38:38.188Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m4ms - 52.67kb[0m
+
+2015-01-20T09:38:38.189Z - info: [90mGET /cat/lib/cat.css [32m200 [90m5ms - 11.91kb[0m
+
+2015-01-20T09:38:38.205Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m21ms - 188.68kb[0m
+
+2015-01-20T09:38:38.206Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m23ms - 216.05kb[0m
+
+2015-01-20T09:38:38.215Z - info: [90mGET /js/jquery.js [32m200 [90m32ms - 266.8kb[0m
+
+2015-01-20T09:38:38.220Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m28ms - 15.26kb[0m
+
+2015-01-20T09:38:38.226Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m27ms - 3.6kb[0m
+
+2015-01-20T09:38:38.232Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m31ms - 19.89kb[0m
+
+2015-01-20T09:38:38.236Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m28ms - 34.7kb[0m
+
+2015-01-20T09:38:38.242Z - info: [90mGET /cat/lib/chai.js [32m200 [90m32ms - 117.99kb[0m
+
+2015-01-20T09:38:38.248Z - info: [90mGET /cat/lib/cat.js [32m200 [90m29ms - 117.02kb[0m
+
+2015-01-20T09:38:38.248Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m25ms - 16.66kb[0m
+
+2015-01-20T09:38:38.249Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m9ms - 12.06kb[0m
+
+2015-01-20T09:38:38.251Z - info: [90mGET /jqmlib/img/devices.png [32m200 [90m1ms - 196.23kb[0m
+
+2015-01-20T09:38:38.345Z - info: [90mGET /cat/config/testdata.json [32m200 [90m0ms - 152b[0m
+
+2015-01-20T09:38:38.348Z - info: [90mGET /cat/config/cat.json [32m200 [90m0ms - 1.48kb[0m
+
+2015-01-20T09:38:38.356Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m3ms[0m
+
+2015-01-20T09:38:38.369Z - info: [90mGET /scraps?scrap=formWidgetsScroll&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 420b[0m
+
+2015-01-20T09:38:38.371Z - info: [90mGET /scraps?scrap=checkboxesRef&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 412b[0m
+
+2015-01-20T09:38:38.386Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-20T09:38:39.286Z - info: [90mGET /checkboxradio-checkbox/ [32m200 [90m3ms - 45.62kb[0m
+
+2015-01-20T09:38:39.306Z - info: [90mGET /css/themes/default/jquery.mobile-1.4.0.min.css [32m200 [90m5ms - 216.05kb[0m
+
+2015-01-20T09:38:39.312Z - info: [90mGET /jqmlib/css/jqm-demos.css [32m200 [90m7ms - 15.67kb[0m
+
+2015-01-20T09:38:39.318Z - info: [90mGET /jqmlib/js/index.js [32m200 [90m14ms - 52.67kb[0m
+
+2015-01-20T09:38:39.319Z - info: [90mGET /cat/lib/cat.css [32m200 [90m14ms - 11.91kb[0m
+
+2015-01-20T09:38:39.320Z - info: [90mGET /js/jquery.mobile-1.4.0.min.js [32m200 [90m17ms - 188.68kb[0m
+
+2015-01-20T09:38:39.321Z - info: [90mGET /cat/lib/underscore-min.js [32m200 [90m13ms - 15.26kb[0m
+
+2015-01-20T09:38:39.322Z - info: [90mGET /js/jquery.js [32m200 [90m19ms - 266.8kb[0m
+
+2015-01-20T09:38:39.322Z - info: [90mGET /cat/lib/jsutils-min.js [32m200 [90m4ms - 3.6kb[0m
+
+2015-01-20T09:38:39.331Z - info: [90mGET /cat/lib/tmr-min.js [32m200 [90m6ms - 19.89kb[0m
+
+2015-01-20T09:38:39.331Z - info: [90mGET /cat/lib/jspath.js [32m200 [90m5ms - 34.7kb[0m
+
+2015-01-20T09:38:39.347Z - info: [90mGET /cat/lib/cat.src.js [32m200 [90m10ms - 16.66kb[0m
+
+2015-01-20T09:38:39.348Z - info: [90mGET /cat/lib/chai.js [32m200 [90m13ms - 117.99kb[0m
+
+2015-01-20T09:38:39.348Z - info: [90mGET /cat/lib/cat.js [32m200 [90m11ms - 117.02kb[0m
+
+2015-01-20T09:38:39.351Z - info: [90mGET /jqmlib/img/jquery-logo.png [32m200 [90m3ms - 12.06kb[0m
+
+2015-01-20T09:38:39.437Z - info: [90mGET /cat/config/testdata.json [32m200 [90m1ms - 152b[0m
+
+2015-01-20T09:38:39.440Z - info: [90mGET /cat/config/cat.json [32m200 [90m1ms - 1.48kb[0m
+
+2015-01-20T09:38:39.445Z - info: [90mGET /assert?testName=Start&name=Start&type=test&message=Start&status=Start&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m1ms[0m
+
+2015-01-20T09:38:39.450Z - info: [90mGET /scraps?scrap=checkboxVerticalScroll&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 430b[0m
+
+2015-01-20T09:38:39.451Z - info: [90mGET /scraps?scrap=checkboxVerticalGroupScroll&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 440b[0m
+
+2015-01-20T09:38:39.452Z - info: [90mGET /scraps?scrap=setCheckC&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m0ms - 404b[0m
+
+2015-01-20T09:38:39.453Z - info: [90mGET /scraps?scrap=setCheckB&testId=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m1ms - 404b[0m
+
+2015-01-20T09:38:39.473Z - info: [90mGET /css/themes/default/images/ajax-loader.gif [32m200 [90m1ms - 6.1kb[0m
+
+2015-01-20T09:38:41.406Z - info: [90mGET /assert?testName=setCheckC&name=setCheckC&type=test&message=Test%20Passed&status=success&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m0ms - 80b[0m
+
+2015-01-20T09:38:42.405Z - info: [90mGET /assert?testName=setCheckB&name=setCheckB&type=test&message=Test%20Passed&status=success&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [32m200 [90m0ms - 80b[0m
+
+2015-01-20T09:38:42.415Z - info: [90mGET /assert?testName=End&name=End&type=test&message=End&status=End&reports=console,junit&id=0a082de9-0715-8ec2-e77b-fa68f9f21883 [36m304 [90m0ms[0m
+

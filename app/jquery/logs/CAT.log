@@ -1,0 +1,7 @@
+[Wed Jan 14 2015 14:32:47 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Wed Jan 14 2015 14:32:47 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 1715
+[Wed Jan 14 2015 14:32:47 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery
+[Wed Jan 14 2015 14:32:47 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"init":"cat","argv":{"remain":[],"cooked":["--init","cat"],"original":["-i"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery"}}}
+[Wed Jan 14 2015 14:32:47 GMT+0200 (IST)] INFO watch: false kill: -1 process: 1715

@@ -1,0 +1,49 @@
+{
+    "name": "jquery",
+
+    "source": "src/",
+    "target": "target/",
+    "cattarget": "./",
+    "jshint": {
+        "opt": {
+            "evil": true,
+            "strict": false,
+            "curly": true,
+            "eqeqeq": true,
+            "immed": false,
+            "latedef": true,
+            "newcap": false,
+            "noarg": true,
+            "sub": true,
+            "undef": true,
+            "boss": true,
+            "eqnull": true,
+            "node": true,
+            "es5": false
+        },
+        "globals": {
+         
+        }
+    },
+
+    "host": "localhost",
+    "port": "8089",
+    "protocol": "http",
+    "analytics" : "N",
+    "apppath": "./../app",
+    "appserver": {
+        "host": "localhost",
+        "port": "8089",
+        "protocol": "http"
+    },
+
+    "plugins": [
+
+    ],
+
+    "tasks": [
+
+    ]
+
+
+}
