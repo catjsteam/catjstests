@@ -15,7 +15,7 @@
         #demo-borders .ui-collapsible-heading .ui-btn { border-top-width: 1px !important; }
     </style>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
@@ -31,9 +31,9 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuCollapsibleClick
-                       @@run@ collapsibleManager
+
                        @@embed true
                        @@jqm clickRef("#appMenuCollapsible");
                     ]@
@@ -52,23 +52,21 @@
 
         <p>To create a collapsible block of content, create a container and add the <code> data-role="collapsible"</code> attribute. Directly inside this container, add any header (H1-H6) or legend element. The framework will style the header to look like a clickable button and add a "+" icon to the left to indicate it's expandable. After the header, add any HTML markup you want to be collapsible. The framework will wrap this markup in a container that will be hidden/shown when the heading is clicked.</p>
         <!--
-                  [scrap
+                  @[scrap
                      @@name basicCollapsibleScroll
-                     @@run@ collapsibleManager
+
                      @@embed true
                      @@jqm scrollTo("#basicCollapsibleScroll");
                   ]@
              -->
 
         <!--
-                     [scrap
+                     @[scrap
                         @@name basicCollapsibleClick
-                        @@run@ collapsibleManager
+
                         @@embed true
                         @@jqm collapsible("#basicCollapsible");
                         @@assert ok(!$('#basicCollapsible').collapsible( 'option' ).collapsed,'radio-choice-v-2c is checked')
-
-
                      ]@
                    -->
 
@@ -157,9 +155,9 @@
 
         <h2>Legend</h2>
         <!--
-                      [scrap
+                      @[scrap
                          @@name legendScroll
-                         @@run@ collapsibleManager
+
                          @@embed true
                          @@jqm scrollTo("#legend");
                       ]@
@@ -170,9 +168,9 @@
         <div data-demo-html="true">
             <form>
                 <!--
-                     [scrap
+                     @[scrap
                         @@name legendClick
-                        @@run@ collapsibleManager
+
                         @@embed true
                         @@jqm collapsible("#legendClick");
                         @@assert ok(!$('#basicCollapsible').collapsible( 'option' ).collapsed,'radio-choice-v-2c is checked')
@@ -180,9 +178,9 @@
                    -->
 
                 <!--
-                 [scrap
+                 @[scrap
                     @@name setTextLegend
-                    @@run@ collapsibleManager
+
                     @@embed true
                     @@jqm setText("#textinput-f", "hello from legend");
                      @@assert ok($('#textinput-f').val()=='hello from legend','textinput-f text is correct')
@@ -191,9 +189,9 @@
 
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name setCheckCollaps3
-                     @@run@ collapsibleManager
+
                      @@embed true
                      @@jqm setCheck("#checkbox-3-a");
                      @@assert ok($('#checkbox-3-a').is(':checked'),'checkbox-3-a is checked')
@@ -202,9 +200,9 @@
 
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name setCheckCollaps1
-                     @@run@ collapsibleManager
+
                      @@embed true
                      @@jqm setCheck("#checkbox-1-a");
                      @@assert ok($('#checkbox-1-a').is(':checked'),'checkbox-1-a is checked')
@@ -212,9 +210,9 @@
              -->
 
                 <!--
-                     [scrap
+                     @[scrap
                         @@name legendUnClick
-                        @@run@ collapsibleManager
+
                         @@embed true
                         @@jqm collapsible("#legendClick");
                         @@assert ok($('#legendClick').collapsible( 'option' ).collapsed,'legendClick is checked')
@@ -467,36 +465,32 @@
 
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name selectMenuScroll
-                    @@run@ collapsibleManager
                     @@embed true
                     @@jqm scrollTo("#selectMenu");
                  ]@
             -->
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name selectMenuClick
-                        @@run@ collapsibleManager
                         @@embed true
                         @@jqm click("#selectMenu");
                      ]@
                    -->
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name selectMenuScroll2
-                      @@run@ collapsibleManager
                       @@embed true
                       @@jqm scrollTo("#selectMenu");
                    ]@
               -->
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name selectmenuRef
-                     @@run@ collapsibleManager
                      @@embed true
                      @@jqm clickRef("#selectmenuRef");
                   ]@

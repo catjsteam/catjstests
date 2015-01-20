@@ -22,7 +22,7 @@
     </style>
 
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
@@ -36,14 +36,7 @@
 <div data-role="header" class="jqm-header">
     <h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
     <p><span class="jqm-version"></span> Demos</p>
-    <!--
-                  [scrap
-                     @@name appMenuSliderClick
-                     @@run@ sliderManager
-                     @@embed true
-                     @@jqm clickRef("#appMenuSlider");
-                  ]@
-                -->
+
     <a id="appMenuSlider" href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
     <a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
 </div><!-- /header -->
@@ -56,15 +49,6 @@
     </p>
 
 
-    <!--
-               [scrap
-                  @@name basicSliderScroll
-                  @@run@ sliderManager
-                  @@embed true
-                  @@jqm scrollTo("#basicSlider");
-               ]@
-          -->
-
     <h2 id="basicSlider">Basic slider</h2>
 
     <div data-demo-html="true">
@@ -75,16 +59,7 @@
             <input type="range" name="slider-1" id="slider-1" min="0" max="100" value="50">
         </form>
 
-        <!--
-       [scrap
-          @@name slider25
-          @@run@ sliderManager
-          @@embed true
-          @@jqm slide("#slider-1" , 25);
-          @@assert ok($('#slider-1').val()=='25','hello')
 
-       ]@
-  -->
 
     </div><!-- /demo-html -->
 
@@ -98,35 +73,57 @@
     </div><!-- /demo-html -->
 
 
-    <!--
-               [scrap
-                  @@name HighlightScroll
-                  @@run@ sliderManager
-                  @@embed true
-                  @@jqm scrollTo("#highlightSlider");
-               ]@
-          -->
+
     <h2 id="highlightSlider">Highlight</h2>
 
     <div data-demo-html="true">
 
-        <!--
-       [scrap
-          @@name sliderHighlight77
-          @@run@ sliderManager
-          @@embed true
-          @@jqm slide("#slider-2" , 77);
-          @@assert ok($('#slider-2').val()=='77','hello')
-       ]@
-  -->
+
         <form>
             <label for="slider-2">Slider (default is "false"):</label>
             <input type="range" name="slider-2" id="slider-2" data-highlight="true" min="0" max="100" value="50">
         </form>
     </div><!-- /demo-html -->
 
+
     <!--
-       [scrap
+               @[scrap
+                  @@name basicSliderScroll
+                  @@run@ sliderManager
+                  @@embed true
+                  @@jqm scrollTo("#basicSlider");
+               ]@
+          -->
+    <!--
+       @[scrap
+          @@name slider25
+          @@run@ sliderManager
+          @@embed true
+          @@jqm slide("#slider-1" , 25);
+          @@assert ok($('#slider-1').val()=='25','hello')
+
+       ]@
+  -->
+    <!--
+               @[scrap
+                  @@name HighlightScroll
+                  @@run@ sliderManager
+                  @@embed true
+                  @@jqm scrollTo("#highlightSlider");
+               ]@
+          -->
+
+    <!--
+           @[scrap
+              @@name sliderHighlight77
+              @@run@ sliderManager
+              @@embed true
+              @@jqm slide("#slider-2" , 77);
+              @@assert ok($('#slider-2').val()=='77','hello')
+           ]@
+      -->
+    <!--
+       @[scrap
           @@name scrollTopSlider
           @@run@ sliderManager
           @@embed true
@@ -135,7 +132,50 @@
   -->
 
 
+    <!--
+                     @[scrap
+                        @@name appMenuSliderClick
+                        @@run@ sliderManager
+                        @@embed true
+                        @@jqm clickRef("#appMenuSlider");
+                     ]@
+                   -->
 
+    <!--
+                  @[scrap
+                     @@name formsMenuScroll
+                     @@run@ sliderManager
+                     @@embed true
+                     @@jqm scrollTo("#formsMenu");
+                  ]@
+             -->
+
+    <!--
+                     @[scrap
+                        @@name formsMenuClick
+                        @@run@ sliderManager
+                        @@embed true
+                        @@jqm click("#formsMenu");
+                     ]@
+                   -->
+
+    <!--
+                   @[scrap
+                      @@name formsMenu2
+                      @@run@ sliderManager
+                      @@embed true
+                      @@jqm scrollTo("#formsMenu");
+                   ]@
+              -->
+
+    <!--
+                  @[scrap
+                     @@name formRef
+                     @@run@ sliderManager
+                     @@embed true
+                     @@jqm clickRef("#formRef");
+                  ]@
+                -->
 
 
     <h2>Theme</h2>
@@ -249,41 +289,6 @@
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
 
 
-    <!--
-                  [scrap
-                     @@name formsMenuScroll
-                     @@run@ sliderManager
-                     @@embed true
-                     @@jqm scrollTo("#formsMenu");
-                  ]@
-             -->
-
-    <!--
-                     [scrap
-                        @@name formsMenuClick
-                        @@run@ sliderManager
-                        @@embed true
-                        @@jqm click("#formsMenu");
-                     ]@
-                   -->
-
-    <!--
-                   [scrap
-                      @@name formsMenu2
-                      @@run@ sliderManager
-                      @@embed true
-                      @@jqm scrollTo("#formsMenu");
-                   ]@
-              -->
-
-    <!--
-                  [scrap
-                     @@name formRef
-                     @@run@ sliderManager
-                     @@embed true
-                     @@jqm clickRef("#formRef");
-                  ]@
-                -->
 
 
     <h3 id="formsMenu">Forms</h3>
@@ -297,31 +302,6 @@
     </ul>
 </li>
 
-
-<!--
-                [scrap
-                  @@name sliderManager
-                  @@perform[
-                  @@basicSliderScroll repeat(1)
-                      @@slider25 repeat(1)
-                      @@HighlightScroll repeat(1)
-                      @@sliderHighlight77 repeat(1)
-                      @@scrollTopSlider repeat(1)
-                    @@appMenuSliderClick repeat(1)
-                   @@formsMenuScroll repeat(1)
-                   @@formsMenuClick repeat(1)
-                   @@formsMenu2 repeat(1)
-                   @@formRef repeat(1)
-
-
-                  ]
-
-                  @@embed true
-                  @@catui on
-                  @@manager true
-                  @@signal TESTEND
-                ]@
-                -->
 
 
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">

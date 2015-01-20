@@ -12,7 +12,7 @@
 	<script src="../jqmlib/js/index.js"></script>
 	<script src="../js/jquery.mobile-1.4.0.min.js"></script>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
@@ -145,9 +145,9 @@
         <h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuSwipeListClick
-                       @@run@ swipeItemsManager
+
                        @@embed true
                        @@jqm clickRef("#appMenuSwipeList");
                     ]@
@@ -163,9 +163,9 @@
 		<p>This demo shows how you can remove list items by swiping left or right. For devices without touchscreen there is a delete button. This demo also contains a custom styled confirmation popup.</p>
 
         <!--
-             [scrap
+             @[scrap
                 @@name openSwipe
-                @@run@ swipeItemsManager
+
                 @@embed true
                 @@jqm clickRef("#openSwipe");
              ]@
@@ -179,9 +179,9 @@
 	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
 	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
             <!--
-              [scrap
+              @[scrap
                  @@name homePageRef
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm clickRef("#homePage");
               ]@
@@ -217,36 +217,36 @@
 
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name eventsMenuScrollSwipeItems
-                    @@run@ swipeItemsManager
+
                     @@embed true
                     @@jqm scrollTo("#eventsMenu");
                  ]@
             -->
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name eventsMenuClickSwipeItems
-                        @@run@ swipeItemsManager
+
                         @@embed true
                         @@jqm click("#eventsMenu");
                      ]@
                    -->
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name eventsMenuScroll2SwipeItems
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm scrollTo("#eventsMenu");
                    ]@
               -->
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name swipePageRef
-                     @@run@ swipeItemsManager
+
                      @@embed true
                      @@jqm clickRef("#swipePage");
                   ]@
@@ -619,9 +619,9 @@
     <div data-role="header" data-position="fixed" data-theme="b">
         <h1>Inbox</h1>
         <!--
-                  [scrap
+                  @[scrap
                      @@name backBtn
-                     @@run@ swipeItemsManager
+
                      @@embed true
                      @@jqm clickButton("#backBtn");
                   ]@
@@ -636,9 +636,9 @@
             <li>
 
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeAvery
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemRight("#swipeAvery");
                    ]@
@@ -663,9 +663,9 @@
             <li>
 
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeMike
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemLeft("#swipeMike");
                    ]@
@@ -683,9 +683,9 @@
             <li>
 
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeRedfin
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemLeft("#swipeRedfin");
                    ]@
@@ -700,9 +700,9 @@
             </li>
             <li>
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeAngela
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemLeft("#swipeAngela");
                    ]@
@@ -805,9 +805,9 @@
         <p id="question">Are you sure you want to delete:</p>
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeMikeDel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#yes");
               ]@
@@ -815,18 +815,18 @@
 
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeRedfinCancel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#cancel");
               ]@
             -->
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeAveryCancel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#cancel");
               ]@
@@ -834,9 +834,9 @@
 
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeAngelaDel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#yes");
               ]@

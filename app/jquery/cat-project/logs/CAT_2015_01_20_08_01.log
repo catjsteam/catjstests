@@ -1,0 +1,902 @@
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 38814
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO watch: false kill: -1 process: 38814
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 17:57:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 17:57:50 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 17:57:52 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 17:57:52 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 17:57:53 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 17:57:54 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 17:57:54 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 17:57:54 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 17:57:54 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 17:58:04 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 17:58:04 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 17:58:05 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 17:58:05 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 17:58:05 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 17:58:07 GMT+0200 (IST)] INFO requesting setCheckCTest Passedsuccess
+[Tue Jan 20 2015 17:58:07 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckC Test Passed
+[Tue Jan 20 2015 17:58:08 GMT+0200 (IST)] INFO requesting setCheckBTest Passedsuccess
+[Tue Jan 20 2015 17:58:08 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckB Test Passed
+[Tue Jan 20 2015 17:58:09 GMT+0200 (IST)] INFO requesting setHCheckCTest Passedsuccess
+[Tue Jan 20 2015 17:58:09 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setHCheckC Test Passed
+[Tue Jan 20 2015 17:58:10 GMT+0200 (IST)] INFO requesting setHCheckBTest Passedsuccess
+[Tue Jan 20 2015 17:58:10 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setHCheckB Test Passed
+[Tue Jan 20 2015 17:58:13 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 17:58:13 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 17:58:13 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 17:58:15 GMT+0200 (IST)] INFO requesting slider25Test Passedsuccess
+[Tue Jan 20 2015 17:58:15 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test slider25 Test Passed
+[Tue Jan 20 2015 17:58:16 GMT+0200 (IST)] INFO requesting sliderHighlight77Test Passedsuccess
+[Tue Jan 20 2015 17:58:16 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test sliderHighlight77 Test Passed
+[Tue Jan 20 2015 17:58:19 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 17:58:19 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 17:58:19 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 17:58:21 GMT+0200 (IST)] INFO requesting setTextFormTest Passedsuccess
+[Tue Jan 20 2015 17:58:21 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setTextForm Test Passed
+[Tue Jan 20 2015 17:58:23 GMT+0200 (IST)] INFO requesting setDateTest Passedsuccess
+[Tue Jan 20 2015 17:58:23 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setDate Test Passed
+[Tue Jan 20 2015 17:58:24 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:24 GMT+0200 (IST)] INFO requesting hRadioTest Passedsuccess
+[Tue Jan 20 2015 17:58:24 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test hRadio Test Passed
+[Tue Jan 20 2015 17:58:25 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:25 GMT+0200 (IST)] INFO requesting hRadio2Test Passedsuccess
+[Tue Jan 20 2015 17:58:25 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test hRadio2 Test Passed
+[Tue Jan 20 2015 17:58:27 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:28 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:28 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 17:58:28 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 17:58:28 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 17:58:29 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:30 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:33 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 17:58:33 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 17:58:33 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 17:58:33 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:35 GMT+0200 (IST)] INFO requesting verGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 17:58:35 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio Test Passed
+[Tue Jan 20 2015 17:58:35 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:36 GMT+0200 (IST)] INFO requesting verGroupRadio2Test Passedsuccess
+[Tue Jan 20 2015 17:58:36 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio2 Test Passed
+[Tue Jan 20 2015 17:58:36 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:37 GMT+0200 (IST)] INFO requesting verGroupRadio3Test Passedsuccess
+[Tue Jan 20 2015 17:58:37 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio3 Test Passed
+[Tue Jan 20 2015 17:58:38 GMT+0200 (IST)] INFO requesting horGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 17:58:38 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test horGroupRadio Test Passed
+[Tue Jan 20 2015 17:58:39 GMT+0200 (IST)] INFO requesting horGroupRadio2Test Passedsuccess
+[Tue Jan 20 2015 17:58:39 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test horGroupRadio2 Test Passed
+[Tue Jan 20 2015 17:58:39 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:41 GMT+0200 (IST)] INFO requesting agreeGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 17:58:41 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test agreeGroupRadio Test Passed
+[Tue Jan 20 2015 17:58:41 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:43 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:43 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 17:58:43 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - succeeded ========
+[Tue Jan 20 2015 17:58:44 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:45 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:48 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:53 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:55 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:56 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:57 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:58 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:58:59 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 17:59:01 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 39082
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO watch: false kill: -1 process: 39082
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:22:06 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 18:22:07 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:22:10 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:22:10 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:11 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:22:12 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:22:12 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:22:12 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 18:22:12 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 18:22:13 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:22:13 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 18:22:13 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 18:22:13 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 18:22:18 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:18 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:19 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:19 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:22:19 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:21 GMT+0200 (IST)] INFO requesting setCheckCTest Passedsuccess
+[Tue Jan 20 2015 18:22:21 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckC Test Passed
+[Tue Jan 20 2015 18:22:22 GMT+0200 (IST)] INFO requesting setCheckBTest Passedsuccess
+[Tue Jan 20 2015 18:22:22 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckB Test Passed
+[Tue Jan 20 2015 18:22:24 GMT+0200 (IST)] INFO requesting setHCheckCTest Passedsuccess
+[Tue Jan 20 2015 18:22:24 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setHCheckC Test Passed
+[Tue Jan 20 2015 18:22:25 GMT+0200 (IST)] INFO requesting setHCheckBTest Passedsuccess
+[Tue Jan 20 2015 18:22:25 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setHCheckB Test Passed
+[Tue Jan 20 2015 18:22:28 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:28 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:22:28 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:29 GMT+0200 (IST)] INFO requesting slider25Test Passedsuccess
+[Tue Jan 20 2015 18:22:29 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test slider25 Test Passed
+[Tue Jan 20 2015 18:22:31 GMT+0200 (IST)] INFO requesting sliderHighlight77Test Passedsuccess
+[Tue Jan 20 2015 18:22:31 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test sliderHighlight77 Test Passed
+[Tue Jan 20 2015 18:22:34 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:34 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:22:34 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:35 GMT+0200 (IST)] INFO requesting setTextFormTest Passedsuccess
+[Tue Jan 20 2015 18:22:35 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setTextForm Test Passed
+[Tue Jan 20 2015 18:22:37 GMT+0200 (IST)] INFO requesting setDateTest Passedsuccess
+[Tue Jan 20 2015 18:22:37 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setDate Test Passed
+[Tue Jan 20 2015 18:22:38 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:38 GMT+0200 (IST)] INFO requesting hRadioTest Passedsuccess
+[Tue Jan 20 2015 18:22:38 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test hRadio Test Passed
+[Tue Jan 20 2015 18:22:39 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:39 GMT+0200 (IST)] INFO requesting hRadio2Test Passedsuccess
+[Tue Jan 20 2015 18:22:39 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test hRadio2 Test Passed
+[Tue Jan 20 2015 18:22:41 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:42 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:43 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:43 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:22:43 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:44 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:45 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:48 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:48 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:22:48 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:48 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:49 GMT+0200 (IST)] INFO requesting verGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 18:22:49 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio Test Passed
+[Tue Jan 20 2015 18:22:49 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:50 GMT+0200 (IST)] INFO requesting verGroupRadio2Test Passedsuccess
+[Tue Jan 20 2015 18:22:50 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio2 Test Passed
+[Tue Jan 20 2015 18:22:51 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:51 GMT+0200 (IST)] INFO requesting verGroupRadio3Test Passedsuccess
+[Tue Jan 20 2015 18:22:51 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio3 Test Passed
+[Tue Jan 20 2015 18:22:53 GMT+0200 (IST)] INFO requesting horGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 18:22:53 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test horGroupRadio Test Passed
+[Tue Jan 20 2015 18:22:54 GMT+0200 (IST)] INFO requesting horGroupRadio2Test Passedsuccess
+[Tue Jan 20 2015 18:22:54 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test horGroupRadio2 Test Passed
+[Tue Jan 20 2015 18:22:54 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:55 GMT+0200 (IST)] INFO requesting agreeGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 18:22:55 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test agreeGroupRadio Test Passed
+[Tue Jan 20 2015 18:22:55 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:57 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:58 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 18:22:58 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - succeeded ========
+[Tue Jan 20 2015 18:22:58 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:22:58 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:22:58 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:22:59 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:23:03 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 39104
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO watch: false kill: -1 process: 39104
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 18:23:36 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:23:39 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:23:39 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:23:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:23:41 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:41 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:23:41 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:23:41 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:23:41 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 18:23:41 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 18:23:45 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:23:45 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 18:23:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 18:23:45 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 18:23:46 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:23:46 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:23:47 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:23:47 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:23:47 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:23:50 GMT+0200 (IST)] INFO requesting setCheckCTest Passedsuccess
+[Tue Jan 20 2015 18:23:50 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckC Test Passed
+[Tue Jan 20 2015 18:23:51 GMT+0200 (IST)] INFO requesting setCheckBTest Passedsuccess
+[Tue Jan 20 2015 18:23:51 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckB Test Passed
+[Tue Jan 20 2015 18:23:52 GMT+0200 (IST)] INFO requesting setHCheckCTest Passedsuccess
+[Tue Jan 20 2015 18:23:52 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setHCheckC Test Passed
+[Tue Jan 20 2015 18:23:53 GMT+0200 (IST)] INFO requesting setHCheckBTest Passedsuccess
+[Tue Jan 20 2015 18:23:53 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setHCheckB Test Passed
+[Tue Jan 20 2015 18:23:56 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:23:56 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:23:56 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:23:58 GMT+0200 (IST)] INFO requesting slider25Test Passedsuccess
+[Tue Jan 20 2015 18:23:58 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test slider25 Test Passed
+[Tue Jan 20 2015 18:23:59 GMT+0200 (IST)] INFO requesting sliderHighlight77Test Passedsuccess
+[Tue Jan 20 2015 18:23:59 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test sliderHighlight77 Test Passed
+[Tue Jan 20 2015 18:24:03 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:24:03 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:24:03 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:24:04 GMT+0200 (IST)] INFO requesting setTextFormTest Passedsuccess
+[Tue Jan 20 2015 18:24:04 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setTextForm Test Passed
+[Tue Jan 20 2015 18:24:06 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:06 GMT+0200 (IST)] INFO requesting setDateTest Passedsuccess
+[Tue Jan 20 2015 18:24:06 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setDate Test Passed
+[Tue Jan 20 2015 18:24:07 GMT+0200 (IST)] INFO requesting hRadioTest Passedsuccess
+[Tue Jan 20 2015 18:24:07 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test hRadio Test Passed
+[Tue Jan 20 2015 18:24:07 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:08 GMT+0200 (IST)] INFO requesting hRadio2Test Passedsuccess
+[Tue Jan 20 2015 18:24:08 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test hRadio2 Test Passed
+[Tue Jan 20 2015 18:24:10 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:11 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:11 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:24:11 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:24:11 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:24:12 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:13 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:16 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:24:16 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:24:16 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:24:16 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:18 GMT+0200 (IST)] INFO requesting verGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 18:24:18 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio Test Passed
+[Tue Jan 20 2015 18:24:18 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:19 GMT+0200 (IST)] INFO requesting verGroupRadio2Test Passedsuccess
+[Tue Jan 20 2015 18:24:19 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio2 Test Passed
+[Tue Jan 20 2015 18:24:19 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:20 GMT+0200 (IST)] INFO requesting verGroupRadio3Test Passedsuccess
+[Tue Jan 20 2015 18:24:20 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test verGroupRadio3 Test Passed
+[Tue Jan 20 2015 18:24:21 GMT+0200 (IST)] INFO requesting horGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 18:24:21 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test horGroupRadio Test Passed
+[Tue Jan 20 2015 18:24:22 GMT+0200 (IST)] INFO requesting horGroupRadio2Test Passedsuccess
+[Tue Jan 20 2015 18:24:22 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test horGroupRadio2 Test Passed
+[Tue Jan 20 2015 18:24:23 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:24 GMT+0200 (IST)] INFO requesting agreeGroupRadioTest Passedsuccess
+[Tue Jan 20 2015 18:24:24 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test agreeGroupRadio Test Passed
+[Tue Jan 20 2015 18:24:24 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:26 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:27 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:24:27 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Aborted ========
+[Tue Jan 20 2015 18:24:27 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:24:27 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:28 GMT+0200 (IST)] INFO requesting basicCollapsibleClickTest Passedsuccess
+[Tue Jan 20 2015 18:24:28 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test basicCollapsibleClick Test Passed
+[Tue Jan 20 2015 18:24:28 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:29 GMT+0200 (IST)] INFO requesting legendClickTest Passedsuccess
+[Tue Jan 20 2015 18:24:29 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test legendClick Test Passed
+[Tue Jan 20 2015 18:24:30 GMT+0200 (IST)] INFO requesting setTextLegendTest Passedsuccess
+[Tue Jan 20 2015 18:24:30 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setTextLegend Test Passed
+[Tue Jan 20 2015 18:24:31 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:31 GMT+0200 (IST)] INFO requesting setCheckCollaps3Test Passedsuccess
+[Tue Jan 20 2015 18:24:31 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckCollaps3 Test Passed
+[Tue Jan 20 2015 18:24:32 GMT+0200 (IST)] INFO requesting setCheckCollaps1Test Passedsuccess
+[Tue Jan 20 2015 18:24:32 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckCollaps1 Test Passed
+[Tue Jan 20 2015 18:24:33 GMT+0200 (IST)] INFO requesting legendUnClickTest Passedsuccess
+[Tue Jan 20 2015 18:24:33 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test legendUnClick Test Passed
+[Tue Jan 20 2015 18:24:36 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:38 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:39 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:40 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:41 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:42 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:44 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:47 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:48 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:49 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:50 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:51 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:52 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:24:53 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:25:00 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 18:25:00 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Test end with error: run-mode=tests catjs manager 'selectmenuRef' is not reachable or not exists, review the test name and/or the tests code. ========
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 39214
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO watch: false kill: -1 process: 39214
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 18:31:51 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:31:54 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:31:55 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 18:31:56 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 18:31:57 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:31:57 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 18:31:57 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 18:31:57 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 18:32:17 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:32:17 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:32:18 GMT+0200 (IST)] INFO requesting basicCollapsibleClickTest Passedsuccess
+[Tue Jan 20 2015 18:32:18 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test basicCollapsibleClick Test Passed
+[Tue Jan 20 2015 18:32:20 GMT+0200 (IST)] INFO requesting legendClickTest Passedsuccess
+[Tue Jan 20 2015 18:32:20 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test legendClick Test Passed
+[Tue Jan 20 2015 18:32:21 GMT+0200 (IST)] INFO requesting setTextLegendTest Passedsuccess
+[Tue Jan 20 2015 18:32:21 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setTextLegend Test Passed
+[Tue Jan 20 2015 18:32:22 GMT+0200 (IST)] INFO requesting setCheckCollaps3Test Passedsuccess
+[Tue Jan 20 2015 18:32:22 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckCollaps3 Test Passed
+[Tue Jan 20 2015 18:32:23 GMT+0200 (IST)] INFO requesting setCheckCollaps1Test Passedsuccess
+[Tue Jan 20 2015 18:32:23 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckCollaps1 Test Passed
+[Tue Jan 20 2015 18:32:24 GMT+0200 (IST)] INFO requesting legendUnClickTest Passedsuccess
+[Tue Jan 20 2015 18:32:24 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test legendUnClick Test Passed
+[Tue Jan 20 2015 18:32:37 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:38 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:40 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:41 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:42 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:43 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:44 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:32:50 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 18:32:50 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - Test end with error: run-mode=tests catjs manager 'selectmenuRef' is not reachable or not exists, review the test name and/or the tests code. ========
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 39265
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO watch: false kill: -1 process: 39265
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 18:35:40 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:35:45 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:35:45 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:35:48 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:49 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:35:49 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:35:49 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:49 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:35:49 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:35:49 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:35:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:35:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:35:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:35:51 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:35:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:35:51 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:52 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:35:52 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:35:52 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:35:52 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 18:35:52 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 18:35:54 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:35:54 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 18:35:54 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 18:35:54 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 18:35:55 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:35:55 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:36:07 GMT+0200 (IST)] INFO requesting basicCollapsibleClickTest Passedsuccess
+[Tue Jan 20 2015 18:36:07 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test basicCollapsibleClick Test Passed
+[Tue Jan 20 2015 18:36:08 GMT+0200 (IST)] INFO requesting legendClickTest Passedsuccess
+[Tue Jan 20 2015 18:36:08 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test legendClick Test Passed
+[Tue Jan 20 2015 18:36:09 GMT+0200 (IST)] INFO requesting setTextLegendTest Passedsuccess
+[Tue Jan 20 2015 18:36:09 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setTextLegend Test Passed
+[Tue Jan 20 2015 18:36:10 GMT+0200 (IST)] INFO requesting setCheckCollaps3Test Passedsuccess
+[Tue Jan 20 2015 18:36:10 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckCollaps3 Test Passed
+[Tue Jan 20 2015 18:36:11 GMT+0200 (IST)] INFO requesting setCheckCollaps1Test Passedsuccess
+[Tue Jan 20 2015 18:36:11 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test setCheckCollaps1 Test Passed
+[Tue Jan 20 2015 18:36:12 GMT+0200 (IST)] INFO requesting legendUnClickTest Passedsuccess
+[Tue Jan 20 2015 18:36:12 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test legendUnClick Test Passed
+[Tue Jan 20 2015 18:36:15 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 18:36:15 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - succeeded ========
+[Tue Jan 20 2015 18:36:15 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:36:27 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:36:28 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:36:29 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:36:30 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:36:31 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:36:32 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:43:44 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 18:43:44 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 39374
+[Tue Jan 20 2015 18:43:44 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 18:43:44 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 18:43:44 GMT+0200 (IST)] INFO watch: false kill: -1 process: 39374
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 18:43:45 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:43:49 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:43:49 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:43:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/selectmenu/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/selectmenu/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 18:43:51 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 18:43:52 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:43:52 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 18:43:52 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 18:43:52 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 18:43:58 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:43:58 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:43:59 GMT+0200 (IST)] INFO requesting selectMenu3Test Passedsuccess
+[Tue Jan 20 2015 18:43:59 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectMenu3 Test Passed
+[Tue Jan 20 2015 18:44:00 GMT+0200 (IST)] INFO requesting selectMenu2Test Passedsuccess
+[Tue Jan 20 2015 18:44:00 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectMenu2 Test Passed
+[Tue Jan 20 2015 18:44:02 GMT+0200 (IST)] INFO requesting selectGroupMenu5Test Passedsuccess
+[Tue Jan 20 2015 18:44:02 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectGroupMenu5 Test Passed
+[Tue Jan 20 2015 18:44:03 GMT+0200 (IST)] INFO requesting selectGroupMenu7Test Passedsuccess
+[Tue Jan 20 2015 18:44:03 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectGroupMenu7 Test Passed
+[Tue Jan 20 2015 18:44:04 GMT+0200 (IST)] INFO requesting selectGroupMenu6Test Passedsuccess
+[Tue Jan 20 2015 18:44:04 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectGroupMenu6 Test Passed
+[Tue Jan 20 2015 18:44:05 GMT+0200 (IST)] INFO requesting selectGroupMenu11Test Passedsuccess
+[Tue Jan 20 2015 18:44:05 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectGroupMenu11 Test Passed
+[Tue Jan 20 2015 18:44:06 GMT+0200 (IST)] INFO requesting selectGroupMenu12Test Passedsuccess
+[Tue Jan 20 2015 18:44:06 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectGroupMenu12 Test Passed
+[Tue Jan 20 2015 18:44:07 GMT+0200 (IST)] INFO requesting selectGroupMenu13Test Passedsuccess
+[Tue Jan 20 2015 18:44:07 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ✓Test selectGroupMenu13 Test Passed
+[Tue Jan 20 2015 18:44:09 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 18:44:09 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - succeeded ========
+[Tue Jan 20 2015 18:44:18 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:19 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:20 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:22 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:23 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:24 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:25 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:26 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:44:27 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 39535
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@server.start"],"original":["-cbs"]},"home":{"path":"/Users/ransnir/Documents/workspace/catjs","working":{"path":"/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project"}}}
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] INFO watch: false kill: -1 process: 39535
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/src/' already exists"
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/' already exists"
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Tue Jan 20 2015 18:56:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Tue Jan 20 2015 18:56:19 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:56:24 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] WARNING "[scrap plugin] Closing Scrap block but with no opening sign";
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/index.html' created"
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/tabs/index.html' created"
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/tabs/index.html' created"
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/slider/index.html' created"
+[Tue Jan 20 2015 18:56:25 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-checkbox/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/grids/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/checkboxradio-radio/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/collapsible/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/selectmenu/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/selectmenu/index.html' created"
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:26 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:56:27 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/cache/jquery/forms/index.html' created"
+[Tue Jan 20 2015 18:56:27 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Tue Jan 20 2015 18:56:27 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Tue Jan 20 2015 18:56:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Tue Jan 20 2015 18:56:28 GMT+0200 (IST)] INFO [base extension] Initialized
+[Tue Jan 20 2015 18:56:28 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Tue Jan 20 2015 18:56:28 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Tue Jan 20 2015 18:56:28 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8089
+[Tue Jan 20 2015 18:56:56 GMT+0200 (IST)] INFO requesting StartStartStart
+[Tue Jan 20 2015 18:56:56 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test Start  ========
+[Tue Jan 20 2015 18:57:02 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Tue Jan 20 2015 18:57:02 GMT+0200 (IST)] INFO [0a082de9-0715-8ec2-e77b-fa68f9f21883]   Chrome 39.0.2171.99 OS X ======== Test End - succeeded ========

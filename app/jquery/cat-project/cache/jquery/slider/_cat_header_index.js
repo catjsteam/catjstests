@@ -1,685 +1,5 @@
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["checkboxVerticalScroll"],
-    "embed": ["true"],
-    "jqm": ["scrollTo(\"#checkboxVertical\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 95,
-        "col": 19
-      },
-      "end": {
-        "line": 99,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 94,
-        "col": 8
-      },
-      "end": {
-        "line": 100,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_29c2b874-77e8-4f44-c633-5ee503fae686",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["checkboxVerticalGroupScroll"],
-    "embed": ["true"],
-    "jqm": ["scrollTo(\"#checkboxVerticalGroup\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 102,
-        "col": 19
-      },
-      "end": {
-        "line": 106,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 101,
-        "col": 8
-      },
-      "end": {
-        "line": 107,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_116f3944-5e19-e989-11dd-57087a1ad534",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setCheckC$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setCheckC"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-v-2c\");"],
-    "assert": ["ok($('#checkbox-v-2c').is(':checked'),'checkbox-v-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 110,
-        "col": 19
-      },
-      "end": {
-        "line": 115,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 109,
-        "col": 8
-      },
-      "end": {
-        "line": 116,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_730e63e8-ef4d-09d2-1bc8-a84c075359c7",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setCheckC"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setCheckB$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setCheckB"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-v-2b\");"],
-    "assert": ["ok($('#checkbox-v-2b').is(':checked'),'checkbox-v-2b is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 120,
-        "col": 18
-      },
-      "end": {
-        "line": 125,
-        "col": 20
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 119,
-        "col": 8
-      },
-      "end": {
-        "line": 126,
-        "col": 16
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_7a8ac908-5b23-4d58-95ee-0d84e4d111a8",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setCheckB"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["checkboxHorizontalScroll"],
-    "embed": ["true"],
-    "jqm": ["scrollTo(\"#checkboxHorizontal\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 129,
-        "col": 19
-      },
-      "end": {
-        "line": 133,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 128,
-        "col": 8
-      },
-      "end": {
-        "line": 134,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_d602fb88-bdec-1309-d887-fd2c2121b3b8",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setHCheckC"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-h-2a\");"],
-    "assert": ["ok($('#checkbox-h-2a').is(':checked'),'checkbox-h-2a is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 137,
-        "col": 19
-      },
-      "end": {
-        "line": 142,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 136,
-        "col": 8
-      },
-      "end": {
-        "line": 143,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_50bd5421-19b9-01e0-f512-c120a9795802",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setHCheckC"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setHCheckB"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-h-2c\");"],
-    "assert": ["ok($('#checkbox-h-2c').is(':checked'),'checkbox-h-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 147,
-        "col": 18
-      },
-      "end": {
-        "line": 152,
-        "col": 20
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 146,
-        "col": 8
-      },
-      "end": {
-        "line": 153,
-        "col": 16
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_591a782a-06c1-497d-92ce-eb7c1eef0db0",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setHCheckB"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["scrollTopCheckbox"],
-    "embed": ["true"],
-    "jqm": ["scrollTop();"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 156,
-        "col": 11
-      },
-      "end": {
-        "line": 160,
-        "col": 13
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 155,
-        "col": 8
-      },
-      "end": {
-        "line": 163,
-        "col": 9
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_7991349f-e3c5-7b07-1141-dccb4c93495d",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox"
-  }
-}, 'scrap');
-_cat.core.setManager("scrapCheckboxManager", "jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat");
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', {
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.basicSliderScroll$$cat");
+_cat.core.declare('jquery.slider.index.html.basicSliderScroll$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
@@ -694,29 +14,29 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', 
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["appMenuClick"],
-    "run@": ["scrapCheckboxManager"],
+    "name": ["basicSliderScroll"],
+    "run@": ["sliderManager"],
     "embed": ["true"],
-    "jqm": ["clickRef(\"#appMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["scrollTo(\"#basicSlider\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
-        "line": 166,
-        "col": 22
+        "line": 90,
+        "col": 15
       },
       "end": {
-        "line": 171,
-        "col": 24
+        "line": 95,
+        "col": 17
       }
     },
     "commentinfo": {
       "start": {
-        "line": 165,
-        "col": 8
+        "line": 89,
+        "col": 4
       },
       "end": {
-        "line": 172,
-        "col": 23
+        "line": 96,
+        "col": 13
       }
     },
     "single": {
@@ -762,15 +82,114 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', 
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_4f14da20-29bd-4915-55c5-8bf3f22822ab",
+    "id": "scrap_b6b13dff-1058-e658-76fc-c42de9db0b63",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.appMenuClick"
+    "pkgName": "jquery.slider.index.html.basicSliderScroll"
   }
 }, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat', {
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.slider25$$cat");
+_cat.core.declare('jquery.slider.index.html.slider25$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }, {
+      "key": "assert",
+      "cell": 0
+    }],
+    "name": ["slider25"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["slide(\"#slider-1\" , 25);"],
+    "assert": ["ok($('#slider-1').val()=='25','hello');"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 98,
+        "col": 7
+      },
+      "end": {
+        "line": 105,
+        "col": 9
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 97,
+        "col": 4
+      },
+      "end": {
+        "line": 106,
+        "col": 5
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "assert": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "assert": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_bf58caec-2c2c-ac59-b2e6-4335698669c1",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.slider25"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.HighlightScroll$$cat");
+_cat.core.declare('jquery.slider.index.html.HighlightScroll$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
       "cell": 0
     }, {
       "key": "embed",
@@ -779,279 +198,308 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat',
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["sliderScroll1"],
+    "name": ["HighlightScroll"],
+    "run@": ["sliderManager"],
     "embed": ["true"],
-    "jqm": ["scrollTo(\"#sliderWidget\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["scrollTo(\"#highlightSlider\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
-        "line": 177,
-        "col": 23
+        "line": 108,
+        "col": 15
       },
       "end": {
-        "line": 181,
-        "col": 25
+        "line": 113,
+        "col": 17
       }
     },
     "commentinfo": {
       "start": {
-        "line": 176,
-        "col": 8
+        "line": 107,
+        "col": 4
       },
       "end": {
-        "line": 182,
+        "line": 114,
+        "col": 13
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_41077850-869c-c924-62a4-33a2a0124b3b",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.HighlightScroll"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.sliderHighlight77$$cat");
+_cat.core.declare('jquery.slider.index.html.sliderHighlight77$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }, {
+      "key": "assert",
+      "cell": 0
+    }],
+    "name": ["sliderHighlight77"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["slide(\"#slider-2\" , 77);"],
+    "assert": ["ok($('#slider-2').val()=='77','hello');"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 117,
+        "col": 11
+      },
+      "end": {
+        "line": 123,
+        "col": 13
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 116,
+        "col": 4
+      },
+      "end": {
+        "line": 124,
+        "col": 9
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "assert": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "assert": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_b9258216-ace4-1b48-5acc-c2e843d85da7",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.sliderHighlight77"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.scrollTopSlider$$cat");
+_cat.core.declare('jquery.slider.index.html.scrollTopSlider$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["scrollTopSlider"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["scrollTop();"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 126,
+        "col": 7
+      },
+      "end": {
+        "line": 131,
+        "col": 9
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 125,
+        "col": 4
+      },
+      "end": {
+        "line": 132,
+        "col": 5
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_a032f589-7abf-7fd7-0bb6-c63a3fb65852",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.scrollTopSlider"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.appMenuSliderClick$$cat");
+_cat.core.declare('jquery.slider.index.html.appMenuSliderClick$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["appMenuSliderClick"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["clickRef(\"#appMenuSlider\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 136,
         "col": 21
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_20dd92e0-d321-128b-7550-44ce1af3c646",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderScroll1"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["sliderMenuClick"],
-    "embed": ["true"],
-    "jqm": ["click(\"#sliderWidget\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 184,
-        "col": 26
       },
       "end": {
-        "line": 188,
-        "col": 28
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 183,
-        "col": 8
-      },
-      "end": {
-        "line": 189,
-        "col": 27
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_d20b4451-fb07-8565-b3a9-7389b8027be8",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderMenuClick"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["sliderScroll2"],
-    "embed": ["true"],
-    "jqm": ["scrollTo(\"#sliderWidget\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 192,
+        "line": 141,
         "col": 23
-      },
-      "end": {
-        "line": 196,
-        "col": 25
       }
     },
     "commentinfo": {
       "start": {
-        "line": 191,
-        "col": 8
+        "line": 135,
+        "col": 4
       },
       "end": {
-        "line": 197,
-        "col": 21
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_e4fe1be1-cc09-e0a8-6c41-c2e4195a8013",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderScroll2"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderRef$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["sliderRef"],
-    "embed": ["true"],
-    "jqm": ["clickRef(\"#sliderRef\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 200,
+        "line": 142,
         "col": 22
-      },
-      "end": {
-        "line": 204,
-        "col": 24
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 199,
-        "col": 8
-      },
-      "end": {
-        "line": 205,
-        "col": 23
       }
     },
     "single": {
       "stack": true,
       "name": true,
+      "run@": true,
       "embed": true,
       "jqm": false,
       "file": true,
@@ -1070,6 +518,7 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderRef$$cat', {
     "singleton": {
       "stack": -1,
       "name": -1,
+      "run@": -1,
       "embed": -1,
       "jqm": -1,
       "file": -1,
@@ -1090,8 +539,364 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_6b4ab786-1c2a-8b43-99dc-afd18da6d829",
+    "id": "scrap_bf754f94-f2ee-0b26-7863-eda38f7bf57d",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderRef"
+    "pkgName": "jquery.slider.index.html.appMenuSliderClick"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.formsMenuScroll$$cat");
+_cat.core.declare('jquery.slider.index.html.formsMenuScroll$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["formsMenuScroll"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["scrollTo(\"#formsMenu\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 145,
+        "col": 18
+      },
+      "end": {
+        "line": 150,
+        "col": 20
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 144,
+        "col": 4
+      },
+      "end": {
+        "line": 151,
+        "col": 16
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_be26ddf1-8e34-5926-2d63-d86577ccd720",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.formsMenuScroll"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.formsMenuClick$$cat");
+_cat.core.declare('jquery.slider.index.html.formsMenuClick$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["formsMenuClick"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["click(\"#formsMenu\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 154,
+        "col": 21
+      },
+      "end": {
+        "line": 159,
+        "col": 23
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 153,
+        "col": 4
+      },
+      "end": {
+        "line": 160,
+        "col": 22
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_dc8d5248-f36a-d46c-0cd0-5af915647359",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.formsMenuClick"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.formsMenu2$$cat");
+_cat.core.declare('jquery.slider.index.html.formsMenu2$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["formsMenu2"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["scrollTo(\"#formsMenu\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 163,
+        "col": 19
+      },
+      "end": {
+        "line": 168,
+        "col": 21
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 162,
+        "col": 4
+      },
+      "end": {
+        "line": 169,
+        "col": 17
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_be9f8857-25e6-87df-cd3b-56e415f2f82a",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.formsMenu2"
+  }
+}, 'scrap');
+_cat.core.setManager("sliderManager", "jquery.slider.index.html.formRef$$cat");
+_cat.core.declare('jquery.slider.index.html.formRef$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "run@",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["formRef"],
+    "run@": ["sliderManager"],
+    "embed": ["true"],
+    "jqm": ["clickRef(\"#formRef\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 172,
+        "col": 18
+      },
+      "end": {
+        "line": 177,
+        "col": 20
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 171,
+        "col": 4
+      },
+      "end": {
+        "line": 178,
+        "col": 19
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "run@": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "run@": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_be80f6c8-2784-b624-0dc2-2ba2923b8710",
+    "$type": "html",
+    "pkgName": "jquery.slider.index.html.formRef"
   }
 }, 'scrap');

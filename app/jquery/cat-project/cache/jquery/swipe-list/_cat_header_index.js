@@ -1,4 +1,4 @@
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll$$cat', {
+_cat.core.declare('jquery.swipe-list.index.html.appMenuSwipeListClick$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
@@ -10,626 +10,28 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxVerticalScro
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["checkboxVerticalScroll"],
+    "name": ["appMenuSwipeListClick"],
     "embed": ["true"],
-    "jqm": ["scrollTo(\"#checkboxVertical\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["clickRef(\"#appMenuSwipeList\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
-        "line": 95,
-        "col": 19
-      },
-      "end": {
-        "line": 99,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 94,
-        "col": 8
-      },
-      "end": {
-        "line": 100,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_29c2b874-77e8-4f44-c633-5ee503fae686",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["checkboxVerticalGroupScroll"],
-    "embed": ["true"],
-    "jqm": ["scrollTo(\"#checkboxVerticalGroup\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 102,
-        "col": 19
-      },
-      "end": {
-        "line": 106,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 101,
-        "col": 8
-      },
-      "end": {
-        "line": 107,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_116f3944-5e19-e989-11dd-57087a1ad534",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setCheckC$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setCheckC"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-v-2c\");"],
-    "assert": ["ok($('#checkbox-v-2c').is(':checked'),'checkbox-v-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 110,
-        "col": 19
-      },
-      "end": {
-        "line": 115,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 109,
-        "col": 8
-      },
-      "end": {
-        "line": 116,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_730e63e8-ef4d-09d2-1bc8-a84c075359c7",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setCheckC"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setCheckB$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setCheckB"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-v-2b\");"],
-    "assert": ["ok($('#checkbox-v-2b').is(':checked'),'checkbox-v-2b is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 120,
-        "col": 18
-      },
-      "end": {
-        "line": 125,
+        "line": 148,
         "col": 20
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 119,
-        "col": 8
-      },
-      "end": {
-        "line": 126,
-        "col": 16
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_7a8ac908-5b23-4d58-95ee-0d84e4d111a8",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setCheckB"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["checkboxHorizontalScroll"],
-    "embed": ["true"],
-    "jqm": ["scrollTo(\"#checkboxHorizontal\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 129,
-        "col": 19
-      },
-      "end": {
-        "line": 133,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 128,
-        "col": 8
-      },
-      "end": {
-        "line": 134,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_d602fb88-bdec-1309-d887-fd2c2121b3b8",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setHCheckC"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-h-2a\");"],
-    "assert": ["ok($('#checkbox-h-2a').is(':checked'),'checkbox-h-2a is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 137,
-        "col": 19
-      },
-      "end": {
-        "line": 142,
-        "col": 21
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 136,
-        "col": 8
-      },
-      "end": {
-        "line": 143,
-        "col": 17
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_50bd5421-19b9-01e0-f512-c120a9795802",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setHCheckC"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }, {
-      "key": "assert",
-      "cell": 0
-    }],
-    "name": ["setHCheckB"],
-    "embed": ["true"],
-    "jqm": ["setCheck(\"#checkbox-h-2c\");"],
-    "assert": ["ok($('#checkbox-h-2c').is(':checked'),'checkbox-h-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 147,
-        "col": 18
-      },
-      "end": {
-        "line": 152,
-        "col": 20
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 146,
-        "col": 8
       },
       "end": {
         "line": 153,
-        "col": 16
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "assert": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "assert": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_591a782a-06c1-497d-92ce-eb7c1eef0db0",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.setHCheckB"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["scrollTopCheckbox"],
-    "embed": ["true"],
-    "jqm": ["scrollTop();"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 156,
-        "col": 11
-      },
-      "end": {
-        "line": 160,
-        "col": 13
+        "col": 22
       }
     },
     "commentinfo": {
       "start": {
-        "line": 155,
+        "line": 147,
         "col": 8
       },
       "end": {
-        "line": 163,
-        "col": 9
+        "line": 154,
+        "col": 21
       }
     },
     "single": {
@@ -673,19 +75,15 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$c
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_7991349f-e3c5-7b07-1141-dccb4c93495d",
+    "id": "scrap_a6ed9be4-7f07-5d85-b8e7-4f89bc40e622",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox"
+    "pkgName": "jquery.swipe-list.index.html.appMenuSwipeListClick"
   }
 }, 'scrap');
-_cat.core.setManager("scrapCheckboxManager", "jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat");
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', {
+_cat.core.declare('jquery.swipe-list.index.html.openSwipe$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
-      "cell": 0
-    }, {
-      "key": "run@",
       "cell": 0
     }, {
       "key": "embed",
@@ -694,19 +92,18 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', 
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["appMenuClick"],
-    "run@": ["scrapCheckboxManager"],
+    "name": ["openSwipe"],
     "embed": ["true"],
-    "jqm": ["clickRef(\"#appMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["clickRef(\"#openSwipe\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 166,
-        "col": 22
+        "col": 13
       },
       "end": {
         "line": 171,
-        "col": 24
+        "col": 15
       }
     },
     "commentinfo": {
@@ -716,13 +113,12 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', 
       },
       "end": {
         "line": 172,
-        "col": 23
+        "col": 14
       }
     },
     "single": {
       "stack": true,
       "name": true,
-      "run@": true,
       "embed": true,
       "jqm": false,
       "file": true,
@@ -741,7 +137,6 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', 
     "singleton": {
       "stack": -1,
       "name": -1,
-      "run@": -1,
       "embed": -1,
       "jqm": -1,
       "file": -1,
@@ -762,12 +157,12 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat', 
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_4f14da20-29bd-4915-55c5-8bf3f22822ab",
+    "id": "scrap_f1af0dba-24e2-87c7-7b3f-5f48ad45e7ce",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.appMenuClick"
+    "pkgName": "jquery.swipe-list.index.html.openSwipe"
   }
 }, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat', {
+_cat.core.declare('jquery.swipe-list.index.html.homePageRef$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
@@ -779,110 +174,28 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat',
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["sliderScroll1"],
+    "name": ["homePageRef"],
     "embed": ["true"],
-    "jqm": ["scrollTo(\"#sliderWidget\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["clickRef(\"#homePage\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
-        "line": 177,
-        "col": 23
+        "line": 182,
+        "col": 14
       },
       "end": {
-        "line": 181,
-        "col": 25
+        "line": 187,
+        "col": 16
       }
     },
     "commentinfo": {
       "start": {
-        "line": 176,
-        "col": 8
-      },
-      "end": {
-        "line": 182,
-        "col": 21
-      }
-    },
-    "single": {
-      "stack": true,
-      "name": true,
-      "embed": true,
-      "jqm": false,
-      "file": true,
-      "scrapinfo": true,
-      "commentinfo": true,
-      "single": true,
-      "singleton": true,
-      "arguments": true,
-      "context": false,
-      "auto": true,
-      "injectcode": true,
-      "$standalone": true,
-      "id": true,
-      "$type": true
-    },
-    "singleton": {
-      "stack": -1,
-      "name": -1,
-      "embed": -1,
-      "jqm": -1,
-      "file": -1,
-      "scrapinfo": -1,
-      "commentinfo": -1,
-      "single": -1,
-      "singleton": -1,
-      "arguments": -1,
-      "context": 2,
-      "auto": -1,
-      "injectcode": -1,
-      "$standalone": -1,
-      "id": -1,
-      "$type": -1
-    },
-    "arguments": ["thi$"],
-    "context": ["thi$"],
-    "auto": true,
-    "injectcode": false,
-    "$standalone": false,
-    "id": "scrap_20dd92e0-d321-128b-7550-44ce1af3c646",
-    "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderScroll1"
-  }
-}, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat', {
-  scrap: {
-    "stack": [{
-      "key": "name",
-      "cell": 0
-    }, {
-      "key": "embed",
-      "cell": 0
-    }, {
-      "key": "jqm",
-      "cell": 0
-    }],
-    "name": ["sliderMenuClick"],
-    "embed": ["true"],
-    "jqm": ["click(\"#sliderWidget\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
-    "scrapinfo": {
-      "start": {
-        "line": 184,
-        "col": 26
+        "line": 181,
+        "col": 12
       },
       "end": {
         "line": 188,
-        "col": 28
-      }
-    },
-    "commentinfo": {
-      "start": {
-        "line": 183,
-        "col": 8
-      },
-      "end": {
-        "line": 189,
-        "col": 27
+        "col": 15
       }
     },
     "single": {
@@ -926,12 +239,12 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_d20b4451-fb07-8565-b3a9-7389b8027be8",
+    "id": "scrap_b4ed334d-5d05-3aaa-44d4-b6dfbcdced1f",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderMenuClick"
+    "pkgName": "jquery.swipe-list.index.html.homePageRef"
   }
 }, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat', {
+_cat.core.declare('jquery.swipe-list.index.html.eventsMenuScrollSwipeItems$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
@@ -943,30 +256,194 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat',
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["sliderScroll2"],
+    "name": ["eventsMenuScrollSwipeItems"],
     "embed": ["true"],
-    "jqm": ["scrollTo(\"#sliderWidget\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["scrollTo(\"#eventsMenu\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
-        "line": 192,
-        "col": 23
+        "line": 220,
+        "col": 17
       },
       "end": {
-        "line": 196,
-        "col": 25
+        "line": 225,
+        "col": 19
       }
     },
     "commentinfo": {
       "start": {
-        "line": 191,
-        "col": 8
+        "line": 219,
+        "col": 4
       },
       "end": {
-        "line": 197,
+        "line": 226,
+        "col": 15
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_b0de4665-ee26-43e4-7ae1-81cebdc9e148",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.eventsMenuScrollSwipeItems"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.eventsMenuClickSwipeItems$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["eventsMenuClickSwipeItems"],
+    "embed": ["true"],
+    "jqm": ["click(\"#eventsMenu\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 229,
+        "col": 21
+      },
+      "end": {
+        "line": 234,
+        "col": 23
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 228,
+        "col": 4
+      },
+      "end": {
+        "line": 235,
+        "col": 22
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_c9327514-1c64-0fc8-fdc9-f70694814202",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.eventsMenuClickSwipeItems"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["eventsMenuScroll2SwipeItems"],
+    "embed": ["true"],
+    "jqm": ["scrollTo(\"#eventsMenu\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 238,
+        "col": 19
+      },
+      "end": {
+        "line": 243,
         "col": 21
       }
     },
+    "commentinfo": {
+      "start": {
+        "line": 237,
+        "col": 4
+      },
+      "end": {
+        "line": 244,
+        "col": 17
+      }
+    },
     "single": {
       "stack": true,
       "name": true,
@@ -1008,12 +485,12 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat',
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_e4fe1be1-cc09-e0a8-6c41-c2e4195a8013",
+    "id": "scrap_9230c9af-aaa1-301c-4633-9d97667fd761",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderScroll2"
+    "pkgName": "jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems"
   }
 }, 'scrap');
-_cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderRef$$cat', {
+_cat.core.declare('jquery.swipe-list.index.html.swipePageRef$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
@@ -1025,28 +502,28 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderRef$$cat', {
       "key": "jqm",
       "cell": 0
     }],
-    "name": ["sliderRef"],
+    "name": ["swipePageRef"],
     "embed": ["true"],
-    "jqm": ["clickRef(\"#sliderRef\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-checkbox/index.html",
+    "jqm": ["clickRef(\"#swipePage\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
-        "line": 200,
-        "col": 22
+        "line": 247,
+        "col": 18
       },
       "end": {
-        "line": 204,
-        "col": 24
+        "line": 252,
+        "col": 20
       }
     },
     "commentinfo": {
       "start": {
-        "line": 199,
-        "col": 8
+        "line": 246,
+        "col": 4
       },
       "end": {
-        "line": 205,
-        "col": 23
+        "line": 253,
+        "col": 19
       }
     },
     "single": {
@@ -1090,8 +567,746 @@ _cat.core.declare('jquery.checkboxradio-checkbox.index.html.sliderRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_6b4ab786-1c2a-8b43-99dc-afd18da6d829",
+    "id": "scrap_09346076-0946-086d-f1fc-128a5a3bc3c7",
     "$type": "html",
-    "pkgName": "jquery.checkboxradio-checkbox.index.html.sliderRef"
+    "pkgName": "jquery.swipe-list.index.html.swipePageRef"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.backBtn$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["backBtn"],
+    "embed": ["true"],
+    "jqm": ["clickButton(\"#backBtn\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 622,
+        "col": 18
+      },
+      "end": {
+        "line": 627,
+        "col": 20
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 621,
+        "col": 8
+      },
+      "end": {
+        "line": 628,
+        "col": 19
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_e26cfffa-441a-b202-e150-d19605c0d20d",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.backBtn"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeAvery$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeAvery"],
+    "embed": ["true"],
+    "jqm": ["swipeItemRight(\"#swipeAvery\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 639,
+        "col": 19
+      },
+      "end": {
+        "line": 644,
+        "col": 21
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 638,
+        "col": 16
+      },
+      "end": {
+        "line": 645,
+        "col": 20
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_61ae2da7-94d3-63d7-be5d-0b29aaecba89",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeAvery"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeMike$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeMike"],
+    "embed": ["true"],
+    "jqm": ["swipeItemLeft(\"#swipeMike\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 666,
+        "col": 19
+      },
+      "end": {
+        "line": 671,
+        "col": 21
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 665,
+        "col": 16
+      },
+      "end": {
+        "line": 672,
+        "col": 20
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_15316782-0c2a-5ec7-a845-bb4a32221259",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeMike"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeRedfin$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeRedfin"],
+    "embed": ["true"],
+    "jqm": ["swipeItemLeft(\"#swipeRedfin\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 686,
+        "col": 19
+      },
+      "end": {
+        "line": 691,
+        "col": 21
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 685,
+        "col": 16
+      },
+      "end": {
+        "line": 692,
+        "col": 20
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_45a4f1d0-3828-90bf-6736-4b5e7d6625c1",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeRedfin"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeAngela$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeAngela"],
+    "embed": ["true"],
+    "jqm": ["swipeItemLeft(\"#swipeAngela\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 703,
+        "col": 19
+      },
+      "end": {
+        "line": 708,
+        "col": 21
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 702,
+        "col": 16
+      },
+      "end": {
+        "line": 709,
+        "col": 20
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_8d0991f7-8ef0-9d57-54fc-f7b2a8284cd9",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeAngela"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeMikeDel$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeMikeDel"],
+    "embed": ["true"],
+    "jqm": ["click(\"#yes\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 808,
+        "col": 14
+      },
+      "end": {
+        "line": 813,
+        "col": 16
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 807,
+        "col": 8
+      },
+      "end": {
+        "line": 814,
+        "col": 15
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_5421a768-e40b-433f-2f2a-5049424a6ec4",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeMikeDel"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeRedfinCancel$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeRedfinCancel"],
+    "embed": ["true"],
+    "jqm": ["click(\"#cancel\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 818,
+        "col": 14
+      },
+      "end": {
+        "line": 823,
+        "col": 16
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 817,
+        "col": 8
+      },
+      "end": {
+        "line": 824,
+        "col": 15
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_2ceb3f15-7f1a-3071-8de3-813d7f03f130",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeRedfinCancel"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeAveryCancel$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeAveryCancel"],
+    "embed": ["true"],
+    "jqm": ["click(\"#cancel\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 827,
+        "col": 14
+      },
+      "end": {
+        "line": 832,
+        "col": 16
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 826,
+        "col": 8
+      },
+      "end": {
+        "line": 833,
+        "col": 15
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_e113169f-b477-e867-8396-12f53adcb60b",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeAveryCancel"
+  }
+}, 'scrap');
+_cat.core.declare('jquery.swipe-list.index.html.swipeAngelaDel$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "jqm",
+      "cell": 0
+    }],
+    "name": ["swipeAngelaDel"],
+    "embed": ["true"],
+    "jqm": ["click(\"#yes\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 837,
+        "col": 14
+      },
+      "end": {
+        "line": 842,
+        "col": 16
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 836,
+        "col": 8
+      },
+      "end": {
+        "line": 843,
+        "col": 15
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "jqm": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "jqm": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_3e5cb706-d05e-431d-19de-06c39a43e9ae",
+    "$type": "html",
+    "pkgName": "jquery.swipe-list.index.html.swipeAngelaDel"
   }
 }, 'scrap');

@@ -1,6 +1,6 @@
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.appMenuRadioClick$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.appMenuRadioClick$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -26,7 +26,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalScrol
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#checkboxVertical");
+        _cat.core.plugin("jqm").actions.clickRef("#appMenuRadio");
       }
     ],
     context: {
@@ -37,9 +37,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalScrol
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.verDivScroll$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.verDivScroll$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -65,7 +65,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroup
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#checkboxVerticalGroup");
+        _cat.core.plugin("jqm").actions.scrollTo("#verDiv");
       }
     ],
     context: {
@@ -76,9 +76,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroup
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckC$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.verGroupRadio$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setCheckC$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.verGroupRadio$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -104,61 +104,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckC$$cat", func
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-v-2c");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.utils.chai.assert(context);
-      }
-    ],
-    context: {
-      'code': ["assert", "ok($(\"#checkbox-v-2c\").is(\":checked\"),\"checkbox-v-2c is checked\")\n"].join("."),
-      'fail': true,
-      scrapName: 'assert',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckB$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setCheckB$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-v-2b");
+        _cat.core.plugin("jqm").actions.checkRadio("verRadioGroup", "radio-choice-v-2c");
       }
     ],
     context: {
@@ -175,7 +121,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckB$$cat", func
       }
     ],
     context: {
-      'code': ["assert", "ok($(\"#checkbox-v-2b\").is(\":checked\"),\"checkbox-v-2b is checked\")\n"].join("."),
+      'code': ["assert", "ok($(\"#radio-choice-v-2c\").is(\":checked\"),\"radio-choice-v-2c is checked\")\n"].join("."),
       'fail': true,
       scrapName: 'assert',
       scrap: _ipkg.scrap,
@@ -184,9 +130,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckB$$cat", func
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.verGroupRadio2$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.verGroupRadio2$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -212,46 +158,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScr
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#checkboxHorizontal");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-h-2a");
+        _cat.core.plugin("jqm").actions.checkRadio("verRadioGroup", "radio-choice-v-2a");
       }
     ],
     context: {
@@ -268,7 +175,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat", fun
       }
     ],
     context: {
-      'code': ["assert", "ok($(\"#checkbox-h-2a\").is(\":checked\"),\"checkbox-h-2a is checked\")\n"].join("."),
+      'code': ["assert", "ok($(\"#radio-choice-v-2a\").is(\":checked\"),\"radio-choice-v-2a is checked\")\n"].join("."),
       'fail': true,
       scrapName: 'assert',
       scrap: _ipkg.scrap,
@@ -277,9 +184,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat", fun
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.verGroupRadio3$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.verGroupRadio3$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -305,7 +212,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", fun
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-h-2c");
+        _cat.core.plugin("jqm").actions.checkRadio("verRadioGroup", "radio-choice-v-2d");
       }
     ],
     context: {
@@ -322,7 +229,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", fun
       }
     ],
     context: {
-      'code': ["assert", "ok($(\"#checkbox-h-2c\").is(\":checked\"),\"checkbox-h-2c is checked\")\n"].join("."),
+      'code': ["assert", "ok($(\"#radio-choice-v-2d\").is(\":checked\"),\"radio-choice-v-2d is checked\")\n"].join("."),
       'fail': true,
       scrapName: 'assert',
       scrap: _ipkg.scrap,
@@ -331,9 +238,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", fun
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.horDivScroll$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.horDivScroll$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -359,7 +266,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$ca
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTop();
+        _cat.core.plugin("jqm").actions.scrollTo("#horDiv");
       }
     ],
     context: {
@@ -370,9 +277,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$ca
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.horGroupRadio$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.horGroupRadio$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -398,7 +305,115 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat", f
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.clickRef("#appMenu");
+        _cat.core.plugin("jqm").actions.checkRadio("horGroup", "radio-choice-h-2c");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#radio-choice-h-2c\").is(\":checked\"),\"radio-choice-h-2c is checked\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.checkboxradio-radio.index.html.horGroupRadio2$$cat", function(thi$) {
+
+  var pkgName = "jquery.checkboxradio-radio.index.html.horGroupRadio2$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.checkRadio("horGroup", "radio-choice-h-2b");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#radio-choice-h-2b\").is(\":checked\"),\"radio-choice-h-2b is checked\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.checkboxradio-radio.index.html.agreeDivScroll$$cat", function(thi$) {
+
+  var pkgName = "jquery.checkboxradio-radio.index.html.agreeDivScroll$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.scrollTo("#agreeDiv");
       }
     ],
     context: {
@@ -409,9 +424,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat", f
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.agreeGroupRadio$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.agreeGroupRadio$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -437,7 +452,61 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat", 
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#sliderWidget");
+        _cat.core.plugin("jqm").actions.checkRadio("agreeClass", "radio-enhanced");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#radio-enhanced\").is(\":checked\"),\"radio-enhanced is checked\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.checkboxradio-radio.index.html.collapsibleMenuScroll$$cat", function(thi$) {
+
+  var pkgName = "jquery.checkboxradio-radio.index.html.collapsibleMenuScroll$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.scrollTo("#collapsibleMenuScroll");
       }
     ],
     context: {
@@ -448,9 +517,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat", 
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.collapsibleMenuClick$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.collapsibleMenuClick$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -476,7 +545,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat"
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.click("#sliderWidget");
+        _cat.core.plugin("jqm").actions.click("#collapsibleMenuScroll");
       }
     ],
     context: {
@@ -487,9 +556,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat"
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.collapsibleMenuScroll2$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.collapsibleMenuScroll2$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -515,7 +584,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat", 
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#sliderWidget");
+        _cat.core.plugin("jqm").actions.scrollTo("#collapsibleMenuScroll");
       }
     ],
     context: {
@@ -526,9 +595,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat", 
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderRef$$cat", function(thi$) {
+_cat.core.define("jquery.checkboxradio-radio.index.html.collapsibleRef$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderRef$$cat",
+  var pkgName = "jquery.checkboxradio-radio.index.html.collapsibleRef$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -554,7 +623,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderRef$$cat", func
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.clickRef("#sliderRef");
+        _cat.core.plugin("jqm").actions.clickRef("#collapsibleRef");
       }
     ],
     context: {

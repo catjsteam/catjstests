@@ -1,6 +1,6 @@
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.appMenuSelectClick$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.checkboxVerticalScroll$$cat",
+  var pkgName = "jquery.selectmenu.index.html.appMenuSelectClick$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -26,7 +26,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalScrol
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#checkboxVertical");
+        _cat.core.plugin("jqm").actions.clickRef("#appMenuSelect");
       }
     ],
     context: {
@@ -37,9 +37,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalScrol
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.basicSelectScroll$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroupScroll$$cat",
+  var pkgName = "jquery.selectmenu.index.html.basicSelectScroll$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -65,7 +65,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroup
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#checkboxVerticalGroup");
+        _cat.core.plugin("jqm").actions.scrollTo("#basicSelect");
       }
     ],
     context: {
@@ -76,9 +76,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxVerticalGroup
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckC$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.selectMenu3$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setCheckC$$cat",
+  var pkgName = "jquery.selectmenu.index.html.selectMenu3$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -104,61 +104,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckC$$cat", func
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-v-2c");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.utils.chai.assert(context);
-      }
-    ],
-    context: {
-      'code': ["assert", "ok($(\"#checkbox-v-2c\").is(\":checked\"),\"checkbox-v-2c is checked\")\n"].join("."),
-      'fail': true,
-      scrapName: 'assert',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckB$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setCheckB$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-v-2b");
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-1", 3);
       }
     ],
     context: {
@@ -175,7 +121,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckB$$cat", func
       }
     ],
     context: {
-      'code': ["assert", "ok($(\"#checkbox-v-2b\").is(\":checked\"),\"checkbox-v-2b is checked\")\n"].join("."),
+      'code': ["assert", "ok($(\"#select-native-1  option:selected\").val()==\"3\",\"select-native-1 selected : 3\")\n"].join("."),
       'fail': true,
       scrapName: 'assert',
       scrap: _ipkg.scrap,
@@ -184,9 +130,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setCheckB$$cat", func
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.selectMenu2$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScroll$$cat",
+  var pkgName = "jquery.selectmenu.index.html.selectMenu2$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -212,46 +158,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.checkboxHorizontalScr
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#checkboxHorizontal");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-h-2a");
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-1", 2);
       }
     ],
     context: {
@@ -268,7 +175,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat", fun
       }
     ],
     context: {
-      'code': ["assert", "ok($(\"#checkbox-h-2a\").is(\":checked\"),\"checkbox-h-2a is checked\")\n"].join("."),
+      'code': ["assert", "ok($(\"#select-native-1  option:selected\").val()==\"2\",\"select-native-1 selected : 2\")\n"].join("."),
       'fail': true,
       scrapName: 'assert',
       scrap: _ipkg.scrap,
@@ -277,9 +184,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckC$$cat", fun
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.verticalGroupScroll$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat",
+  var pkgName = "jquery.selectmenu.index.html.verticalGroupScroll$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -305,7 +212,46 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", fun
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.setCheck("#checkbox-h-2c");
+        _cat.core.plugin("jqm").actions.scrollTo("#verticalGroup");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.selectmenu.index.html.selectGroupMenu5$$cat", function(thi$) {
+
+  var pkgName = "jquery.selectmenu.index.html.selectGroupMenu5$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-5", "twoOption");
       }
     ],
     context: {
@@ -322,7 +268,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", fun
       }
     ],
     context: {
-      'code': ["assert", "ok($(\"#checkbox-h-2c\").is(\":checked\"),\"checkbox-h-2c is checked\")\n"].join("."),
+      'code': ["assert", "ok($(\"#select-native-5  option:selected\")[0].id==\"twoOption\",\"select-native-5 selected : twoOption\")\n"].join("."),
       'fail': true,
       scrapName: 'assert',
       scrap: _ipkg.scrap,
@@ -331,9 +277,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.setHCheckB$$cat", fun
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.selectGroupMenu7$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$cat",
+  var pkgName = "jquery.selectmenu.index.html.selectGroupMenu7$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -359,7 +305,115 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$ca
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTop();
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-7", "threeOption");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#select-native-7  option:selected\")[0].id==\"threeOption\",\"select-native-7 selected : threeOption\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.selectmenu.index.html.selectGroupMenu6$$cat", function(thi$) {
+
+  var pkgName = "jquery.selectmenu.index.html.selectGroupMenu6$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-6", "threeOption2");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#select-native-6  option:selected\")[0].id==\"threeOption2\",\"select-native-6 selected : threeOption2\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.selectmenu.index.html.horGroupScroll$$cat", function(thi$) {
+
+  var pkgName = "jquery.selectmenu.index.html.horGroupScroll$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.scrollTo("#horGroup");
       }
     ],
     context: {
@@ -370,9 +424,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.scrollTopCheckbox$$ca
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.selectGroupMenu11$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat",
+  var pkgName = "jquery.selectmenu.index.html.selectGroupMenu11$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -398,7 +452,169 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat", f
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.clickRef("#appMenu");
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-11", "twoOptionHor");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#select-native-11  option:selected\")[0].id==\"twoOptionHor\",\"select-native-11 selected : twoOptionHor\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.selectmenu.index.html.selectGroupMenu12$$cat", function(thi$) {
+
+  var pkgName = "jquery.selectmenu.index.html.selectGroupMenu12$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-12", "oneOptionHor");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#select-native-12 option:selected\")[0].id==\"oneOptionHor\",\"select-native-12 selected : oneOptionHor\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.selectmenu.index.html.selectGroupMenu13$$cat", function(thi$) {
+
+  var pkgName = "jquery.selectmenu.index.html.selectGroupMenu13$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.selectMenu("#select-native-13", "threeOptionHor");
+      }
+    ],
+    context: {
+      scrapName: 'jqm',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.utils.chai.assert(context);
+      }
+    ],
+    context: {
+      'code': ["assert", "ok($(\"#select-native-13 option:selected\")[0].id==\"threeOptionHor\",\"select-native-13 selected : oneOptionHor\")\n"].join("."),
+      'fail': true,
+      scrapName: 'assert',
+      scrap: _ipkg.scrap,
+      args: _args,
+      scrapRowIdx: 0
+    }
+  });
+});
+_cat.core.define("jquery.selectmenu.index.html.tabsMenuScroll$$cat", function(thi$) {
+
+  var pkgName = "jquery.selectmenu.index.html.tabsMenuScroll$$cat",
+    _argsrefs = arguments,
+    _argsnames = "thi$",
+    _args = {},
+    _ipkg = _cat.core.getVar(pkgName),
+    context,
+    _counter = 0;
+
+  if (_args) {
+    _argsnames = _argsnames.split(",");
+    _argsnames.forEach(function(arg) {
+      _args[arg] = _argsrefs[_counter];
+      _counter++;
+    });
+  }
+
+  context = {
+    scrap: _ipkg.scrap,
+    args: _args
+  };
+
+
+  /* test content in here */
+  _cat.core.clientmanager.delayManager({
+    commands: [
+      function(context, thi$) {
+        _cat.core.plugin("jqm").actions.scrollTo("#tabsRef");
       }
     ],
     context: {
@@ -409,9 +625,9 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.appMenuClick$$cat", f
     }
   });
 });
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat", function(thi$) {
+_cat.core.define("jquery.selectmenu.index.html.tabsMenuClick$$cat", function(thi$) {
 
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat",
+  var pkgName = "jquery.selectmenu.index.html.tabsMenuClick$$cat",
     _argsrefs = arguments,
     _argsnames = "thi$",
     _args = {},
@@ -437,124 +653,7 @@ _cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll1$$cat", 
   _cat.core.clientmanager.delayManager({
     commands: [
       function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#sliderWidget");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderMenuClick$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.click("#sliderWidget");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderScroll2$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.scrollTo("#sliderWidget");
-      }
-    ],
-    context: {
-      scrapName: 'jqm',
-      scrap: _ipkg.scrap,
-      args: _args,
-      scrapRowIdx: 0
-    }
-  });
-});
-_cat.core.define("jquery.checkboxradio-checkbox.index.html.sliderRef$$cat", function(thi$) {
-
-  var pkgName = "jquery.checkboxradio-checkbox.index.html.sliderRef$$cat",
-    _argsrefs = arguments,
-    _argsnames = "thi$",
-    _args = {},
-    _ipkg = _cat.core.getVar(pkgName),
-    context,
-    _counter = 0;
-
-  if (_args) {
-    _argsnames = _argsnames.split(",");
-    _argsnames.forEach(function(arg) {
-      _args[arg] = _argsrefs[_counter];
-      _counter++;
-    });
-  }
-
-  context = {
-    scrap: _ipkg.scrap,
-    args: _args
-  };
-
-
-  /* test content in here */
-  _cat.core.clientmanager.delayManager({
-    commands: [
-      function(context, thi$) {
-        _cat.core.plugin("jqm").actions.clickRef("#sliderRef");
+        _cat.core.plugin("jqm").actions.clickRef("#tabsRef");
       }
     ],
     context: {

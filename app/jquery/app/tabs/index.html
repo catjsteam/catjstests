@@ -24,7 +24,7 @@
 	</style>
 
         <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
@@ -40,10 +40,9 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuTabsClick
-                       @@run@ tabsManager
-                       @@embed true
+                          @@embed true
                        @@jqm clickRef("#appMenuTabs");
                     ]@
                   -->
@@ -58,16 +57,15 @@
 		<p>The jQuery mobile tabs widget is actually just an extension of the jQuery ui tabs widget and takes all the same options and methods</p>
 			</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name navScroll
-                       @@run@ tabsManager
-                       @@embed true
+                          @@embed true
                        @@jqm scrollTo("#navTabs");
                     ]@
                -->
 
         <!--
-          [scrap
+          @[scrap
              @@name navTabSelect2
              @@run@ tabsManager
              @@embed true
@@ -76,7 +74,7 @@
      -->
 
         <!--
-          [scrap
+          @[scrap
              @@name navTabSelect3
              @@run@ tabsManager
              @@embed true
@@ -84,7 +82,7 @@
           ]@
      -->
         <!--
-          [scrap
+          @[scrap
              @@name navTabSelect1
              @@run@ tabsManager
              @@embed true
@@ -119,16 +117,15 @@
 		<div data-demo-html="true" data-demo-css="#inset-tablist">
 
             <!--
-                    [scrap
+                    @[scrap
                        @@name listTabsScroll
-                       @@run@ tabsManager
-                       @@embed true
+                          @@embed true
                        @@jqm scrollTo("#listTabs");
                     ]@
                -->
 
             <!--
-              [scrap
+              @[scrap
                  @@name listTabsSelect3
                  @@run@ tabsManager
                  @@embed true
@@ -137,7 +134,7 @@
          -->
 
             <!--
-              [scrap
+              @[scrap
                  @@name listTabsSelect1
                  @@run@ tabsManager
                  @@embed true
@@ -145,7 +142,7 @@
               ]@
          -->
             <!--
-              [scrap
+              @[scrap
                  @@name listTabsSelect2
                  @@run@ tabsManager
                  @@embed true
@@ -212,7 +209,7 @@
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name eventsMenuScroll
                     @@run@ tabsManager
                     @@embed true
@@ -221,28 +218,25 @@
             -->
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name eventsMenuClick
-                        @@run@ tabsManager
-                        @@embed true
+                            @@embed true
                         @@jqm click("#eventsMenu");
                      ]@
                    -->
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name eventsMenuScroll2
-                      @@run@ tabsManager
-                      @@embed true
+                        @@embed true
                       @@jqm scrollTo("#eventsMenu");
                    ]@
               -->
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name swipeListRef
-                     @@run@ tabsManager
-                     @@embed true
+                      @@embed true
                      @@jqm clickRef("#swipeList");
                   ]@
                 -->

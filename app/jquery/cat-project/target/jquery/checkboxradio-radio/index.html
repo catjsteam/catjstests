@@ -12,13 +12,20 @@
 	<script src="../js/jquery.mobile-1.4.0.min.js"></script>
 
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
 ]
 ]@
--->
+--><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
 
 </head>
 <div data-role="page" class="jqm-demos" data-quicklinks="true">
@@ -27,13 +34,13 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                     [scrap
+                     @[scrap
                         @@name appMenuRadioClick
                         @@run@ radioManager
                         @@embed true
                         @@jqm clickRef("#appMenuRadio");
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.appMenuRadioClick"},this);</script>
 		<a id="appMenuRadio" href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
 		<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
 	</div><!-- /header -->
@@ -67,26 +74,26 @@
 		<p>To visually integrate multiple radio buttons into a vertically grouped button set, the framework will automatically remove all margins between buttons and round only the top and bottom corners of the set if there is a <code> data-role="controlgroup"</code> attribute on the container.</p>
 
         <!--
-                [scrap
+                @[scrap
                    @@name verDivScroll
                    @@run@ radioManager
                    @@embed true
                    @@jqm scrollTo("#verDiv");
 
                 ]@
-           -->
+           --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.verDivScroll"},this);</script>
         <!--
-                      [scrap
+                      @[scrap
                          @@name verGroupRadio
                          @@run@ radioManager
                          @@embed true
                          @@jqm checkRadio("verRadioGroup", "radio-choice-v-2c");
                          @@assert ok($('#radio-choice-v-2c').is(':checked'),'radio-choice-v-2c is checked')
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.verGroupRadio"},this);</script>
 
         <!--
-                      [scrap
+                      @[scrap
                          @@name verGroupRadio2
                          @@run@ radioManager
                          @@embed true
@@ -94,17 +101,17 @@
                          @@assert ok($('#radio-choice-v-2a').is(':checked'),'radio-choice-v-2a is checked')
 
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.verGroupRadio2"},this);</script>
 
         <!--
-                     [scrap
+                     @[scrap
                         @@name verGroupRadio3
                         @@run@ radioManager
                         @@embed true
                         @@jqm checkRadio("verRadioGroup", "radio-choice-v-2d");
                         @@assert ok($('#radio-choice-v-2d').is(':checked'),'radio-choice-v-2d is checked')
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.verGroupRadio3"},this);</script>
 
 		<div id="verDiv" data-demo-html="true">
             <form>
@@ -129,33 +136,33 @@
 
 
         <!--
-                [scrap
+                @[scrap
                    @@name horDivScroll
                    @@run@ radioManager
                    @@embed true
                    @@jqm scrollTo("#horDiv");
 
                 ]@
-           -->
+           --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.horDivScroll"},this);</script>
         <!--
-                      [scrap
+                      @[scrap
                          @@name horGroupRadio
                          @@run@ radioManager
                          @@embed true
                          @@jqm checkRadio("horGroup", "radio-choice-h-2c");
                          @@assert ok($('#radio-choice-h-2c').is(':checked'),'radio-choice-h-2c is checked')
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.horGroupRadio"},this);</script>
 
         <!--
-                     [scrap
+                     @[scrap
                         @@name horGroupRadio2
                         @@run@ radioManager
                         @@embed true
                         @@jqm checkRadio("horGroup", "radio-choice-h-2b");
                         @@assert ok($('#radio-choice-h-2b').is(':checked'),'radio-choice-h-2b is checked')
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.horGroupRadio2"},this);</script>
 
 		<div id="horDiv" data-demo-html="true">
             <form>
@@ -242,23 +249,23 @@
 
 
         <!--
-                [scrap
+                @[scrap
                    @@name agreeDivScroll
                    @@run@ radioManager
                    @@embed true
                    @@jqm scrollTo("#agreeDiv");
 
                 ]@
-           -->
+           --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.agreeDivScroll"},this);</script>
         <!--
-                      [scrap
+                      @[scrap
                          @@name agreeGroupRadio
                          @@run@ radioManager
                          @@embed true
                          @@jqm checkRadio("agreeClass", "radio-enhanced");
                          @@assert ok($('#radio-enhanced').is(':checked'),'radio-enhanced is checked')
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.agreeGroupRadio"},this);</script>
         <div id="agreeDiv" data-demo-html="true">
 			<div class="ui-radio">
 				<label for="radio-enhanced" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">I agree</label>
@@ -283,40 +290,40 @@
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name collapsibleMenuScroll
                     @@run@ radioManager
                     @@embed true
                     @@jqm scrollTo("#collapsibleMenuScroll");
                  ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.collapsibleMenuScroll"},this);</script>
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name collapsibleMenuClick
                         @@run@ radioManager
                         @@embed true
                         @@jqm click("#collapsibleMenuScroll");
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.collapsibleMenuClick"},this);</script>
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name collapsibleMenuScroll2
                       @@run@ radioManager
                       @@embed true
                       @@jqm scrollTo("#collapsibleMenuScroll");
                    ]@
-              -->
+              --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.collapsibleMenuScroll2"},this);</script>
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name collapsibleRef
                      @@run@ radioManager
                      @@embed true
                      @@jqm clickRef("#collapsibleRef");
                   ]@
-                -->
+                --><script>_cat.core.action(this, {"pkgName":"jquery.checkboxradio-radio.index.html.collapsibleRef"},this);</script>
 
 	<h3 id="collapsibleMenuScroll">Collapsible (set) widget</h3>
 	<ul>

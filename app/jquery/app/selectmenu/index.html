@@ -11,7 +11,7 @@
     <script src="../jqmlib/js/index.js"></script>
     <script src="../js/jquery.mobile-1.4.0.min.js"></script>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
@@ -26,9 +26,9 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuSelectClick
-                       @@run@ selectManager
+
                        @@embed true
                        @@jqm clickRef("#appMenuSelect");
                     ]@
@@ -48,9 +48,9 @@
         <div data-demo-html="true">
             <form>
                 <!--
-                [scrap
+                @[scrap
                    @@name basicSelectScroll
-                   @@run@ selectManager
+
                    @@embed true
                    @@jqm scrollTo("#basicSelect");
 
@@ -61,9 +61,9 @@
                 <label for="select-native-1">Basic:</label>
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectMenu3
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-1", 3);
                      @@assert ok($('#select-native-1  option:selected').val() == '3','select-native-1 selected : 3')
@@ -71,9 +71,9 @@
              -->
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectMenu2
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-1", 2);
                      @@assert ok($('#select-native-1  option:selected').val() == '2','select-native-1 selected : 2')
@@ -182,9 +182,9 @@
         </div><!--/demo-html -->
 
         <!--
-                [scrap
+                @[scrap
                    @@name verticalGroupScroll
-                   @@run@ selectManager
+
                    @@embed true
                    @@jqm scrollTo("#verticalGroup");
 
@@ -199,27 +199,27 @@
                 <legend>Vertical controlgroup:</legend>
                 <label for="select-native-5">Select A</label>
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectGroupMenu5
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-5", "twoOption");
                      @@assert ok($('#select-native-5  option:selected')[0].id == 'twoOption','select-native-5 selected : twoOption')
                   ]@
              -->
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectGroupMenu7
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-7", "threeOption");
                      @@assert ok($('#select-native-7  option:selected')[0].id == 'threeOption','select-native-7 selected : threeOption')
                   ]@
              -->
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectGroupMenu6
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-6", "threeOption2");
                      @@assert ok($('#select-native-6  option:selected')[0].id == 'threeOption2','select-native-6 selected : threeOption2')
@@ -279,9 +279,9 @@
         <h2>Horizontal group</h2>
 
         <!--
-               [scrap
+               @[scrap
                   @@name horGroupScroll
-                  @@run@ selectManager
+
                   @@embed true
                   @@jqm scrollTo("#horGroup");
 
@@ -289,27 +289,27 @@
           -->
 
         <!--
-                 [scrap
+                 @[scrap
                     @@name selectGroupMenu11
-                    @@run@ selectManager
+
                     @@embed true
                     @@jqm selectMenu("#select-native-11", "twoOptionHor");
                     @@assert ok($('#select-native-11  option:selected')[0].id == 'twoOptionHor','select-native-11 selected : twoOptionHor')
                  ]@
             -->
         <!--
-          [scrap
+          @[scrap
              @@name selectGroupMenu12
-             @@run@ selectManager
+
              @@embed true
              @@jqm selectMenu("#select-native-12", "oneOptionHor");
              @@assert ok($('#select-native-12 option:selected')[0].id == 'oneOptionHor','select-native-12 selected : oneOptionHor')
           ]@
      -->
         <!--
-          [scrap
+          @[scrap
              @@name selectGroupMenu13
-             @@run@ selectManager
+
              @@embed true
              @@jqm selectMenu("#select-native-13", "threeOptionHor");
              @@assert ok($('#select-native-13 option:selected')[0].id == 'threeOptionHor','select-native-13 selected : oneOptionHor')
@@ -548,18 +548,18 @@
 	</ul>
 </li>
 <!--
- [scrap
+ @[scrap
     @@name tabsMenuScroll
-    @@run@ selectManager
+
     @@embed true
     @@jqm scrollTo("#tabsRef");
  ]@
 -->
 
 <!--
-                 [scrap
+                 @[scrap
                     @@name tabsMenuClick
-                    @@run@ selectManager
+
                     @@embed true
                     @@jqm clickRef("#tabsRef");
                  ]@

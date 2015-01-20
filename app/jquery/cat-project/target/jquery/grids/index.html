@@ -11,13 +11,20 @@
 	<script src="../jqmlib/js/index.js"></script>
 	<script src="../js/jquery.mobile-1.4.0.min.js"></script>
         <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
 ]
 ]@
--->
+--><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
 </head>
 <body>
 <div data-role="page" class="jqm-demos" data-quicklinks="true">
@@ -26,13 +33,13 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                      [scrap
+                      @[scrap
                          @@name appMenuGridsClick
                          @@run@ gridManager
                          @@embed true
                          @@jqm clickRef("#appMenuGrids");
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.appMenuGridsClick"},this);</script>
 		<a href="#" id="appMenuGrids" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
 		<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
 	</div><!-- /header -->
@@ -73,14 +80,14 @@
 		<p>The other grid layout configuration uses <code>class=ui-grid-b</code> on the parent, and 3 child container elements, each with its respective <code>ui-block-a/b/c</code> class, to create a three-column layout (33/33/33%). </p>
 
         <!--
-                  [scrap
+                  @[scrap
                      @@name btnDivsScroll
                      @@run@ gridManager
                      @@embed true
                      @@jqm scrollTo("#btnDivs");
 
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.btnDivsScroll"},this);</script>
 			<div id="btnDivs" data-demo-html="true">
 				<div class="ui-grid-b">
 					<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
@@ -94,30 +101,30 @@
 			<div data-demo-html="true">
 				<fieldset class="ui-grid-b">
                     <!--
-                      [scrap
+                      @[scrap
                          @@name hmmBtnClick
                          @@run@ gridManager
                          @@embed true
                          @@jqm clickButton("#hmmBtn");
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.hmmBtnClick"},this);</script>
 
                     <!--
-                      [scrap
+                      @[scrap
                          @@name yesBtnClick
                          @@run@ gridManager
                          @@embed true
                          @@jqm clickButton("#yesBtn");
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.yesBtnClick"},this);</script>
                     <!--
-                      [scrap
+                      @[scrap
                          @@name noBtnClick
                          @@run@ gridManager
                          @@embed true
                          @@jqm clickButton("#noBtn");
                       ]@
-                    -->
+                    --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.noBtnClick"},this);</script>
 					<div class="ui-block-a"><input id="hmmBtn" type="button" value="Hmm"></div>
 					<div class="ui-block-b"><input id="noBtn" type="reset" value="No"></div>
 					<div class="ui-block-c"><input id="yesBtn" type="submit" value="Yes"></div>
@@ -264,40 +271,40 @@
 <li data-filtertext="form button widget input button submit reset"><a href="../button/" data-ajax="false">Button widget</a></li>
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
     <!--
-             [scrap
+             @[scrap
                 @@name radioMenuScroll
                 @@run@ gridManager
                 @@embed true
                 @@jqm scrollTo("#radioMenu");
              ]@
-        -->
+        --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.radioMenuScroll"},this);</script>
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name radioMenuClick
                         @@run@ gridManager
                         @@embed true
                         @@jqm click("#radioMenu");
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.radioMenuClick"},this);</script>
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name radioMenuScroll2
                       @@run@ gridManager
                       @@embed true
                       @@jqm scrollTo("#radioMenu");
                    ]@
-              -->
+              --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.radioMenuScroll2"},this);</script>
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name radioRef
                      @@run@ gridManager
                      @@embed true
                      @@jqm clickRef("#radioRef");
                   ]@
-                -->
+                --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.radioRef"},this);</script>
 	<h3 id="radioMenu">Checkboxradio widget</h3>
 	<ul>
 		<li data-filtertext="form checkboxradio widget checkbox input checkboxes controlgroups"><a  href="../checkboxradio-checkbox/" data-ajax="false">Checkboxes</a></li>
@@ -306,13 +313,13 @@
 </li>
 
 <!--
-           [scrap
+           @[scrap
               @@name scrollTopGrids
               @@run@ gridManager
               @@embed true
               @@jqm scrollTop();
            ]@
-      -->
+      --><script>_cat.core.action(this, {"pkgName":"jquery.grids.index.html.scrollTopGrids"},this);</script>
 
 <!--
 [scrap

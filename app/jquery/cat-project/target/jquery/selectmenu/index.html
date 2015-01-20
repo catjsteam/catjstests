@@ -11,13 +11,20 @@
     <script src="../jqmlib/js/index.js"></script>
     <script src="../js/jquery.mobile-1.4.0.min.js"></script>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
 ]
 ]@
--->
+--><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
 </head>
 <body>
 <div data-role="page" class="jqm-demos" data-quicklinks="true">
@@ -26,13 +33,13 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuSelectClick
-                       @@run@ selectManager
+
                        @@embed true
                        @@jqm clickRef("#appMenuSelect");
                     ]@
-                  -->
+                  --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.appMenuSelectClick"},this);</script>
         <a id="appMenuSelect" href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
         <a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
     </div><!-- /header -->
@@ -48,37 +55,37 @@
         <div data-demo-html="true">
             <form>
                 <!--
-                [scrap
+                @[scrap
                    @@name basicSelectScroll
-                   @@run@ selectManager
+
                    @@embed true
                    @@jqm scrollTo("#basicSelect");
 
                 ]@
-           -->
+           --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.basicSelectScroll"},this);</script>
 
             <div id="basicSelect" class="ui-field-contain">
                 <label for="select-native-1">Basic:</label>
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectMenu3
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-1", 3);
                      @@assert ok($('#select-native-1  option:selected').val() == '3','select-native-1 selected : 3')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectMenu3"},this);</script>
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectMenu2
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-1", 2);
                      @@assert ok($('#select-native-1  option:selected').val() == '2','select-native-1 selected : 2')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectMenu2"},this);</script>
 
                 <select name="select-native-1" id="select-native-1">
                     <option value="1">The 1st Option</option>
@@ -182,14 +189,14 @@
         </div><!--/demo-html -->
 
         <!--
-                [scrap
+                @[scrap
                    @@name verticalGroupScroll
-                   @@run@ selectManager
+
                    @@embed true
                    @@jqm scrollTo("#verticalGroup");
 
                 ]@
-           -->
+           --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.verticalGroupScroll"},this);</script>
 
         <h2 id="verticalGroup">Vertical group</h2>
 
@@ -199,32 +206,32 @@
                 <legend>Vertical controlgroup:</legend>
                 <label for="select-native-5">Select A</label>
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectGroupMenu5
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-5", "twoOption");
                      @@assert ok($('#select-native-5  option:selected')[0].id == 'twoOption','select-native-5 selected : twoOption')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectGroupMenu5"},this);</script>
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectGroupMenu7
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-7", "threeOption");
                      @@assert ok($('#select-native-7  option:selected')[0].id == 'threeOption','select-native-7 selected : threeOption')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectGroupMenu7"},this);</script>
                 <!--
-                  [scrap
+                  @[scrap
                      @@name selectGroupMenu6
-                     @@run@ selectManager
+
                      @@embed true
                      @@jqm selectMenu("#select-native-6", "threeOption2");
                      @@assert ok($('#select-native-6  option:selected')[0].id == 'threeOption2','select-native-6 selected : threeOption2')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectGroupMenu6"},this);</script>
                 <select name="select-native-5" id="select-native-5">
                     <option value="#">One</option>
                     <option id="twoOption" value="#">Two</option>
@@ -279,42 +286,42 @@
         <h2>Horizontal group</h2>
 
         <!--
-               [scrap
+               @[scrap
                   @@name horGroupScroll
-                  @@run@ selectManager
+
                   @@embed true
                   @@jqm scrollTo("#horGroup");
 
                ]@
-          -->
+          --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.horGroupScroll"},this);</script>
 
         <!--
-                 [scrap
+                 @[scrap
                     @@name selectGroupMenu11
-                    @@run@ selectManager
+
                     @@embed true
                     @@jqm selectMenu("#select-native-11", "twoOptionHor");
                     @@assert ok($('#select-native-11  option:selected')[0].id == 'twoOptionHor','select-native-11 selected : twoOptionHor')
                  ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectGroupMenu11"},this);</script>
         <!--
-          [scrap
+          @[scrap
              @@name selectGroupMenu12
-             @@run@ selectManager
+
              @@embed true
              @@jqm selectMenu("#select-native-12", "oneOptionHor");
              @@assert ok($('#select-native-12 option:selected')[0].id == 'oneOptionHor','select-native-12 selected : oneOptionHor')
           ]@
-     -->
+     --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectGroupMenu12"},this);</script>
         <!--
-          [scrap
+          @[scrap
              @@name selectGroupMenu13
-             @@run@ selectManager
+
              @@embed true
              @@jqm selectMenu("#select-native-13", "threeOptionHor");
              @@assert ok($('#select-native-13 option:selected')[0].id == 'threeOptionHor','select-native-13 selected : oneOptionHor')
           ]@
-     -->
+     --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.selectGroupMenu13"},this);</script>
         <div id="horGroup" data-demo-html="true">
             <form>
             <fieldset data-role="controlgroup" data-type="horizontal">
@@ -548,22 +555,22 @@
 	</ul>
 </li>
 <!--
- [scrap
+ @[scrap
     @@name tabsMenuScroll
-    @@run@ selectManager
+
     @@embed true
     @@jqm scrollTo("#tabsRef");
  ]@
--->
+--><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.tabsMenuScroll"},this);</script>
 
 <!--
-                 [scrap
+                 @[scrap
                     @@name tabsMenuClick
-                    @@run@ selectManager
+
                     @@embed true
                     @@jqm clickRef("#tabsRef");
                  ]@
-               -->
+               --><script>_cat.core.action(this, {"pkgName":"jquery.selectmenu.index.html.tabsMenuClick"},this);</script>
 
 
 <li data-filtertext="ui tabs widget"><a id="tabsRef" href="../tabs/" data-ajax="false">Tabs widget</a></li>

@@ -11,7 +11,7 @@
 		<script src="../jqmlib/js/index.js"></script>
 		<script src="../js/jquery.mobile-1.4.0.min.js"></script>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
@@ -25,14 +25,7 @@
 		<div data-role="header" class="jqm-header">
 			<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
-            <!--
-                      [scrap
-                         @@name appMenuFormClick
-                         @@run@ scrapFormManager
-                         @@embed true
-                         @@jqm clickRef("#appMenuForm");
-                      ]@
-                    -->
+
 			<a href="#" id="appMenuForm" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
 			<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
 			</div><!-- /header -->
@@ -195,34 +188,7 @@
                 </fieldset>
         </div><!-- /demo-html -->
 
-        <!--
-                  [scrap
-                     @@name checkbox-radioHScroll
-                     @@run@ scrapFormManager
-                     @@embed true
-                     @@jqm scrollTo("#checkbox-radioH");
-                  ]@
-             -->
-        <!--
-          [scrap
-             @@name hRadio
-             @@run@ scrapFormManager
-             @@embed true
-             @@jqm checkRadio("hRadio" , "radio-choice-c" );
-             @@assert ok($('#radio-choice-c').is(':checked'),'radio-choice-c is checked')
-          ]@
-        -->
 
-
-        <!--
-          [scrap
-             @@name hRadio2
-             @@run@ scrapFormManager
-             @@embed true
-             @@jqm checkRadio("hRadio" , "radio-choice-e" );
-             @@assert ok($('#radio-choice-e').is(':checked'),'radio-choice-e is checked')
-          ]@
-        -->
 
         <div id="checkbox-radioH" data-demo-html="true">
                 <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
@@ -290,28 +256,12 @@
             </select>
         </div><!-- /demo-html -->
 
-        <!--
-                  [scrap
-                     @@name formTextScroll
-                     @@run@ scrapFormManager
-                     @@embed true
-                     @@jqm scrollTo("#formText");
-                  ]@
-             -->
 
         <h2 id="formText">Text inputs & Textareas</h2>
 
 		<p>Text inputs and textareas are coded with standard HTML elements, then enhanced by jQuery Mobile to make them more attractive and useable on a mobile device. Learn more about <a href="../textinput/">text inputs and textareas</a>.</p>
 
-        <!--
-                  [scrap
-                     @@name setTextForm
-                     @@run@ scrapFormManager
-                     @@embed true
-                     @@jqm setText("#text-basic", "hello world");
-                     @@assert ok($('#text-basic').val()=='hello world','text-basic text == hello world')
-                  ]@
-             -->
+
 
         <div data-demo-html="true">
              <label for="text-basic">Text input:</label>
@@ -329,7 +279,27 @@
         </div><!-- /demo-html -->
 
         <!--
-                         [scrap
+                @[scrap
+                   @@name formTextScroll
+                   @@run@ scrapFormManager
+                   @@embed true
+                   @@jqm scrollTo("#formText");
+                ]@
+           -->
+
+
+
+        <!--
+                   @[scrap
+                      @@name setTextForm
+                      @@run@ scrapFormManager
+                      @@embed true
+                      @@jqm setText("#text-basic", "hello world");
+                      @@assert ok($('#text-basic').val()=='hello world','text-basic text == hello world')
+                   ]@
+              -->
+        <!--
+                         @[scrap
                             @@name formDateScroll
                             @@run@ scrapFormManager
                             @@embed true
@@ -338,7 +308,7 @@
                     -->
 
         <!--
-                  [scrap
+                  @[scrap
                      @@name setDate
                      @@run@ scrapFormManager
                      @@embed true
@@ -346,6 +316,124 @@
                      @@assert ok($('#date').val()=='2014-02-27','date == 2014-02-27')
                   ]@
              -->
+
+
+
+        <!--
+                          @[scrap
+                             @@name checkbox-radioHScroll
+                             @@run@ scrapFormManager
+                             @@embed true
+                             @@jqm scrollTo("#checkbox-radioH");
+                          ]@
+                     -->
+        <!--
+          @[scrap
+             @@name hRadio
+             @@run@ scrapFormManager
+             @@embed true
+             @@jqm checkRadio("hRadio" , "radio-choice-c" );
+             @@assert ok($('#radio-choice-c').is(':checked'),'radio-choice-c is checked')
+          ]@
+        -->
+
+
+        <!--
+          @[scrap
+             @@name hRadio2
+             @@run@ scrapFormManager
+             @@embed true
+             @@jqm checkRadio("hRadio" , "radio-choice-e" );
+             @@assert ok($('#radio-choice-e').is(':checked'),'radio-choice-e is checked')
+          ]@
+        -->
+
+
+
+
+
+        <!--
+           @[scrap
+              @@name scrollTopForm
+              @@run@ scrapFormManager
+              @@embed true
+              @@jqm scrollTop();
+           ]@
+      -->
+
+        <!--
+                              @[scrap
+                                 @@name appMenuFormClick
+                                 @@run@ scrapFormManager
+                                 @@embed true
+                                 @@jqm clickRef("#appMenuForm");
+                              ]@
+                            -->
+        <!--
+                 @[scrap
+                    @@name gridsMenuScroll
+                    @@run@ scrapFormManager
+                    @@embed true
+                    @@jqm scrollTo("#gridsMenu");
+                 ]@
+            -->
+
+        <!--
+                         @[scrap
+                            @@name gridsMenuClick
+                            @@run@ scrapFormManager
+                            @@embed true
+                            @@jqm click("#gridsMenu");
+                         ]@
+                       -->
+
+        <!--
+                       @[scrap
+                          @@name gridsMenuScroll2
+                          @@run@ scrapFormManager
+                          @@embed true
+                          @@jqm scrollTo("#gridsMenu");
+                       ]@
+                  -->
+
+        <!--
+                      @[scrap
+                         @@name gridsRef
+                         @@run@ scrapFormManager
+                         @@embed true
+                         @@jqm clickRef("#gridsPageLink");
+                      ]@
+                    -->
+
+
+        <!--
+            [scrap
+                @@name scrapFormManager
+                @@perform[
+                    @@formTextScroll repeat(1)
+                    @@setTextForm repeat(1)
+                    @@formDateScroll repeat(1)
+                    @@setDate repeat(1)
+                    @@checkbox-radioHScroll repeat(1)
+                    @@hRadio repeat(1)
+                    @@hRadio2 repeat(1)
+                    @@scrollTopForm repeat(1)
+                    @@appMenuFormClick repeat(1)
+                    @@gridsMenuScroll repeat(1)
+                    @@gridsMenuClick repeat(1)
+                    @@gridsMenuScroll2 repeat(1)
+                    @@gridsRef repeat(1)
+
+                ]
+
+                @@embed true
+                @@catui on
+                @@manager true
+                @@signal TESTEND
+            ]@
+            -->
+
+
         <div id="dateDiv" data-demo-html="true">
              <label for="date">Date:</label>
              <input type="date" name="date" id="date" value="">
@@ -418,38 +506,6 @@
 		</div><!--/demo-html -->
 
 
-        <!--
-           [scrap
-              @@name scrollTopForm
-              @@run@ scrapFormManager
-              @@embed true
-              @@jqm scrollTop();
-           ]@
-      -->
-
-
-        <!--
-        [scrap
-            @@name scrapFormManager
-            @@perform[
-                @@formTextScroll repeat(1)
-                @@setTextForm repeat(1)
-                @@formDateScroll repeat(1)
-                @@setDate repeat(1)
-                @@checkbox-radioHScroll repeat(1)
-                @@hRadio repeat(1)
-                @@hRadio2 repeat(1)
-                @@scrollTopForm repeat(1)
-                @@appMenuFormClick repeat(1)
-
-            ]
-
-            @@embed true
-            @@catui on
-            @@manager true
-            @@signal TESTEND
-        ]@
-        -->
 
 
    		<h2>Auto-initialization of form elements</h2>
@@ -582,41 +638,7 @@ $( document ).bind( "mobileinit", function() {
 	</ul>
 </li>
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
-    <!--
-                 [scrap
-                    @@name gridsMenuScroll
-                    @@run@ scrapFormManager
-                    @@embed true
-                    @@jqm scrollTo("#gridsMenu");
-                 ]@
-            -->
 
-    <!--
-                     [scrap
-                        @@name gridsMenuClick
-                        @@run@ scrapFormManager
-                        @@embed true
-                        @@jqm click("#gridsMenu");
-                     ]@
-                   -->
-
-    <!--
-                   [scrap
-                      @@name gridsMenuScroll2
-                      @@run@ scrapFormManager
-                      @@embed true
-                      @@jqm scrollTo("#gridsMenu");
-                   ]@
-              -->
-
-    <!--
-                  [scrap
-                     @@name gridsRef
-                     @@run@ scrapFormManager
-                     @@embed true
-                     @@jqm clickRef("#gridsPageLink");
-                  ]@
-                -->
 	<h3 id="gridsMenu">Grids</h3>
 	<ul>
 		<li data-filtertext="grids columns blocks content formatting rwd responsive css framework"><a id="gridsPageLink" href="../grids/" data-ajax="false">Grids</a></li>
@@ -624,32 +646,7 @@ $( document ).bind( "mobileinit", function() {
 		<li data-filtertext="custom responsive grids rwd css framework"><a href="../grids-custom-responsive/" data-ajax="false">Custom responsive grids</a></li>
 	</ul>
 </li>
-<!--
-        [scrap
-            @@name scrapFormManager
-            @@perform[
-                @@formTextScroll repeat(1)
-                @@setTextForm repeat(1)
-                @@formDateScroll repeat(1)
-                @@setDate repeat(1)
-                @@checkbox-radioHScroll repeat(1)
-                @@hRadio repeat(1)
-                @@hRadio2 repeat(1)
-                @@scrollTopForm repeat(1)
-                @@appMenuFormClick repeat(1)
-                @@gridsMenuScroll repeat(1)
-                @@gridsMenuClick repeat(1)
-                @@gridsMenuScroll2 repeat(1)
-                @@gridsRef repeat(1)
 
-            ]
-
-            @@embed true
-            @@catui on
-            @@manager true
-            @@signal TESTEND
-        ]@
-        -->
 <li data-filtertext="blocks content formatting sections heading"><a href="../body-bar-classes/" data-ajax="false">Grouping and dividing content</a></li>
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
 	<h3>Icons</h3>

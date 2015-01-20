@@ -12,13 +12,20 @@
 	<script src="../jqmlib/js/index.js"></script>
 	<script src="../js/jquery.mobile-1.4.0.min.js"></script>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
 ]
 ]@
--->
+--><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
 	<script>
 		$( document ).on( "pagecreate", "#demo-page", function() {
 
@@ -145,13 +152,13 @@
         <h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuSwipeListClick
-                       @@run@ swipeItemsManager
+
                        @@embed true
                        @@jqm clickRef("#appMenuSwipeList");
                     ]@
-                  -->
+                  --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.appMenuSwipeListClick"},this);</script>
         <a id="appMenuSwipeList" href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
         <a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
     </div><!-- /header -->
@@ -163,13 +170,13 @@
 		<p>This demo shows how you can remove list items by swiping left or right. For devices without touchscreen there is a delete button. This demo also contains a custom styled confirmation popup.</p>
 
         <!--
-             [scrap
+             @[scrap
                 @@name openSwipe
-                @@run@ swipeItemsManager
+
                 @@embed true
                 @@jqm clickRef("#openSwipe");
              ]@
-           -->
+           --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.openSwipe"},this);</script>
 
 		<p><a id="openSwipe" href="#demo-page" data-transition="fade" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Open swipe list demo</a></p>
 
@@ -179,13 +186,13 @@
 	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
 	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
             <!--
-              [scrap
+              @[scrap
                  @@name homePageRef
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm clickRef("#homePage");
               ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.homePageRef"},this);</script>
 <li data-filtertext="demos homepage" data-icon="home"><a id="homePage" href=".././">Home</a></li>
 <li data-filtertext="introduction overview getting started"><a href="../intro/" data-ajax="false">Introduction</a></li>
 <li data-filtertext="buttons button markup buttonmarkup method anchor link button element"><a href="../button-markup/" data-ajax="false">Buttons</a></li>
@@ -217,40 +224,40 @@
 
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name eventsMenuScrollSwipeItems
-                    @@run@ swipeItemsManager
+
                     @@embed true
                     @@jqm scrollTo("#eventsMenu");
                  ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.eventsMenuScrollSwipeItems"},this);</script>
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name eventsMenuClickSwipeItems
-                        @@run@ swipeItemsManager
+
                         @@embed true
                         @@jqm click("#eventsMenu");
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.eventsMenuClickSwipeItems"},this);</script>
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name eventsMenuScroll2SwipeItems
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm scrollTo("#eventsMenu");
                    ]@
-              -->
+              --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems"},this);</script>
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name swipePageRef
-                     @@run@ swipeItemsManager
+
                      @@embed true
                      @@jqm clickRef("#swipePage");
                   ]@
-                -->
+                --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipePageRef"},this);</script>
 
     <h3 id="eventsMenu">Events</h3>
     <ul>
@@ -619,13 +626,13 @@
     <div data-role="header" data-position="fixed" data-theme="b">
         <h1>Inbox</h1>
         <!--
-                  [scrap
+                  @[scrap
                      @@name backBtn
-                     @@run@ swipeItemsManager
+
                      @@embed true
                      @@jqm clickButton("#backBtn");
                   ]@
-                -->
+                --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.backBtn"},this);</script>
         <a id="backBtn" href="#demo-intro" data-rel="back" data-icon="carat-l" data-iconpos="notext">Back</a>
         <a href="#" onclick="window.location.reload()" data-icon="back" data-iconpos="notext">Refresh</a>
     </div><!-- /header -->
@@ -636,13 +643,13 @@
             <li>
 
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeAvery
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemRight("#swipeAvery");
                    ]@
-                 -->
+                 --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeAvery"},this);</script>
                 <a id="swipeAvery" href="#demo-mail">
                     <h3>Avery Walker</h3>
                     <p class="topic"><strong>Re: Dinner Tonight</strong></p>
@@ -663,13 +670,13 @@
             <li>
 
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeMike
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemLeft("#swipeMike");
                    ]@
-                 -->
+                 --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeMike"},this);</script>
 
 
                 <a id="swipeMike" href="#demo-mail">
@@ -683,13 +690,13 @@
             <li>
 
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeRedfin
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemLeft("#swipeRedfin");
                    ]@
-                 -->
+                 --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeRedfin"},this);</script>
                 <a id="swipeRedfin" href="#demo-mail">
                     <h3>Redfin</h3>
                     <p class="topic"><strong>Redfin listing updates for today</strong></p>
@@ -700,13 +707,13 @@
             </li>
             <li>
                 <!--
-                   [scrap
+                   @[scrap
                       @@name swipeAngela
-                      @@run@ swipeItemsManager
+
                       @@embed true
                       @@jqm swipeItemLeft("#swipeAngela");
                    ]@
-                 -->
+                 --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeAngela"},this);</script>
                 <a id="swipeAngela" href="#demo-mail">
                     <h3>Angela Smith</h3>
                     <p class="topic"><strong>Link Request</strong></p>
@@ -805,42 +812,42 @@
         <p id="question">Are you sure you want to delete:</p>
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeMikeDel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#yes");
               ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeMikeDel"},this);</script>
 
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeRedfinCancel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#cancel");
               ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeRedfinCancel"},this);</script>
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeAveryCancel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#cancel");
               ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeAveryCancel"},this);</script>
 
 
         <!--
-              [scrap
+              @[scrap
                  @@name swipeAngelaDel
-                 @@run@ swipeItemsManager
+
                  @@embed true
                  @@jqm click("#yes");
               ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.swipe-list.index.html.swipeAngelaDel"},this);</script>
 
 
         <div class="ui-grid-a">

@@ -15,13 +15,20 @@
         #demo-borders .ui-collapsible-heading .ui-btn { border-top-width: 1px !important; }
     </style>
     <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
 ]
 ]@
--->
+--><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
 
 </head>
 <body>
@@ -31,13 +38,13 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuCollapsibleClick
-                       @@run@ collapsibleManager
+
                        @@embed true
                        @@jqm clickRef("#appMenuCollapsible");
                     ]@
-                  -->
+                  --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.appMenuCollapsibleClick"},this);</script>
         <a id="appMenuCollapsible" href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
         <a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
     </div><!-- /header -->
@@ -52,25 +59,23 @@
 
         <p>To create a collapsible block of content, create a container and add the <code> data-role="collapsible"</code> attribute. Directly inside this container, add any header (H1-H6) or legend element. The framework will style the header to look like a clickable button and add a "+" icon to the left to indicate it's expandable. After the header, add any HTML markup you want to be collapsible. The framework will wrap this markup in a container that will be hidden/shown when the heading is clicked.</p>
         <!--
-                  [scrap
+                  @[scrap
                      @@name basicCollapsibleScroll
-                     @@run@ collapsibleManager
+
                      @@embed true
                      @@jqm scrollTo("#basicCollapsibleScroll");
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.basicCollapsibleScroll"},this);</script>
 
         <!--
-                     [scrap
+                     @[scrap
                         @@name basicCollapsibleClick
-                        @@run@ collapsibleManager
+
                         @@embed true
                         @@jqm collapsible("#basicCollapsible");
                         @@assert ok(!$('#basicCollapsible').collapsible( 'option' ).collapsed,'radio-choice-v-2c is checked')
-
-
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.basicCollapsibleClick"},this);</script>
 
         <div id="basicCollapsibleScroll" data-demo-html="true">
             <div id="basicCollapsible" data-role="collapsible">
@@ -157,69 +162,69 @@
 
         <h2>Legend</h2>
         <!--
-                      [scrap
+                      @[scrap
                          @@name legendScroll
-                         @@run@ collapsibleManager
+
                          @@embed true
                          @@jqm scrollTo("#legend");
                       ]@
-                 -->
+                 --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.legendScroll"},this);</script>
 
 
         <p id="legend">For forms, use a <code>fieldset</code> and <code>legend</code> for the collapsible.</p>
         <div data-demo-html="true">
             <form>
                 <!--
-                     [scrap
+                     @[scrap
                         @@name legendClick
-                        @@run@ collapsibleManager
+
                         @@embed true
                         @@jqm collapsible("#legendClick");
                         @@assert ok(!$('#basicCollapsible').collapsible( 'option' ).collapsed,'radio-choice-v-2c is checked')
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.legendClick"},this);</script>
 
                 <!--
-                 [scrap
+                 @[scrap
                     @@name setTextLegend
-                    @@run@ collapsibleManager
+
                     @@embed true
                     @@jqm setText("#textinput-f", "hello from legend");
                      @@assert ok($('#textinput-f').val()=='hello from legend','textinput-f text is correct')
                  ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.setTextLegend"},this);</script>
 
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name setCheckCollaps3
-                     @@run@ collapsibleManager
+
                      @@embed true
                      @@jqm setCheck("#checkbox-3-a");
                      @@assert ok($('#checkbox-3-a').is(':checked'),'checkbox-3-a is checked')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.setCheckCollaps3"},this);</script>
 
 
                 <!--
-                  [scrap
+                  @[scrap
                      @@name setCheckCollaps1
-                     @@run@ collapsibleManager
+
                      @@embed true
                      @@jqm setCheck("#checkbox-1-a");
                      @@assert ok($('#checkbox-1-a').is(':checked'),'checkbox-1-a is checked')
                   ]@
-             -->
+             --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.setCheckCollaps1"},this);</script>
 
                 <!--
-                     [scrap
+                     @[scrap
                         @@name legendUnClick
-                        @@run@ collapsibleManager
+
                         @@embed true
                         @@jqm collapsible("#legendClick");
                         @@assert ok($('#legendClick').collapsible( 'option' ).collapsed,'legendClick is checked')
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.legendUnClick"},this);</script>
 
                 <fieldset id="legendClick" data-role="collapsible">
                     <legend >Legend</legend>
@@ -467,40 +472,36 @@
 
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name selectMenuScroll
-                    @@run@ collapsibleManager
                     @@embed true
                     @@jqm scrollTo("#selectMenu");
                  ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.selectMenuScroll"},this);</script>
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name selectMenuClick
-                        @@run@ collapsibleManager
                         @@embed true
                         @@jqm click("#selectMenu");
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.selectMenuClick"},this);</script>
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name selectMenuScroll2
-                      @@run@ collapsibleManager
                       @@embed true
                       @@jqm scrollTo("#selectMenu");
                    ]@
-              -->
+              --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.selectMenuScroll2"},this);</script>
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name selectmenuRef
-                     @@run@ collapsibleManager
                      @@embed true
                      @@jqm clickRef("#selectmenuRef");
                   ]@
-                -->
+                --><script>_cat.core.action(this, {"pkgName":"jquery.collapsible.index.html.selectmenuRef"},this);</script>
 
     <!--
                [scrap

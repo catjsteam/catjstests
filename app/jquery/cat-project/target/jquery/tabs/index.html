@@ -24,13 +24,20 @@
 	</style>
 
         <!--
-[scrap
+@[scrap
 @@name catImport
 @@import[
     ../cat/lib/cat.js
 ]
 ]@
--->
+--><link rel="stylesheet" href="../cat/lib/cat.css" type="text/css" charset="utf-8" /> 
+ <script id="catlibunderscore-minjs" src="../cat/lib/underscore-min.js" ></script> 
+ <script id="catlibjsutils-minjs" src="../cat/lib/jsutils-min.js" ></script> 
+ <script id="catlibtmr-minjs" src="../cat/lib/tmr-min.js" ></script> 
+ <script id="catlibjspathjs" src="../cat/lib/jspath.js" ></script> 
+ <script id="catlibchaijs" src="../cat/lib/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat.js" ></script> 
+ <script id="catlibcatsrcjs" src="../cat/lib/cat.src.js" onload="_cat.core.init()"></script>
 
 </head>
 <body>
@@ -40,13 +47,12 @@
 		<h2><a href="../" title="jQuery Mobile Demos home"><img src="../jqmlib/img/jquery-logo.png" alt="jQuery Mobile"></a></h2>
 		<p><span class="jqm-version"></span> Demos</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name appMenuTabsClick
-                       @@run@ tabsManager
-                       @@embed true
+                          @@embed true
                        @@jqm clickRef("#appMenuTabs");
                     ]@
-                  -->
+                  --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.appMenuTabsClick"},this);</script>
 		<a id="appMenuTabs" href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
 		<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
 	</div><!-- /header -->
@@ -58,39 +64,38 @@
 		<p>The jQuery mobile tabs widget is actually just an extension of the jQuery ui tabs widget and takes all the same options and methods</p>
 			</p>
         <!--
-                    [scrap
+                    @[scrap
                        @@name navScroll
-                       @@run@ tabsManager
-                       @@embed true
+                          @@embed true
                        @@jqm scrollTo("#navTabs");
                     ]@
-               -->
+               --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.navScroll"},this);</script>
 
         <!--
-          [scrap
+          @[scrap
              @@name navTabSelect2
              @@run@ tabsManager
              @@embed true
              @@jqm selectTab("#navTab2");
           ]@
-     -->
+     --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.navTabSelect2"},this);</script>
 
         <!--
-          [scrap
+          @[scrap
              @@name navTabSelect3
              @@run@ tabsManager
              @@embed true
              @@jqm selectTab("#navTab3");
           ]@
-     -->
+     --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.navTabSelect3"},this);</script>
         <!--
-          [scrap
+          @[scrap
              @@name navTabSelect1
              @@run@ tabsManager
              @@embed true
              @@jqm selectTab("#navTab1");
           ]@
-     -->
+     --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.navTabSelect1"},this);</script>
 
 		<h2 id="navTabs">Use navbar for tabs</h2>
 		<div data-demo-html="true">
@@ -119,39 +124,38 @@
 		<div data-demo-html="true" data-demo-css="#inset-tablist">
 
             <!--
-                    [scrap
+                    @[scrap
                        @@name listTabsScroll
-                       @@run@ tabsManager
-                       @@embed true
+                          @@embed true
                        @@jqm scrollTo("#listTabs");
                     ]@
-               -->
+               --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.listTabsScroll"},this);</script>
 
             <!--
-              [scrap
+              @[scrap
                  @@name listTabsSelect3
                  @@run@ tabsManager
                  @@embed true
                  @@jqm selectTab("#listTabsSelect3");
               ]@
-         -->
+         --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.listTabsSelect3"},this);</script>
 
             <!--
-              [scrap
+              @[scrap
                  @@name listTabsSelect1
                  @@run@ tabsManager
                  @@embed true
                  @@jqm selectTab("#listTabsSelect1");
               ]@
-         -->
+         --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.listTabsSelect1"},this);</script>
             <!--
-              [scrap
+              @[scrap
                  @@name listTabsSelect2
                  @@run@ tabsManager
                  @@embed true
                  @@jqm selectTab("#listTabsSelect2");
               ]@
-         -->
+         --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.listTabsSelect2"},this);</script>
 
 		    <h2 id="listTabs">Use inset listview for tabs</h2>
 		    <div id="listTabsNavs" data-role="tabs">
@@ -212,40 +216,37 @@
 <li data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false">
 
     <!--
-                 [scrap
+                 @[scrap
                     @@name eventsMenuScroll
                     @@run@ tabsManager
                     @@embed true
                     @@jqm scrollTo("#eventsMenu");
                  ]@
-            -->
+            --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.eventsMenuScroll"},this);</script>
 
     <!--
-                     [scrap
+                     @[scrap
                         @@name eventsMenuClick
-                        @@run@ tabsManager
-                        @@embed true
+                            @@embed true
                         @@jqm click("#eventsMenu");
                      ]@
-                   -->
+                   --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.eventsMenuClick"},this);</script>
 
     <!--
-                   [scrap
+                   @[scrap
                       @@name eventsMenuScroll2
-                      @@run@ tabsManager
-                      @@embed true
+                        @@embed true
                       @@jqm scrollTo("#eventsMenu");
                    ]@
-              -->
+              --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.eventsMenuScroll2"},this);</script>
 
     <!--
-                  [scrap
+                  @[scrap
                      @@name swipeListRef
-                     @@run@ tabsManager
-                     @@embed true
+                      @@embed true
                      @@jqm clickRef("#swipeList");
                   ]@
-                -->
+                --><script>_cat.core.action(this, {"pkgName":"jquery.tabs.index.html.swipeListRef"},this);</script>
 
 	<h3 id="eventsMenu">Events</h3>
 	<ul>
