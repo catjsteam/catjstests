@@ -1,0 +1,999 @@
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24534
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24534
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:22:39 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:22:40 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:22:43 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:22:44 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:22:44 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:22:44 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:23:04 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:25:25 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:25:25 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:25:26 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:25:26 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:25:35 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:25:35 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:25:36 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:25:36 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:25:38 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:25:38 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:25:39 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:25:39 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:25:40 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:25:40 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:25:41 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:25:41 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:25:45 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:25:55 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:25:58 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:26:00 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24734
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24734
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:28:02 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:28:03 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24788
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24788
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:29:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:29:17 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:29:20 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:29:20 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:29:20 GMT+0200 (IST)] INFO requesting generalJSErrorUncaught TypeError: undefined is not a function  ;file:  http://localhost:8080/cat/lib/cat/cat.src.js  ;line:  126  ;column: 40  ;error: TypeError: undefined is not a functionfailure
+[Thu Jan 22 2015 16:29:20 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ✖Test generalJSError Uncaught TypeError: undefined is not a function  ;file:  http://localhost:8080/cat/lib/cat/cat.src.js  ;line:  126  ;column: 40  ;error: TypeError: undefined is not a function
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24818
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24818
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:29:33 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:29:34 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:29:36 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:29:36 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:29:36 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:29:36 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:29:56 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24931
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24931
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:32:49 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:32:50 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24968
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24968
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:33:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:33:48 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 24999
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO watch: false kill: -1 process: 24999
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:34:17 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:34:18 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:34:21 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:34:21 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:34:22 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:34:22 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25021
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25021
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:26 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:34:27 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:34:29 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:34:29 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:34:30 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:34:30 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:34:39 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:34:39 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:34:49 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:34:59 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25072
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25072
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:35:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:35:45 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:35:46 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:35:47 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:35:47 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:36:04 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:36:04 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:36:07 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:36:19 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:36:19 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:36:39 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25289
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@libs.rebuild"],"argv":{"remain":[],"cooked":["--task","t@libs.rebuild"],"original":["--task","t@libs.rebuild"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25289
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:42:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:42:44 GMT+0200 (IST)] ERROR "[libraries] Failed to copy file: '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js' Error: ENOENT, no such file or directory '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js'"
+[Thu Jan 22 2015 16:42:44 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:42:44 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25372
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@libs.rebuild"],"argv":{"remain":[],"cooked":["--task","t@libs.rebuild"],"original":["--task","t@libs.rebuild"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25372
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:44:46 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:44:47 GMT+0200 (IST)] ERROR "[libraries] Failed to copy file: '/home/arik/dev/projects/lastboy/catjs/src/libraries/cat/target/cat.js' Error: ENOENT, no such file or directory '/home/arik/dev/projects/lastboy/catjs/src/libraries/cat/target/cat.js'"
+[Thu Jan 22 2015 16:44:47 GMT+0200 (IST)] ERROR "[libraries] Failed to copy file: '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js' Error: ENOENT, no such file or directory '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js'"
+[Thu Jan 22 2015 16:44:47 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:44:47 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:44:47 GMT+0200 (IST)] ERROR "[libraries] Failed to copy file: '/home/arik/dev/projects/lastboy/catjs/src/libraries/cat/target/cat.js' Error: ENOENT, no such file or directory '/home/arik/dev/projects/lastboy/catjs/src/libraries/cat/target/cat.js'"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25404
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@libs.rebuild"],"argv":{"remain":[],"cooked":["--task","t@libs.rebuild"],"original":["--task","t@libs.rebuild"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25404
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:45:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:45:09 GMT+0200 (IST)] ERROR "[libraries] Failed to copy file: '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js' Error: ENOENT, no such file or directory '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js'"
+[Thu Jan 22 2015 16:45:09 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:45:09 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25421
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25421
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:45:15 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:45:16 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:45:20 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:45:20 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:45:20 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:45:23 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:45:23 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:45:27 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:45:27 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:45:40 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:45:47 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:45:52 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:45:52 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25508
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25508
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:47:42 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:47:43 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:47:48 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:47:48 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:47:48 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:47:48 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:47:50 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:47:50 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:47:51 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:47:51 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:48:08 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:48:10 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25577
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@clean","t@init","t@scrap","t@inject","t@autotest","t@server.start"],"argv":{"remain":[],"cooked":["--task","t@clean","--task","t@init","--task","t@scrap","--task","t@inject","--task","t@autotest","--task","t@server.start"],"original":["-cbas"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25577
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: clean
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: clean
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: fileparse
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: fileparse
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-common
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-common
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-jasmine
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jasmine
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-sencha
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-sencha
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-jquery
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jquery
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-jqm
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-jqm
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-vnc
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-vnc
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-enyo
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-enyo
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-screenshot
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-screenshot
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap-deviceinfo
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap-deviceinfo
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: scrap
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: scrap
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: custom-plugin
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: custom-plugin
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] INFO [CAT] running target: inject
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG [Action] Instantiating action: inject
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[cat mdata] CAT metadata file loaded successfully "
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[inject ext] Source file '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/cache/todomvc-jquery-test/js/app.js' created"
+[Thu Jan 22 2015 16:49:08 GMT+0200 (IST)] DEBUG "[inject ext] CAT metadata file saved successfully "
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] INFO [CAT] running target: minify
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] DEBUG [Action] Instantiating action: minify
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] INFO [CAT] running target: autotest
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] DEBUG [Action] Instantiating action: autotest
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] INFO [CAT] running target: copy
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] DEBUG [Action] Instantiating action: copy
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] INFO [CAT] running target: webserver
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] DEBUG [Action] Instantiating action: webserver
+[Thu Jan 22 2015 16:49:09 GMT+0200 (IST)] INFO [catjs server] Server Started, listening to port:8080
+[Thu Jan 22 2015 16:49:13 GMT+0200 (IST)] INFO requesting StartStartStart
+[Thu Jan 22 2015 16:49:13 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test Start  ========
+[Thu Jan 22 2015 16:49:16 GMT+0200 (IST)] INFO requesting EndEndEnd
+[Thu Jan 22 2015 16:49:16 GMT+0200 (IST)] INFO [36ef34b9-586a-f4dd-2b63-29c9a04212a8]   Chrome 38.0.2125.122 Linux ======== Test End - succeeded ========
+[Thu Jan 22 2015 16:49:33 GMT+0200 (IST)] INFO [CAT] Tests stopped reporting, probably a network problem, failing the rest of the tests
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] INFO 
+
+[CAT] Initial LOG -----------------------------------------------------------------------
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] INFO [CAT] Initial CAT process: 25673
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] DEBUG [CAT] Initial, current location: /home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] DEBUG [CAT] Initial, command line arguments: {"task":["t@libs.rebuild"],"argv":{"remain":[],"cooked":["--task","t@libs.rebuild"],"original":["--task","t@libs.rebuild"]},"home":{"path":"/home/arik/dev/projects/lastboy/catjs","working":{"path":"/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project"}}}
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] INFO watch: false kill: -1 process: 25673
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] WARNING [CAT Config] Missing 'dependencies' configuration section
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/src/' already exists"
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] DEBUG "[cat config] Project's resource '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery/cat-project/target/' already exists"
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: scrapfilter"
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'scrapfilter' entry"
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] WARNING "[utils resolver] the object was partially resolved, check your query: dependencies"
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] WARNING "[cat config] No valid configuration, missing 'dependencies' entry"
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] INFO [base extension] Initialized
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:51:53 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
+[Thu Jan 22 2015 16:51:54 GMT+0200 (IST)] ERROR "[libraries] Failed to copy file: '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js' Error: ENOENT, no such file or directory '/home/arik/dev/projects/lastboy/catjs/src/libraries/requirejs/requirejs.js'"
+[Thu Jan 22 2015 16:51:54 GMT+0200 (IST)] INFO [CAT] running target: libraries
+[Thu Jan 22 2015 16:51:54 GMT+0200 (IST)] DEBUG [Action] Instantiating action: libraries
