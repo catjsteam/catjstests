@@ -13,7 +13,7 @@ _cat.core.declare('jquery.swipe-list.index.html.appMenuSwipeListClick$$cat', {
     "name": ["appMenuSwipeListClick"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#appMenuSwipeList\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 148,
@@ -75,7 +75,7 @@ _cat.core.declare('jquery.swipe-list.index.html.appMenuSwipeListClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_a6ed9be4-7f07-5d85-b8e7-4f89bc40e622",
+    "id": "scrap_c8082011-62c7-a30d-c8ef-6df7061c4b4a",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.appMenuSwipeListClick"
   }
@@ -95,7 +95,7 @@ _cat.core.declare('jquery.swipe-list.index.html.openSwipe$$cat', {
     "name": ["openSwipe"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#openSwipe\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 166,
@@ -157,7 +157,7 @@ _cat.core.declare('jquery.swipe-list.index.html.openSwipe$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_f1af0dba-24e2-87c7-7b3f-5f48ad45e7ce",
+    "id": "scrap_875f62da-9acf-9b29-fe91-ac23267dcfc3",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.openSwipe"
   }
@@ -177,7 +177,7 @@ _cat.core.declare('jquery.swipe-list.index.html.homePageRef$$cat', {
     "name": ["homePageRef"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#homePage\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 182,
@@ -239,7 +239,7 @@ _cat.core.declare('jquery.swipe-list.index.html.homePageRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_b4ed334d-5d05-3aaa-44d4-b6dfbcdced1f",
+    "id": "scrap_9bb56f9b-5c03-262f-889e-2085ccbd953e",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.homePageRef"
   }
@@ -259,7 +259,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuScrollSwipeItems$$cat'
     "name": ["eventsMenuScrollSwipeItems"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#eventsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 220,
@@ -321,7 +321,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuScrollSwipeItems$$cat'
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_b0de4665-ee26-43e4-7ae1-81cebdc9e148",
+    "id": "scrap_7dc199d5-5f2a-9fcf-25e6-40dd73c96493",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.eventsMenuScrollSwipeItems"
   }
@@ -341,7 +341,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuClickSwipeItems$$cat',
     "name": ["eventsMenuClickSwipeItems"],
     "embed": ["true"],
     "jqm": ["click(\"#eventsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 229,
@@ -403,7 +403,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuClickSwipeItems$$cat',
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_c9327514-1c64-0fc8-fdc9-f70694814202",
+    "id": "scrap_9d4ca93d-6f97-f4b9-9216-2ce8ae830757",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.eventsMenuClickSwipeItems"
   }
@@ -423,7 +423,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems$$cat
     "name": ["eventsMenuScroll2SwipeItems"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#eventsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 238,
@@ -485,7 +485,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems$$cat
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_9230c9af-aaa1-301c-4633-9d97667fd761",
+    "id": "scrap_1fcb5af8-7a16-5f90-d211-86669800d26a",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems"
   }
@@ -505,7 +505,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipePageRef$$cat', {
     "name": ["swipePageRef"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#swipePage\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 247,
@@ -567,7 +567,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipePageRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_09346076-0946-086d-f1fc-128a5a3bc3c7",
+    "id": "scrap_b468ca64-19e7-c0bf-4ec6-0650bc213ed2",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipePageRef"
   }
@@ -587,7 +587,7 @@ _cat.core.declare('jquery.swipe-list.index.html.backBtn$$cat', {
     "name": ["backBtn"],
     "embed": ["true"],
     "jqm": ["clickButton(\"#backBtn\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 622,
@@ -649,7 +649,7 @@ _cat.core.declare('jquery.swipe-list.index.html.backBtn$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_e26cfffa-441a-b202-e150-d19605c0d20d",
+    "id": "scrap_d4f6adf8-26f7-6340-37f7-545b98042959",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.backBtn"
   }
@@ -669,7 +669,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAvery$$cat', {
     "name": ["swipeAvery"],
     "embed": ["true"],
     "jqm": ["swipeItemRight(\"#swipeAvery\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 639,
@@ -731,7 +731,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAvery$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_61ae2da7-94d3-63d7-be5d-0b29aaecba89",
+    "id": "scrap_2ae40b02-902e-f85a-b405-762babab439b",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAvery"
   }
@@ -751,7 +751,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeMike$$cat', {
     "name": ["swipeMike"],
     "embed": ["true"],
     "jqm": ["swipeItemLeft(\"#swipeMike\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 666,
@@ -813,7 +813,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeMike$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_15316782-0c2a-5ec7-a845-bb4a32221259",
+    "id": "scrap_0dae71f0-3860-d4c3-1474-aa5dddf31770",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeMike"
   }
@@ -833,7 +833,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeRedfin$$cat', {
     "name": ["swipeRedfin"],
     "embed": ["true"],
     "jqm": ["swipeItemLeft(\"#swipeRedfin\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 686,
@@ -895,7 +895,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeRedfin$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_45a4f1d0-3828-90bf-6736-4b5e7d6625c1",
+    "id": "scrap_0ba52764-2f39-890d-9930-3d1bbd18f0fa",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeRedfin"
   }
@@ -915,7 +915,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAngela$$cat', {
     "name": ["swipeAngela"],
     "embed": ["true"],
     "jqm": ["swipeItemLeft(\"#swipeAngela\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 703,
@@ -977,7 +977,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAngela$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_8d0991f7-8ef0-9d57-54fc-f7b2a8284cd9",
+    "id": "scrap_e3ebb304-fd9e-2740-4560-ba810b652f0d",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAngela"
   }
@@ -997,7 +997,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeMikeDel$$cat', {
     "name": ["swipeMikeDel"],
     "embed": ["true"],
     "jqm": ["click(\"#yes\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 808,
@@ -1059,7 +1059,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeMikeDel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_5421a768-e40b-433f-2f2a-5049424a6ec4",
+    "id": "scrap_f5319627-fd3c-72d8-0762-e4a2d79e998e",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeMikeDel"
   }
@@ -1079,7 +1079,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeRedfinCancel$$cat', {
     "name": ["swipeRedfinCancel"],
     "embed": ["true"],
     "jqm": ["click(\"#cancel\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 818,
@@ -1141,7 +1141,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeRedfinCancel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_2ceb3f15-7f1a-3071-8de3-813d7f03f130",
+    "id": "scrap_41446410-0892-7fff-fb02-0d72c6a992a8",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeRedfinCancel"
   }
@@ -1161,7 +1161,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAveryCancel$$cat', {
     "name": ["swipeAveryCancel"],
     "embed": ["true"],
     "jqm": ["click(\"#cancel\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 827,
@@ -1223,7 +1223,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAveryCancel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_e113169f-b477-e867-8396-12f53adcb60b",
+    "id": "scrap_0aea90f4-e5f7-8f1b-46fd-d5160d9eb95e",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAveryCancel"
   }
@@ -1243,7 +1243,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAngelaDel$$cat', {
     "name": ["swipeAngelaDel"],
     "embed": ["true"],
     "jqm": ["click(\"#yes\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/swipe-list/index.html",
     "scrapinfo": {
       "start": {
         "line": 837,
@@ -1305,7 +1305,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAngelaDel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_3e5cb706-d05e-431d-19de-06c39a43e9ae",
+    "id": "scrap_8b0a99b8-826c-7b06-07f3-42ffefb07775",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAngelaDel"
   }

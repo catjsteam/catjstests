@@ -204,8 +204,7 @@
             {"name" : "swipeAngela"},
             {"name" : "swipeAngelaDel"},
             {"name" : "backBtn"},
-            {"name" : "appMenuSwipeListClick"},
-            {"name" : "homePageRef"}
+            {"name" : "appMenuSwipeListClick"}
 
 ]
       }

@@ -13,7 +13,7 @@ _cat.core.declare('jquery.collapsible.index.html.appMenuCollapsibleClick$$cat', 
     "name": ["appMenuCollapsibleClick"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#appMenuCollapsible\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 34,
@@ -75,7 +75,7 @@ _cat.core.declare('jquery.collapsible.index.html.appMenuCollapsibleClick$$cat', 
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_63ede8a4-39b9-2dc2-ff11-73accb0103e1",
+    "id": "scrap_3cf7424b-6334-ed36-a85c-db7850aab9c7",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.appMenuCollapsibleClick"
   }
@@ -95,7 +95,7 @@ _cat.core.declare('jquery.collapsible.index.html.basicCollapsibleScroll$$cat', {
     "name": ["basicCollapsibleScroll"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#basicCollapsibleScroll\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 55,
@@ -157,7 +157,7 @@ _cat.core.declare('jquery.collapsible.index.html.basicCollapsibleScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_53905aa5-ab74-b091-d3ec-a2e58bca756e",
+    "id": "scrap_3dbe9859-b292-b44b-d563-eba41cf521dd",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.basicCollapsibleScroll"
   }
@@ -181,7 +181,7 @@ _cat.core.declare('jquery.collapsible.index.html.basicCollapsibleClick$$cat', {
     "embed": ["true"],
     "jqm": ["collapsible(\"#basicCollapsible\");"],
     "assert": ["ok(!$('#basicCollapsible').collapsible( 'option' ).collapsed,'radio-choice-v-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 64,
@@ -245,7 +245,7 @@ _cat.core.declare('jquery.collapsible.index.html.basicCollapsibleClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_470d7982-0fc2-d68c-1c13-068233dc9a55",
+    "id": "scrap_27d187e1-26fd-f93e-3aea-131a779e25e9",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.basicCollapsibleClick"
   }
@@ -265,7 +265,7 @@ _cat.core.declare('jquery.collapsible.index.html.legendScroll$$cat', {
     "name": ["legendScroll"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#legend\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 158,
@@ -327,7 +327,7 @@ _cat.core.declare('jquery.collapsible.index.html.legendScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_42745d03-2162-f43f-ad93-f493bd6a193b",
+    "id": "scrap_11f73678-ccca-ca0d-61d4-115ec1e50a16",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.legendScroll"
   }
@@ -351,7 +351,7 @@ _cat.core.declare('jquery.collapsible.index.html.legendClick$$cat', {
     "embed": ["true"],
     "jqm": ["collapsible(\"#legendClick\");"],
     "assert": ["ok(!$('#basicCollapsible').collapsible( 'option' ).collapsed,'radio-choice-v-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 171,
@@ -415,7 +415,7 @@ _cat.core.declare('jquery.collapsible.index.html.legendClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_3932ccb0-791b-9503-a586-55cb1c78f3da",
+    "id": "scrap_5e1ee80a-0c0a-8ad2-138d-1b62e1242736",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.legendClick"
   }
@@ -439,7 +439,7 @@ _cat.core.declare('jquery.collapsible.index.html.setTextLegend$$cat', {
     "embed": ["true"],
     "jqm": ["setText(\"#textinput-f\", \"hello from legend\");"],
     "assert": ["ok($('#textinput-f').val()=='hello from legend','textinput-f text is correct');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 181,
@@ -503,7 +503,7 @@ _cat.core.declare('jquery.collapsible.index.html.setTextLegend$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_473bf348-449b-dbe0-8d7a-7c16d041b1a1",
+    "id": "scrap_61caa8f0-f8ad-f136-560c-09d5eadf0865",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.setTextLegend"
   }
@@ -527,7 +527,7 @@ _cat.core.declare('jquery.collapsible.index.html.setCheckCollaps3$$cat', {
     "embed": ["true"],
     "jqm": ["setCheck(\"#checkbox-3-a\");"],
     "assert": ["ok($('#checkbox-3-a').is(':checked'),'checkbox-3-a is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 192,
@@ -591,7 +591,7 @@ _cat.core.declare('jquery.collapsible.index.html.setCheckCollaps3$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_204f469e-2757-2e83-05c9-9210de9e9ac7",
+    "id": "scrap_d22ad7d0-3df7-bad9-8c83-293a29b4c4b5",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.setCheckCollaps3"
   }
@@ -615,7 +615,7 @@ _cat.core.declare('jquery.collapsible.index.html.setCheckCollaps1$$cat', {
     "embed": ["true"],
     "jqm": ["setCheck(\"#checkbox-1-a\");"],
     "assert": ["ok($('#checkbox-1-a').is(':checked'),'checkbox-1-a is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 203,
@@ -679,7 +679,7 @@ _cat.core.declare('jquery.collapsible.index.html.setCheckCollaps1$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_76f697c2-0185-7d07-8254-7a90393ad550",
+    "id": "scrap_3112ccac-ee40-6d79-a136-787351d7f64a",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.setCheckCollaps1"
   }
@@ -703,7 +703,7 @@ _cat.core.declare('jquery.collapsible.index.html.legendUnClick$$cat', {
     "embed": ["true"],
     "jqm": ["collapsible(\"#legendClick\");"],
     "assert": ["ok($('#legendClick').collapsible( 'option' ).collapsed,'legendClick is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 213,
@@ -767,7 +767,7 @@ _cat.core.declare('jquery.collapsible.index.html.legendUnClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_7d248bfa-f0c7-44ad-98a0-037d75798b73",
+    "id": "scrap_40b709d1-fcf0-cd5e-b6b5-1b2c6b3fe9a0",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.legendUnClick"
   }
@@ -787,7 +787,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectMenuScroll$$cat', {
     "name": ["selectMenuScroll"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#selectMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 468,
@@ -849,7 +849,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectMenuScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_8632e0ea-2adc-0329-561d-de1c449e9a45",
+    "id": "scrap_d8759f42-688a-51ca-f8b6-7f023632fb9c",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.selectMenuScroll"
   }
@@ -869,7 +869,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectMenuClick$$cat', {
     "name": ["selectMenuClick"],
     "embed": ["true"],
     "jqm": ["click(\"#selectMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 476,
@@ -931,7 +931,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectMenuClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_9b8645df-2c04-a777-ddad-fd309f7df7fb",
+    "id": "scrap_24eec96d-48d7-eb42-de56-52cfdf747b97",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.selectMenuClick"
   }
@@ -951,7 +951,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectMenuScroll2$$cat', {
     "name": ["selectMenuScroll2"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#selectMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 484,
@@ -1013,7 +1013,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectMenuScroll2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_4d1fd6e4-a4ae-8db8-80a7-8243f3aa1972",
+    "id": "scrap_a1af74f4-018c-9c80-293f-da721ff29f7a",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.selectMenuScroll2"
   }
@@ -1033,7 +1033,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectmenuRef$$cat', {
     "name": ["selectmenuRef"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#selectmenuRef\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/collapsible/index.html",
     "scrapinfo": {
       "start": {
         "line": 492,
@@ -1095,7 +1095,7 @@ _cat.core.declare('jquery.collapsible.index.html.selectmenuRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_e58ad3f1-f2e0-ddad-35e6-8bfccb13a469",
+    "id": "scrap_e4265707-de9b-d7dc-cf85-2a7393d87edc",
     "$type": "html",
     "pkgName": "jquery.collapsible.index.html.selectmenuRef"
   }

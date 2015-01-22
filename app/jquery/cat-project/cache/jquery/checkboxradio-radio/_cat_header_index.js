@@ -18,7 +18,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.appMenuRadioClick$$cat'
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#appMenuRadio\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 30,
@@ -82,7 +82,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.appMenuRadioClick$$cat'
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_f7ef97e1-d067-8751-594b-a02cb9482680",
+    "id": "scrap_6f3f99c4-af88-211d-6eb7-b94a95a0cb78",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.appMenuRadioClick"
   }
@@ -107,7 +107,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verDivScroll$$cat', {
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#verDiv\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 70,
@@ -171,7 +171,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verDivScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_74064751-395d-b327-6ca4-c1f3640e6829",
+    "id": "scrap_f40c2199-6259-bc18-f9c3-af6b90f86d0d",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.verDivScroll"
   }
@@ -200,7 +200,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verGroupRadio$$cat', {
     "embed": ["true"],
     "jqm": ["checkRadio(\"verRadioGroup\", \"radio-choice-v-2c\");"],
     "assert": ["ok($('#radio-choice-v-2c').is(':checked'),'radio-choice-v-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 79,
@@ -266,7 +266,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verGroupRadio$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_8ebf5331-bcff-3a5f-5278-2236d1ec2448",
+    "id": "scrap_d55b7910-f155-b385-0b16-ccf2c169522b",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.verGroupRadio"
   }
@@ -295,7 +295,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verGroupRadio2$$cat', {
     "embed": ["true"],
     "jqm": ["checkRadio(\"verRadioGroup\", \"radio-choice-v-2a\");"],
     "assert": ["ok($('#radio-choice-v-2a').is(':checked'),'radio-choice-v-2a is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 89,
@@ -361,7 +361,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verGroupRadio2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_f7fd3671-076e-1a7d-27af-0af178a2904d",
+    "id": "scrap_f3600a9b-5d9f-5b61-f5c9-27cc5e155c12",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.verGroupRadio2"
   }
@@ -390,7 +390,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verGroupRadio3$$cat', {
     "embed": ["true"],
     "jqm": ["checkRadio(\"verRadioGroup\", \"radio-choice-v-2d\");"],
     "assert": ["ok($('#radio-choice-v-2d').is(':checked'),'radio-choice-v-2d is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 100,
@@ -456,7 +456,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.verGroupRadio3$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_1b0ecda0-7f56-e390-21ff-80d967059d61",
+    "id": "scrap_a9372261-a007-7ca2-0227-d660f74c49c1",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.verGroupRadio3"
   }
@@ -481,7 +481,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.horDivScroll$$cat', {
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#horDiv\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 132,
@@ -545,7 +545,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.horDivScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_96b79a10-683f-66ea-afe5-ef5736575a1a",
+    "id": "scrap_726805fa-f557-ed90-0ce7-b9dc653229c5",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.horDivScroll"
   }
@@ -574,7 +574,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.horGroupRadio$$cat', {
     "embed": ["true"],
     "jqm": ["checkRadio(\"horGroup\", \"radio-choice-h-2c\");"],
     "assert": ["ok($('#radio-choice-h-2c').is(':checked'),'radio-choice-h-2c is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 141,
@@ -640,7 +640,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.horGroupRadio$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_768f033e-ecf3-269b-09a9-80f6f9502349",
+    "id": "scrap_27cb5ab9-20f8-4d6b-cbbe-abd2dbd95d62",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.horGroupRadio"
   }
@@ -669,7 +669,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.horGroupRadio2$$cat', {
     "embed": ["true"],
     "jqm": ["checkRadio(\"horGroup\", \"radio-choice-h-2b\");"],
     "assert": ["ok($('#radio-choice-h-2b').is(':checked'),'radio-choice-h-2b is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 151,
@@ -735,7 +735,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.horGroupRadio2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_ada6899a-4266-5f32-33b4-20d76e704686",
+    "id": "scrap_939a4f3e-27d4-6aa9-25fd-30b370f93fdb",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.horGroupRadio2"
   }
@@ -760,7 +760,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.agreeDivScroll$$cat', {
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#agreeDiv\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 245,
@@ -824,7 +824,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.agreeDivScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_9de373b2-d916-97e9-4a39-df21bfd12de0",
+    "id": "scrap_eacc3c83-54be-7b2e-939f-c29c22e53f98",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.agreeDivScroll"
   }
@@ -853,7 +853,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.agreeGroupRadio$$cat', 
     "embed": ["true"],
     "jqm": ["checkRadio(\"agreeClass\", \"radio-enhanced\");"],
     "assert": ["ok($('#radio-enhanced').is(':checked'),'radio-enhanced is checked');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 254,
@@ -919,7 +919,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.agreeGroupRadio$$cat', 
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_289b0175-a096-cf8f-0884-812385093231",
+    "id": "scrap_86085d3b-18d2-1ef8-fc21-f826f9309fc7",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.agreeGroupRadio"
   }
@@ -944,7 +944,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleMenuScroll$$
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#collapsibleMenuScroll\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 286,
@@ -1008,7 +1008,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleMenuScroll$$
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_8b201349-cc7a-18b1-2e2c-2acfd82c213b",
+    "id": "scrap_ce6f3813-648a-c2dc-ca55-cb8ed78a5e60",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.collapsibleMenuScroll"
   }
@@ -1033,7 +1033,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleMenuClick$$c
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["click(\"#collapsibleMenuScroll\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 295,
@@ -1097,7 +1097,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleMenuClick$$c
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_a1dfa5eb-5ef7-5f2e-9b11-843c5e4ca1d2",
+    "id": "scrap_171a2931-aa3f-865d-8d92-a41935338142",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.collapsibleMenuClick"
   }
@@ -1122,7 +1122,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleMenuScroll2$
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#collapsibleMenuScroll\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 304,
@@ -1186,7 +1186,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleMenuScroll2$
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_f356c842-6b7a-2dd7-f9c0-8dee3599331b",
+    "id": "scrap_4818bf9e-dd49-a51e-9468-a3ed5d80bdb2",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.collapsibleMenuScroll2"
   }
@@ -1211,7 +1211,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleRef$$cat', {
     "run@": ["radioManager"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#collapsibleRef\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/checkboxradio-radio/index.html",
     "scrapinfo": {
       "start": {
         "line": 313,
@@ -1275,7 +1275,7 @@ _cat.core.declare('jquery.checkboxradio-radio.index.html.collapsibleRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_5a6c766c-d600-fa1c-51d6-9d87b7f7f35d",
+    "id": "scrap_6d73b1e0-18b8-73a0-af23-b1803ccdbcf2",
     "$type": "html",
     "pkgName": "jquery.checkboxradio-radio.index.html.collapsibleRef"
   }
