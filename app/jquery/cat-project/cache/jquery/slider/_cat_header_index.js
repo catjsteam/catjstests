@@ -82,7 +82,7 @@ _cat.core.declare('jquery.slider.index.html.basicSliderScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_b6b13dff-1058-e658-76fc-c42de9db0b63",
+    "id": "scrap_60f12fb6-854c-58a2-56b5-b0c4835fbf71",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.basicSliderScroll"
   }
@@ -177,7 +177,7 @@ _cat.core.declare('jquery.slider.index.html.slider25$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_bf58caec-2c2c-ac59-b2e6-4335698669c1",
+    "id": "scrap_08881712-4149-d3f0-fa9e-4922f43bacfd",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.slider25"
   }
@@ -266,7 +266,7 @@ _cat.core.declare('jquery.slider.index.html.HighlightScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_41077850-869c-c924-62a4-33a2a0124b3b",
+    "id": "scrap_456f322b-08d5-d917-d354-c98706df7627",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.HighlightScroll"
   }
@@ -361,7 +361,7 @@ _cat.core.declare('jquery.slider.index.html.sliderHighlight77$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_b9258216-ace4-1b48-5acc-c2e843d85da7",
+    "id": "scrap_10527f42-1506-8f3c-75c6-06e3b1da25fe",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.sliderHighlight77"
   }
@@ -450,7 +450,7 @@ _cat.core.declare('jquery.slider.index.html.scrollTopSlider$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_a032f589-7abf-7fd7-0bb6-c63a3fb65852",
+    "id": "scrap_8beda9cc-f0b6-a164-4cca-591af8230771",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.scrollTopSlider"
   }
@@ -539,7 +539,7 @@ _cat.core.declare('jquery.slider.index.html.appMenuSliderClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_bf754f94-f2ee-0b26-7863-eda38f7bf57d",
+    "id": "scrap_742d0c99-9116-9d07-66a8-220f099f6e87",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.appMenuSliderClick"
   }
@@ -628,7 +628,7 @@ _cat.core.declare('jquery.slider.index.html.formsMenuScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_be26ddf1-8e34-5926-2d63-d86577ccd720",
+    "id": "scrap_743c3454-f8db-686a-c605-80a2e5b0accc",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formsMenuScroll"
   }
@@ -717,7 +717,7 @@ _cat.core.declare('jquery.slider.index.html.formsMenuClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_dc8d5248-f36a-d46c-0cd0-5af915647359",
+    "id": "scrap_624619cc-d518-ad4a-5bb3-faed6413127b",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formsMenuClick"
   }
@@ -806,7 +806,7 @@ _cat.core.declare('jquery.slider.index.html.formsMenu2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_be9f8857-25e6-87df-cd3b-56e415f2f82a",
+    "id": "scrap_753993b0-b3ef-37c1-a3c4-9f9aada7943f",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formsMenu2"
   }
@@ -895,7 +895,7 @@ _cat.core.declare('jquery.slider.index.html.formRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_be80f6c8-2784-b624-0dc2-2ba2923b8710",
+    "id": "scrap_b4b2ba80-ad87-20db-4e86-370763a25a0c",
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formRef"
   }

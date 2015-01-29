@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <script src="../lib/jquery.js"></script>
     <title></title>
+    <!--
+        @[scrap
+        @@name catImport
+        @@import[
+           ../cat/lib/cat.js
+        ]
+        ]@
+    --><script id="catlibunderscoreunderscore-minjs" src="../cat/lib/underscore/underscore-min.js" ></script> 
+ <script id="catlibjsutilsjsutils-minjs" src="../cat/lib/js.utils/jsutils-min.js" ></script> 
+ <script id="catlibjspathjspathjs" src="../cat/lib/jspath/jspath.js" ></script> 
+ <script id="catlibflyerflyerminjs" src="../cat/lib/flyer/flyer.min.js" ></script> 
+ <script id="catlibchaichaijs" src="../cat/lib/chai/chai.js" ></script> 
+ <script id="catjsscript" src="../cat/lib/cat/cat.js" ></script> 
+ <script id="catlibcatcatsrcjs" src="../cat/lib/cat/cat.src.js" onload="_cat.core.init()"></script> 
+ <link rel="stylesheet" href="../cat/lib/cat/cat.css" type="text/css" charset="utf-8" />
+
 </head>
 <body>
     <h1>Hello from iframe2</h1>
@@ -12,11 +28,18 @@
         <input id="checkThird" type="text">
     </div>
     <!--
-     [scrap
-         @@name thirdScrap
+     @[scrap
+         @@name iframe5
          @@embed true
-         @@jqm clickButton("#thirdButton")
+         @@assert ok(true,"hello assert5");
      ]@
-     -->
+     --><script>_cat.core.action(this, {"pkgName":"iframe.page2.iframe2.html.iframe5"},this);</script>
+    <!--
+     @[scrap
+         @@name iframe6
+         @@embed true
+         @@assert ok(true,"hello assert6");
+     ]@
+     --><script>_cat.core.action(this, {"pkgName":"iframe.page2.iframe2.html.iframe6"},this);</script>
 </body>
 </html>

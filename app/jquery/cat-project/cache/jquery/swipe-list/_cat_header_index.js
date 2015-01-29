@@ -75,7 +75,7 @@ _cat.core.declare('jquery.swipe-list.index.html.appMenuSwipeListClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_a6ed9be4-7f07-5d85-b8e7-4f89bc40e622",
+    "id": "scrap_792780a3-4d2c-9141-058d-87cad766e272",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.appMenuSwipeListClick"
   }
@@ -157,7 +157,7 @@ _cat.core.declare('jquery.swipe-list.index.html.openSwipe$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_f1af0dba-24e2-87c7-7b3f-5f48ad45e7ce",
+    "id": "scrap_5881670a-3e67-b227-e32e-b95a3dff34c7",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.openSwipe"
   }
@@ -239,7 +239,7 @@ _cat.core.declare('jquery.swipe-list.index.html.homePageRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_b4ed334d-5d05-3aaa-44d4-b6dfbcdced1f",
+    "id": "scrap_59b8ed75-24c1-98d2-9dfa-3bbebcc1fc2e",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.homePageRef"
   }
@@ -321,7 +321,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuScrollSwipeItems$$cat'
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_b0de4665-ee26-43e4-7ae1-81cebdc9e148",
+    "id": "scrap_b236113e-a4d0-f52c-63f2-e38ac750a603",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.eventsMenuScrollSwipeItems"
   }
@@ -403,7 +403,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuClickSwipeItems$$cat',
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_c9327514-1c64-0fc8-fdc9-f70694814202",
+    "id": "scrap_44595f52-67bf-34ce-4729-cb0968080ce3",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.eventsMenuClickSwipeItems"
   }
@@ -485,7 +485,7 @@ _cat.core.declare('jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems$$cat
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_9230c9af-aaa1-301c-4633-9d97667fd761",
+    "id": "scrap_9ace7784-416c-342d-4074-d7bec2f85fd6",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.eventsMenuScroll2SwipeItems"
   }
@@ -567,7 +567,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipePageRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_09346076-0946-086d-f1fc-128a5a3bc3c7",
+    "id": "scrap_11b38c92-b781-1ff0-720b-35efd85d50fd",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipePageRef"
   }
@@ -649,7 +649,7 @@ _cat.core.declare('jquery.swipe-list.index.html.backBtn$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_e26cfffa-441a-b202-e150-d19605c0d20d",
+    "id": "scrap_5a4a751d-7fe1-c217-6762-5042abdd29fa",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.backBtn"
   }
@@ -731,7 +731,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAvery$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_61ae2da7-94d3-63d7-be5d-0b29aaecba89",
+    "id": "scrap_381c007b-7346-7e6f-37fc-6799916ebca9",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAvery"
   }
@@ -813,7 +813,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeMike$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_15316782-0c2a-5ec7-a845-bb4a32221259",
+    "id": "scrap_5125207d-a5ee-8241-fe0c-c55585d43e89",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeMike"
   }
@@ -895,7 +895,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeRedfin$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_45a4f1d0-3828-90bf-6736-4b5e7d6625c1",
+    "id": "scrap_ca901a05-d6c4-2738-a64a-075018014f93",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeRedfin"
   }
@@ -977,7 +977,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAngela$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_8d0991f7-8ef0-9d57-54fc-f7b2a8284cd9",
+    "id": "scrap_592b7aa6-3e40-fb88-3433-c76661ea7a5a",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAngela"
   }
@@ -1059,7 +1059,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeMikeDel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_5421a768-e40b-433f-2f2a-5049424a6ec4",
+    "id": "scrap_9ea74c1a-8d06-1fbe-1c08-f7e6ee20b746",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeMikeDel"
   }
@@ -1141,7 +1141,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeRedfinCancel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_2ceb3f15-7f1a-3071-8de3-813d7f03f130",
+    "id": "scrap_a4170b4a-12d0-9e6e-9205-9ec9a9e41222",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeRedfinCancel"
   }
@@ -1223,7 +1223,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAveryCancel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_e113169f-b477-e867-8396-12f53adcb60b",
+    "id": "scrap_dba99acc-c303-958c-81fb-c28413aac3fd",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAveryCancel"
   }
@@ -1305,7 +1305,7 @@ _cat.core.declare('jquery.swipe-list.index.html.swipeAngelaDel$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_3e5cb706-d05e-431d-19de-06c39a43e9ae",
+    "id": "scrap_dd37b35b-082f-a25e-19e6-800bf4b39cd8",
     "$type": "html",
     "pkgName": "jquery.swipe-list.index.html.swipeAngelaDel"
   }

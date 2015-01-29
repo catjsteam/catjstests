@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <script src="../lib/jquery.js"></script>
     <title></title>
+    <!--
+        @[scrap
+        @@name catImport
+        @@import[
+           ../cat/lib/cat.js
+        ]
+        ]@
+    -->
+
 </head>
 <body>
     <h1>Hello from iframe2</h1>
@@ -12,10 +21,17 @@
         <input id="checkThird" type="text">
     </div>
     <!--
-     [scrap
-         @@name thirdScrap
+     @[scrap
+         @@name iframe5
          @@embed true
-         @@jqm clickButton("#thirdButton")
+         @@assert ok(true,"hello assert5");
+     ]@
+     -->
+    <!--
+     @[scrap
+         @@name iframe6
+         @@embed true
+         @@assert ok(true,"hello assert6");
      ]@
      -->
 </body>

@@ -1,4 +1,4 @@
-_cat.core.declare('iframe.index.html.firstScrap$$cat', {
+_cat.core.declare('iframe.index.html.main1$$cat', {
   scrap: {
     "stack": [{
       "key": "name",
@@ -7,12 +7,12 @@ _cat.core.declare('iframe.index.html.firstScrap$$cat', {
       "key": "embed",
       "cell": 0
     }, {
-      "key": "jqm",
+      "key": "assert",
       "cell": 0
     }],
-    "name": ["firstScrap"],
+    "name": ["main1"],
     "embed": ["true"],
-    "jqm": ["clickButton(\"#firstButton\")"],
+    "assert": ["ok(true,\"hello assert1\");"],
     "file": "/Users/ransnir/Documents/workspace/catjstests/app/iframe/cat-project/target/iframe/index.html",
     "scrapinfo": {
       "start": {
@@ -38,7 +38,7 @@ _cat.core.declare('iframe.index.html.firstScrap$$cat', {
       "stack": true,
       "name": true,
       "embed": true,
-      "jqm": false,
+      "assert": false,
       "file": true,
       "scrapinfo": true,
       "commentinfo": true,
@@ -56,7 +56,7 @@ _cat.core.declare('iframe.index.html.firstScrap$$cat', {
       "stack": -1,
       "name": -1,
       "embed": -1,
-      "jqm": -1,
+      "assert": -1,
       "file": -1,
       "scrapinfo": -1,
       "commentinfo": -1,
@@ -75,8 +75,90 @@ _cat.core.declare('iframe.index.html.firstScrap$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
-    "id": "scrap_47de5775-6a60-49dc-e431-5051569039be",
+    "id": "scrap_6323bad1-bb3c-bb10-e196-b1dbbc301a40",
     "$type": "html",
-    "pkgName": "iframe.index.html.firstScrap"
+    "pkgName": "iframe.index.html.main1"
+  }
+}, 'scrap');
+_cat.core.declare('iframe.index.html.main3$$cat', {
+  scrap: {
+    "stack": [{
+      "key": "name",
+      "cell": 0
+    }, {
+      "key": "embed",
+      "cell": 0
+    }, {
+      "key": "assert",
+      "cell": 0
+    }],
+    "name": ["main3"],
+    "embed": ["true"],
+    "assert": ["ok(true,\"hello assert3\");"],
+    "file": "/Users/ransnir/Documents/workspace/catjstests/app/iframe/cat-project/target/iframe/index.html",
+    "scrapinfo": {
+      "start": {
+        "line": 49,
+        "col": 5
+      },
+      "end": {
+        "line": 53,
+        "col": 7
+      }
+    },
+    "commentinfo": {
+      "start": {
+        "line": 48,
+        "col": 4
+      },
+      "end": {
+        "line": 54,
+        "col": 8
+      }
+    },
+    "single": {
+      "stack": true,
+      "name": true,
+      "embed": true,
+      "assert": false,
+      "file": true,
+      "scrapinfo": true,
+      "commentinfo": true,
+      "single": true,
+      "singleton": true,
+      "arguments": true,
+      "context": false,
+      "auto": true,
+      "injectcode": true,
+      "$standalone": true,
+      "id": true,
+      "$type": true
+    },
+    "singleton": {
+      "stack": -1,
+      "name": -1,
+      "embed": -1,
+      "assert": -1,
+      "file": -1,
+      "scrapinfo": -1,
+      "commentinfo": -1,
+      "single": -1,
+      "singleton": -1,
+      "arguments": -1,
+      "context": 2,
+      "auto": -1,
+      "injectcode": -1,
+      "$standalone": -1,
+      "id": -1,
+      "$type": -1
+    },
+    "arguments": ["thi$"],
+    "context": ["thi$"],
+    "auto": true,
+    "injectcode": false,
+    "$standalone": false,
+    "id": "scrap_461fbc89-858d-feef-70a9-2b0c8d6d399d",
+    "$type": "html",
+    "pkgName": "iframe.index.html.main3"
   }
 }, 'scrap');

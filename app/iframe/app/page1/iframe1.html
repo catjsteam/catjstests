@@ -21,10 +21,19 @@
     </div>
     <!--
      @[scrap
-         @@name secondScrap
+         @@name iframe2
          @@embed true
-         @@jqm clickButton("#secondButton")
+         @@assert ok(true,"hello assert2");
      ]@
      -->
+
+    <!--
+         @[scrap
+             @@name iframe4
+             @@embed true
+             @@assert ok(true,"hello scrap4");
+         ]@
+         -->
+
 </body>
 </html>

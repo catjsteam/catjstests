@@ -39,9 +39,17 @@
     </div>
     <!--
      @[scrap
-         @@name firstScrap
+         @@name main1
          @@embed true
-         @@jqm clickButton("#firstButton")
+         @@assert ok(true,"hello assert1");
+     ]@
+     -->
+
+    <!--
+     @[scrap
+         @@name main3
+         @@embed true
+         @@assert ok(true,"hello assert3");
      ]@
      -->
 
@@ -49,6 +57,9 @@
 
 </iframe>
     <iframe src="page2/iframe2.html">
+
+    </iframe>
+    <iframe src="page3/iframe3.html">
 
     </iframe>
 </body>
