@@ -13,7 +13,7 @@ _cat.core.declare('jquery.tabs.index.html.appMenuTabsClick$$cat', {
     "name": ["appMenuTabsClick"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#appMenuTabs\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 43,
@@ -75,7 +75,11 @@ _cat.core.declare('jquery.tabs.index.html.appMenuTabsClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_43a78a64-b316-30da-e329-5416d1fc9666",
+=======
+    "id": "scrap_8c4c811a-8099-1a86-1341-eef89f841d32",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.appMenuTabsClick"
   }
@@ -95,7 +99,7 @@ _cat.core.declare('jquery.tabs.index.html.navScroll$$cat', {
     "name": ["navScroll"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#navTabs\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 60,
@@ -157,7 +161,11 @@ _cat.core.declare('jquery.tabs.index.html.navScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_96247de9-9d8c-ac40-b65c-76c0c689c3e5",
+=======
+    "id": "scrap_e4e3e551-f289-b268-70bd-ccfb3c7958c9",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.navScroll"
   }
@@ -182,7 +190,7 @@ _cat.core.declare('jquery.tabs.index.html.navTabSelect2$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["selectTab(\"#navTab2\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 68,
@@ -246,7 +254,11 @@ _cat.core.declare('jquery.tabs.index.html.navTabSelect2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_28776f31-7203-ff2a-25f2-48ef2762e717",
+=======
+    "id": "scrap_819252c4-432e-493a-ade2-cbd4e90e3e14",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.navTabSelect2"
   }
@@ -271,7 +283,7 @@ _cat.core.declare('jquery.tabs.index.html.navTabSelect3$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["selectTab(\"#navTab3\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 77,
@@ -335,7 +347,11 @@ _cat.core.declare('jquery.tabs.index.html.navTabSelect3$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_062bbf70-d3c9-9d68-8504-6a1fcbd9dba9",
+=======
+    "id": "scrap_46e5a252-8b75-c210-be59-07ec1abe6b22",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.navTabSelect3"
   }
@@ -360,7 +376,7 @@ _cat.core.declare('jquery.tabs.index.html.navTabSelect1$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["selectTab(\"#navTab1\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 85,
@@ -424,7 +440,11 @@ _cat.core.declare('jquery.tabs.index.html.navTabSelect1$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_e06e8c04-5957-4167-fc69-6294cbdbeb66",
+=======
+    "id": "scrap_a9a5cc15-3d0a-a2c7-6f6d-d1f0c890c881",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.navTabSelect1"
   }
@@ -444,7 +464,7 @@ _cat.core.declare('jquery.tabs.index.html.listTabsScroll$$cat', {
     "name": ["listTabsScroll"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#listTabs\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 120,
@@ -506,7 +526,11 @@ _cat.core.declare('jquery.tabs.index.html.listTabsScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_9b460757-4ff9-7dca-73fd-00efd5be12f4",
+=======
+    "id": "scrap_3df98cba-a39e-781d-81c9-464771cc740e",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.listTabsScroll"
   }
@@ -531,7 +555,7 @@ _cat.core.declare('jquery.tabs.index.html.listTabsSelect3$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["selectTab(\"#listTabsSelect3\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 128,
@@ -595,7 +619,11 @@ _cat.core.declare('jquery.tabs.index.html.listTabsSelect3$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_1c3b97bb-65d0-f896-ce02-4bf0aec79484",
+=======
+    "id": "scrap_e4e6affa-111c-ac64-f210-f78941be8280",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.listTabsSelect3"
   }
@@ -620,7 +648,7 @@ _cat.core.declare('jquery.tabs.index.html.listTabsSelect1$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["selectTab(\"#listTabsSelect1\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 137,
@@ -684,7 +712,11 @@ _cat.core.declare('jquery.tabs.index.html.listTabsSelect1$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_aac58423-640b-ce58-9a06-a24d9d24b6fc",
+=======
+    "id": "scrap_e43bacfe-c40f-1ea3-d812-ba4db4981401",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.listTabsSelect1"
   }
@@ -709,7 +741,7 @@ _cat.core.declare('jquery.tabs.index.html.listTabsSelect2$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["selectTab(\"#listTabsSelect2\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 145,
@@ -773,7 +805,11 @@ _cat.core.declare('jquery.tabs.index.html.listTabsSelect2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_44b222ee-3f7f-c31c-7491-3ad6dd9afdc1",
+=======
+    "id": "scrap_b4830aaf-4aba-979f-391c-bbc0889a0902",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.listTabsSelect2"
   }
@@ -798,7 +834,7 @@ _cat.core.declare('jquery.tabs.index.html.eventsMenuScroll$$cat', {
     "run@": ["tabsManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#eventsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 212,
@@ -862,7 +898,11 @@ _cat.core.declare('jquery.tabs.index.html.eventsMenuScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_e38daad4-4bf4-9ecc-b3e0-6564f55b4960",
+=======
+    "id": "scrap_1ddb5d0b-3a2e-c3b1-ecb1-9c0a6694a00e",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.eventsMenuScroll"
   }
@@ -882,7 +922,7 @@ _cat.core.declare('jquery.tabs.index.html.eventsMenuClick$$cat', {
     "name": ["eventsMenuClick"],
     "embed": ["true"],
     "jqm": ["click(\"#eventsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 221,
@@ -944,7 +984,11 @@ _cat.core.declare('jquery.tabs.index.html.eventsMenuClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_f4e1f5f6-2c32-9a27-2580-8742e2ef2e5d",
+=======
+    "id": "scrap_834dc7cd-d099-a94f-297f-b644e8945787",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.eventsMenuClick"
   }
@@ -964,7 +1008,7 @@ _cat.core.declare('jquery.tabs.index.html.eventsMenuScroll2$$cat', {
     "name": ["eventsMenuScroll2"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#eventsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 229,
@@ -1026,7 +1070,11 @@ _cat.core.declare('jquery.tabs.index.html.eventsMenuScroll2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_fae8da89-11ac-ded0-1a5d-779e043d4e3f",
+=======
+    "id": "scrap_a23050ec-9f96-8ae2-c49a-b31a056293f0",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.eventsMenuScroll2"
   }
@@ -1046,7 +1094,7 @@ _cat.core.declare('jquery.tabs.index.html.swipeListRef$$cat', {
     "name": ["swipeListRef"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#swipeList\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/tabs/index.html",
     "scrapinfo": {
       "start": {
         "line": 237,
@@ -1108,7 +1156,11 @@ _cat.core.declare('jquery.tabs.index.html.swipeListRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_514e703f-cbe0-0cb9-00b8-2d932d97103b",
+=======
+    "id": "scrap_b460ef2d-45f9-9b37-2771-c1a86d86c9a2",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.tabs.index.html.swipeListRef"
   }

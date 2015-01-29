@@ -13,7 +13,7 @@ _cat.core.declare('jquery.index.html.formWidgetsScroll$$cat', {
     "name": ["formWidgetsScroll"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#formWidgets\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/index.html",
     "scrapinfo": {
       "start": {
         "line": 83,
@@ -75,7 +75,11 @@ _cat.core.declare('jquery.index.html.formWidgetsScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_87014d77-46e9-c422-4e5d-07dc974ec64d",
+=======
+    "id": "scrap_26ff149e-d06f-9dbd-c60a-0640261d12a9",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.index.html.formWidgetsScroll"
   }
@@ -95,7 +99,7 @@ _cat.core.declare('jquery.index.html.checkboxesRef$$cat', {
     "name": ["checkboxesRef"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#checkboxesRef\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/index.html",
     "scrapinfo": {
       "start": {
         "line": 93,
@@ -157,7 +161,11 @@ _cat.core.declare('jquery.index.html.checkboxesRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_7d4df656-f2ec-7559-d03d-80627b5c2bd6",
+=======
+    "id": "scrap_d7f905de-54e6-f27f-f5e0-a9ce79535e0b",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.index.html.checkboxesRef"
   }

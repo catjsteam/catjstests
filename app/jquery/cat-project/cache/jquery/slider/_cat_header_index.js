@@ -18,7 +18,7 @@ _cat.core.declare('jquery.slider.index.html.basicSliderScroll$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#basicSlider\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 90,
@@ -82,7 +82,11 @@ _cat.core.declare('jquery.slider.index.html.basicSliderScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_60f12fb6-854c-58a2-56b5-b0c4835fbf71",
+=======
+    "id": "scrap_e86e0fd9-5f32-01eb-dde6-c576b05da2d8",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.basicSliderScroll"
   }
@@ -111,7 +115,7 @@ _cat.core.declare('jquery.slider.index.html.slider25$$cat', {
     "embed": ["true"],
     "jqm": ["slide(\"#slider-1\" , 25);"],
     "assert": ["ok($('#slider-1').val()=='25','hello');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 98,
@@ -177,7 +181,11 @@ _cat.core.declare('jquery.slider.index.html.slider25$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_08881712-4149-d3f0-fa9e-4922f43bacfd",
+=======
+    "id": "scrap_5edcd0ec-c259-d326-cc0f-1f6cbb99a1ac",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.slider25"
   }
@@ -202,7 +210,7 @@ _cat.core.declare('jquery.slider.index.html.HighlightScroll$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#highlightSlider\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 108,
@@ -266,7 +274,11 @@ _cat.core.declare('jquery.slider.index.html.HighlightScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_456f322b-08d5-d917-d354-c98706df7627",
+=======
+    "id": "scrap_f80958bd-15f2-51ea-bbf5-9dfad4492c91",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.HighlightScroll"
   }
@@ -295,7 +307,7 @@ _cat.core.declare('jquery.slider.index.html.sliderHighlight77$$cat', {
     "embed": ["true"],
     "jqm": ["slide(\"#slider-2\" , 77);"],
     "assert": ["ok($('#slider-2').val()=='77','hello');"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 117,
@@ -361,7 +373,11 @@ _cat.core.declare('jquery.slider.index.html.sliderHighlight77$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_10527f42-1506-8f3c-75c6-06e3b1da25fe",
+=======
+    "id": "scrap_25c722c5-e05c-1e1b-b8b7-58955a0e3966",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.sliderHighlight77"
   }
@@ -386,7 +402,7 @@ _cat.core.declare('jquery.slider.index.html.scrollTopSlider$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["scrollTop();"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 126,
@@ -450,7 +466,11 @@ _cat.core.declare('jquery.slider.index.html.scrollTopSlider$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_8beda9cc-f0b6-a164-4cca-591af8230771",
+=======
+    "id": "scrap_22c1d3fa-0343-d6f5-a6bf-548db9b41c7e",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.scrollTopSlider"
   }
@@ -475,7 +495,7 @@ _cat.core.declare('jquery.slider.index.html.appMenuSliderClick$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#appMenuSlider\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 136,
@@ -539,7 +559,11 @@ _cat.core.declare('jquery.slider.index.html.appMenuSliderClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_742d0c99-9116-9d07-66a8-220f099f6e87",
+=======
+    "id": "scrap_3f15ebc6-bb7a-1236-7423-fe70cd266147",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.appMenuSliderClick"
   }
@@ -564,7 +588,7 @@ _cat.core.declare('jquery.slider.index.html.formsMenuScroll$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#formsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 145,
@@ -628,7 +652,11 @@ _cat.core.declare('jquery.slider.index.html.formsMenuScroll$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_743c3454-f8db-686a-c605-80a2e5b0accc",
+=======
+    "id": "scrap_c1d03391-eb51-6050-212b-3fefb5abd49e",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formsMenuScroll"
   }
@@ -653,7 +681,7 @@ _cat.core.declare('jquery.slider.index.html.formsMenuClick$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["click(\"#formsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 154,
@@ -717,7 +745,11 @@ _cat.core.declare('jquery.slider.index.html.formsMenuClick$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_624619cc-d518-ad4a-5bb3-faed6413127b",
+=======
+    "id": "scrap_8d270e3e-fa8f-83ef-6bd1-924a4aba525a",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formsMenuClick"
   }
@@ -742,7 +774,7 @@ _cat.core.declare('jquery.slider.index.html.formsMenu2$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["scrollTo(\"#formsMenu\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 163,
@@ -806,7 +838,11 @@ _cat.core.declare('jquery.slider.index.html.formsMenu2$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_753993b0-b3ef-37c1-a3c4-9f9aada7943f",
+=======
+    "id": "scrap_ed198dad-361f-4240-85a8-6411e61dd39a",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formsMenu2"
   }
@@ -831,7 +867,7 @@ _cat.core.declare('jquery.slider.index.html.formRef$$cat', {
     "run@": ["sliderManager"],
     "embed": ["true"],
     "jqm": ["clickRef(\"#formRef\");"],
-    "file": "/Users/ransnir/Documents/workspace/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
+    "file": "/home/arik/dev/projects/lastboy/catjstests/app/jquery/cat-project/target/jquery/slider/index.html",
     "scrapinfo": {
       "start": {
         "line": 172,
@@ -895,7 +931,11 @@ _cat.core.declare('jquery.slider.index.html.formRef$$cat', {
     "auto": true,
     "injectcode": false,
     "$standalone": false,
+<<<<<<< HEAD
     "id": "scrap_b4b2ba80-ad87-20db-4e86-370763a25a0c",
+=======
+    "id": "scrap_b1130c89-1a25-0ad2-8290-f1c261d96f7f",
+>>>>>>> 651012fa94d2fe365298f4666cd77a6431e91645
     "$type": "html",
     "pkgName": "jquery.slider.index.html.formRef"
   }
