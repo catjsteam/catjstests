@@ -1,0 +1,183 @@
+{
+  "files": {
+    "/Users/ransnir/Documents/workspace/catjstests/app/singlescrap/cat-project/target/singlescrap/index.html": {
+      "catImport": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "import",
+          "cell": 0
+        }],
+        "name": ["catImport"],
+        "import": ["cat/lib/cat.js"],
+        "file": "/Users/ransnir/Documents/workspace/catjstests/app/singlescrap/cat-project/target/singlescrap/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 8,
+            "col": 8
+          },
+          "end": {
+            "line": 13,
+            "col": 10
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 7,
+            "col": 4
+          },
+          "end": {
+            "line": 14,
+            "col": 7
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "import": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "context": false,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "import": -1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "context": 1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "context": ["thi$"],
+        "auto": false,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_04f16366-a330-204f-7e4f-941da9852718",
+        "$type": "html",
+        "injectinfo": {
+          "start": {
+            "line": 14,
+            "col": 7
+          },
+          "end": {
+            "line": 14,
+            "col": 593
+          }
+        }
+      },
+      "singleScrap": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "embed",
+          "cell": 0
+        }, {
+          "key": "code",
+          "cell": 0
+        }],
+        "name": ["singleScrap"],
+        "embed": ["true"],
+        "code": ["console.log(\"hello single scrap\");"],
+        "file": "/Users/ransnir/Documents/workspace/catjstests/app/singlescrap/cat-project/target/singlescrap/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 18,
+            "col": 1
+          },
+          "end": {
+            "line": 22,
+            "col": 3
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 17,
+            "col": 0
+          },
+          "end": {
+            "line": 23,
+            "col": 4
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "embed": true,
+          "code": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "context": false,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "embed": -1,
+          "code": 1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "context": 1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "context": ["thi$"],
+        "auto": true,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_2a73ac41-7e40-9e4e-7c79-ab2994dee58f",
+        "$type": "html",
+        "pkgName": "singlescrap.index.html.singleScrap",
+        "injectinfo": {
+          "start": {
+            "line": 23,
+            "col": 4
+          },
+          "end": {
+            "line": 23,
+            "col": 99
+          }
+        }
+      }
+    }
+  },
+  "project": {
+    "basepath": "/Users/ransnir/Documents/workspace/catjstests/app/singlescrap/cat-project/target/",
+    "resources": []
+  }
+}
