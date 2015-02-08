@@ -1,6 +1,7 @@
 node_modules
 .idea
 .DS_Store
+.cat
 *.log
 cat-project/cache/**
 cat-project/reports/**/
