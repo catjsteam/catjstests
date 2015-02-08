@@ -11,7 +11,7 @@
     "report": "In case you wish to get a report data set its 'disable' property to false. Currently catjs supports the junit XML format",
     "test-failure-timeout": "This is a timeout for failing the tests in case of general application malfunction. Set the timeout in seconds. "
   },
-  "name": "todomvc-jquery-test",
+  "name": "backbone-require-test",
   "ip": null,
   "port": null,
   "context": "",
@@ -21,9 +21,9 @@
   "scenarios": {
     "general": {
       "tests": [{
-        "name": "scrap_1ccc45b5-d5dd-d10c-f981-83cb1a83d2f2"
+        "name": "inputTest"
       }, {
-        "name": "scrap_7cf47085-8042-f79f-1a78-82ab537ec6bc"
+        "name": "deleteTest"
       }]
     }
   },
@@ -36,6 +36,7 @@
     "errors": true
   },
   "run-mode": "tests",
-  "run-test-delay": 1000,
-  "test-failure-timeout": 20
+  "run-test-delay": 500,
+  "test-failure-timeout": 20,
+  "auto-override": false
 }

@@ -1,0 +1,66 @@
+{
+    "name": "backbone-require-test",
+
+    "source": "src/",
+    "target": "target/",
+    "cattarget": "./",
+    "dependencies": [
+        {
+            "name": "underscore",
+            "exclude": true
+        }
+    ],
+    "jshint": {
+        "opt": {
+            "evil": true,
+            "strict": false,
+            "curly": true,
+            "eqeqeq": true,
+            "immed": false,
+            "latedef": true,
+            "newcap": false,
+            "noarg": true,
+            "sub": true,
+            "undef": true,
+            "boss": true,
+            "eqnull": true,
+            "node": true,
+            "es5": false
+        },
+        "globals": {
+            "my": true,
+            "$": true
+        }
+    },
+    
+
+    "host": "localhost",
+    "port": "8080",
+    "protocol": "http",
+    "analytics" : "Y",
+    "apppath": "./..",
+    "appserver": {
+        "host": "localhost",
+        "port": "8080",
+        "protocol": "http"
+    },
+
+    "plugins": [
+        {
+            "name": "pserver",
+            "type": "webserver",
+            "path": "./../../backbone_require",
+            "port": "8081",
+            "action": "start"
+        }
+    ],
+
+    "tasks": [
+        {
+            "name": "xserver",
+            "plugins":["pserver"]
+        }
+    ]
+
+
+}

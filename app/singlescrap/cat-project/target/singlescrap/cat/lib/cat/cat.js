@@ -2529,20 +2529,20 @@ _cat.core.ui = function () {
                     __cache.push(config);
                 }
 
-                this.iframeBrodcast(config);
+              //  this.iframeBrodcast(config);
             },
-
-            iframeBrodcast : function(config) {
-                var isIframe = _cat.utils.iframe.isIframe(),
-                    catParent;
-
-                if (isIframe && (config.header || config.desc)) {
-                    catParent = window.parent._cat;
-                    catParent.core.ui.setContent(config);
-
-                }
-
-            }
+//
+//            iframeBrodcast : function(config) {
+//                var isIframe = _cat.utils.iframe.isIframe(),
+//                    catParent;
+//
+//                if (isIframe && (config.header || config.desc)) {
+//                    catParent = window.parent._cat;
+//                    catParent.core.ui.setContent(config);
+//
+//                }
+//
+//            }
 
         };
 

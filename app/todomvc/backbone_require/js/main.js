@@ -30,11 +30,20 @@ require.config({
 	}
 });
 
+/*
+    @[scrap
+        @@require[   
+            /cat/lib/cat.js
+        ]
+    ]@
+*/
+
 require([
 	'backbone',
 	'views/app',
 	'routers/router'
 ], function (Backbone, AppView, Workspace) {
+
 	/*jshint nonew:false*/
 	// Initialize routing and start Backbone.history()
 	new Workspace();
@@ -42,4 +51,5 @@ require([
 
 	// Initialize the application view
 	new AppView();
+    
 });

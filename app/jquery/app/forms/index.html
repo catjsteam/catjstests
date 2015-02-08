@@ -295,7 +295,7 @@
                       @@run@ scrapFormManager
                       @@embed true
                       @@jqm setText("#text-basic", "hello world");
-                      @@assert ok($('#text-basic').val()=='hello world','text-basic text == hello world')
+                      @@assert ok($('#text-basic').val() === 'hello world','text-basic text === hello world')
                    ]@
               -->
         <!--
@@ -313,7 +313,7 @@
                      @@run@ scrapFormManager
                      @@embed true
                      @@jqm setText("#date", "2014-02-27");
-                     @@assert ok($('#date').val()=='2014-02-27','date == 2014-02-27')
+                     @@assert ok($('#date').val() === '2014-02-27','date === 2014-02-27')
                   ]@
              -->
 

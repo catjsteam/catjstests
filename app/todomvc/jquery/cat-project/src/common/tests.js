@@ -13,20 +13,23 @@ my.tests = function() {
          */
         inputTest: function(thi$) {
              
-            var beforeTodoList, afterTodoList;
+            var todoList,
+                before, after;
                        
             /* get the list length */
-            beforeTodoList = thi$.getFilteredTodos();
+            todoList = thi$.getFilteredTodos();
+            before = todoList.length;
             
             /* The elements can be tested with catjs API */ 
             _cat.core.plugin("jquery").actions.setText("#new-todo", "test");
             _cat.core.plugin("jquery").utils.trigger('#new-todo', {type: "keyup", opt: { keyCode: 13 }});
 
             /* get the list length after an item has being added */
-            afterTodoList = thi$.getFilteredTodos();
+            todoList = thi$.getFilteredTodos();
+            after = todoList.length;
             
             // test with chaijs the lists size
-            chai.expect(beforeTodoList).to.be.below(afterTodoList);
+            chai.expect(before).to.be.below(after);
             
            
             return true;
@@ -41,11 +44,13 @@ my.tests = function() {
          */
          deleteTest: function(thi$) {
              
-            var todoList, afterTodoList,
+            var todoList,
+                before, after,
                 destroyButtonQuery;
             
             /* get the list length */
             todoList = thi$.getFilteredTodos();
+            before = todoList.length;
             
              /* We have inserted an element, expect to have at least one */
              chai.expect(todoList).to.have.length.above(0);
@@ -54,10 +59,11 @@ my.tests = function() {
             _cat.core.plugin("jquery").utils.trigger(destroyButtonQuery, {type: "click"});
 
             /* get the list length after an item has being deleted */
-            afterTodoList = thi$.getFilteredTodos();
+            todoList = thi$.getFilteredTodos();
+            after = todoList.length;
 
             // test with chaijs the lists size
-            chai.expect(afterTodoList).to.be.below(todoList);
+            chai.expect(after).to.be.below(before);
 
             return true;
         }

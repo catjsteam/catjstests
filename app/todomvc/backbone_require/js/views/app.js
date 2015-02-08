@@ -44,11 +44,28 @@ define([
 			this.listenTo(Todos, 'all', this.render);
 
 			Todos.fetch({reset:true});
+
+            /*
+             @[scrap
+                 @@name inputTest
+                 @@assert ok(my.tests.inputTest(thi$, Todos), "Failed to insert Todo item")
+                 @@context Todos
+                 @@description Insert an item to the Todo list                            
+             ]@
+
+             @[scrap
+                 @@name deleteTest
+                 @@assert ok(my.tests.deleteTest(thi$, Todos), "Failed to delete Todo item")
+                 @@context Todos
+                 @@description Delete an item from the Todo list
+             ]@                    
+             */
 		},
 
 		// Re-rendering the App just means refreshing the statistics -- the rest
 		// of the app doesn't change.
 		render: function () {
+            
 			var completed = Todos.completed().length;
 			var remaining = Todos.remaining().length;
 
@@ -65,12 +82,15 @@ define([
 					.removeClass('selected')
 					.filter('[href="#/' + (Common.TodoFilter || '') + '"]')
 					.addClass('selected');
+                
 			} else {
 				this.$main.hide();
 				this.$footer.hide();
 			}
 
 			this.allCheckbox.checked = !remaining;
+
+          
 		},
 
 		// Add a single todo item to the list by creating a view for it, and
