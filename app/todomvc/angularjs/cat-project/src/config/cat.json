@@ -1,0 +1,46 @@
+{
+  "_comment": {
+    "description": "This is the cat test project (for the specification see catjs docs)",
+    "tests": "Put in here all of the test scenarios that you wish to run. Enabled only if run-mode set to tests",
+    "scenarios": "Declare your scenarios in here and execute them using the 'tests' property",
+    "run-mode": {
+      "all": "Execute all available tests (ignores 'tests' and 'scenarios' properties)",
+      "tests": "Executes only the tests specified in the 'tests' property"
+    },
+    "ui": "Set to true in case you wish to enable catjs ui widget",
+    "report": "In case you wish to get a report data set its 'disable' property to false. Currently catjs supports the junit XML format",
+    "test-failure-timeout": "This is a timeout for failing the tests in case of general application malfunction. Set the timeout in seconds. "
+  },
+  "name": "{{project.name}}",
+  "ip": null,
+  "port": null,
+  "context": "{{project.info.appcontext}}",
+  "tests": [{
+    "name": "general"
+  }],
+  "scenarios": {
+    "general": {
+      "tests": [{
+        "name": "InitialTest"
+      }, {
+        "name": "getNew-TodoElement  "
+      }, {
+        "name": "scrap_94e74ea0-1a51-3e3b-0a8a-201cbc03acf2"
+      }, {
+        "name": "scrap_4e733592-aaa8-f44b-d32f-bbcb47d3fddd"
+      }]
+    }
+  },
+  "ui": true,
+  "report": {
+    "format": ["console", "junit"],
+    "disable": false
+  },
+  "assert": {
+    "errors": true
+  },
+  "run-mode": "tests",
+  "run-test-delay": 500,
+  "test-failure-timeout": 20,
+  "auto-override": true
+}

@@ -5,3 +5,4 @@ Currently test support for:
 
 * JQuery
 * Backbone Require
+* AngularJS
