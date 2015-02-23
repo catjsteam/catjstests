@@ -6,7 +6,7 @@
  * @type {angular.Module}
  */
 angular.module('todomvc', ['ngRoute'])
-	.config(function ($routeProvider) {
+    .config(function ($routeProvider) {
 		'use strict';
         
 		$routeProvider.when('/', {

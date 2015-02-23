@@ -11,10 +11,10 @@
     "report": "In case you wish to get a report data set its 'disable' property to false. Currently catjs supports the junit XML format",
     "test-failure-timeout": "This is a timeout for failing the tests in case of general application malfunction. Set the timeout in seconds. "
   },
-  "name": "{{project.name}}",
+  "name": "angularjs-test",
   "ip": null,
   "port": null,
-  "context": "{{project.info.appcontext}}",
+  "context": "",
   "tests": [{
     "name": "general"
   }],
@@ -23,11 +23,11 @@
       "tests": [{
         "name": "InitialTest"
       }, {
-        "name": "getNew-TodoElement  "
+        "name": "domActionScrap"
       }, {
-        "name": "scrap_94e74ea0-1a51-3e3b-0a8a-201cbc03acf2"
+        "name": "inputTest"
       }, {
-        "name": "scrap_4e733592-aaa8-f44b-d32f-bbcb47d3fddd"
+        "name": "deleteTest"
       }]
     }
   },

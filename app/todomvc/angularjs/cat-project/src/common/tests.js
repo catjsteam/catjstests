@@ -22,11 +22,11 @@ my.tests = function() {
             before = todoList.length;
             
             /* The elements can be tested with catjs API */ 
-            _cat.core.plugin("jquery").actions.setText("#new-todo", "test");
-            _cat.core.plugin("jquery").utils.trigger('#new-todo', {type: "keyup", opt: { keyCode: 13 }});
+            _cat.core.plugin("angular").actions.setText("#new-todo", "test", false);
+            _cat.core.plugin("angular").utils.trigger("#todo-form", {type: "submit"});
 
             /* get the list length after an item has being added */
-            todoList = thi$.getFilteredTodos();
+            todoList = $scope.todos;
             after = todoList.length;
             
             // test with chaijs the lists size
@@ -48,20 +48,23 @@ my.tests = function() {
              
             var todoList,
                 before, after,
-                destroyButtonQuery;
+                destroyButtonQuery,
+                removeElt;
             
             /* get the list length */
             todoList = $scope.todos;
             before = todoList.length;
             
-             /* We have inserted an element, expect to have at least one */
-             chai.expect(todoList).to.have.length.above(0);
+            /* We have inserted an element, expect to have at least one */
+            chai.expect(todoList).to.have.length.above(0);
              
-             destroyButtonQuery = ["#todo-list li[data-id='", todoList[0].id , "'] button"].join("");
-            _cat.core.plugin("jquery").utils.trigger(destroyButtonQuery, {type: "click"});
+            destroyButtonQuery = ["#todo-list li button"].join("");
+            removeElt = _cat.core.plugin("angular").utils.getElt(destroyButtonQuery);
+            
+            _cat.core.plugin("angular").utils.trigger(removeElt[removeElt.length-1], {type: "click"});
 
             /* get the list length after an item has being deleted */
-            todoList = thi$.getFilteredTodos();
+            todoList = $scope.todos;
             after = todoList.length;
 
             // test with chaijs the lists size

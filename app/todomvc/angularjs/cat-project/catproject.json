@@ -38,12 +38,20 @@
     },
 
     "plugins": [
-
+        {
+            "name": "pserver",
+            "type": "webserver",
+            "port": "8081",
+            "path" : "./..",
+            "action": "start"
+        }
     ],
 
     "tasks": [
-
+        {
+            "name": "server",
+            "plugins":["pserver"]
+        }
     ]
-
 
 }

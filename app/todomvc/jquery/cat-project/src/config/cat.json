@@ -21,9 +21,9 @@
   "scenarios": {
     "general": {
       "tests": [{
-        "name": "scrap_1ccc45b5-d5dd-d10c-f981-83cb1a83d2f2"
+        "name": "scrap_823b7243-b2da-ec50-79bd-fec18816715d"
       }, {
-        "name": "scrap_7cf47085-8042-f79f-1a78-82ab537ec6bc"
+        "name": "scrap_935a5f0a-8e2e-3bef-a94a-29e90ee36f2c"
       }]
     }
   },

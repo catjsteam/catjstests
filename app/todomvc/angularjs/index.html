@@ -5,29 +5,32 @@
 		<title>AngularJS • TodoMVC</title>
 		<link rel="stylesheet" href="bower_components/todomvc-common/base.css">
 		<style>[ng-cloak] { display: none; }</style>
-
+        <!--
+           @[scrap
+               @@name catImport
+               @@import[   
+                   cat/lib/cat.js
+               ]
+           ]@
+       -->
 	</head>
 	<body ng-app="todomvc">
 		<ng-view />
 
 		<script type="text/ng-template" id="todomvc-index.html">
 
-
+          
 			<section id="todoapp">
+               
 				<header id="header">
 					<h1>todos</h1>
-					<form id="todo-form" ng-submit="addTodo()">
+
+					<form id="todo-form" ng-submit="addTodo()">                        
 						<input id="new-todo" placeholder="What needs to be done?" ng-model="newTodo" autofocus>
 					</form>
-                    
-                    <!--
-                        @[scrap
-                            @@name getNew-TodoElement  
-                            @@embed true 
-                            @@assert ok(document.querySelector("#new-todo"), "Faild to resolve new-todo element");                                                            
-                        ]@
-                    -->
-				</header>
+                         
+				</header>                
+                
 				<section id="main" ng-show="todos.length" ng-cloak>
 					<input id="toggle-all" type="checkbox" ng-model="allChecked" ng-click="markAll(allChecked)">
 					<label for="toggle-all">Mark all as complete</label>
@@ -45,25 +48,20 @@
 					</ul>
 				</section>
 				<footer id="footer" ng-show="todos.length" ng-cloak>
-					<span id="todo-count"><strong>{{remainingCount}}</strong>
-						<ng-pluralize count="remainingCount" when="{ one: 'item left', other: 'items left' }"></ng-pluralize>
-					</span>
-					<ul id="filters">
-						<li>
-							<a ng-class="{selected: status == ''} " href="#/">All</a>
-						</li>
-						<li>
-							<a ng-class="{selected: status == 'active'}" href="#/active">Active</a>
-						</li>
-						<li>
-							<a ng-class="{selected: status == 'completed'}" href="#/completed">Completed</a>
-						</li>
-					</ul>
-					<button id="clear-completed" ng-click="clearCompletedTodos()" ng-show="completedCount">Clear completed ({{completedCount}})</button>
+					
 				</footer>
 			</section>
-			<footer id="info">
-				<p>Double-click to edit a todo</p>
+            
+            <!-- 
+               @[scrap 
+                   @@name domActionScrap
+                   @@embed true
+                   @@angular setText("#new-todo", "dom input test")
+                   @@angular trigger("#todo-form", "submit")                                                                                
+                ]@
+           -->
+            
+			<footer id="info">				
 				<p>Credits:
 					<a href="http://twitter.com/cburgdorf">Christoph Burgdorf</a>,
 					<a href="http://ericbidelman.com">Eric Bidelman</a>,
@@ -72,8 +70,12 @@
 				</p>
 				<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 			</footer>
+
+           
+            
 		</script>
 		<script src="bower_components/todomvc-common/base.js"></script>
+		<script src="bower_components/jquery/jquery.js"></script>
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-route/angular-route.js"></script>
 		<script src="js/app.js"></script>
@@ -81,14 +83,7 @@
 		<script src="js/services/todoStorage.js"></script>
 		<script src="js/directives/todoFocus.js"></script>
 		<script src="js/directives/todoEscape.js"></script>
-        <!--
-            @[scrap
-                @@name catImport
-                @@import[   
-                    cat/lib/cat.js
-                ]
-            ]@
-        -->
+       
     
 	</body>
 </html>

@@ -82,16 +82,16 @@ angular.module('todomvc')
 			});
 		};
 
-
-
         /*
          @[scrap
+             @@name inputTest
              @@assert ok(my.tests.inputTest(thi$, $scope), "Failed to insert Todo item")
              @@context $scope
              @@description Insert an item to the Todo list                            
          ]@
 
          @[scrap
+             @@name deleteTest
              @@assert ok(my.tests.deleteTest(thi$, $scope), "Failed to delete Todo item")
              @@context $scope             
              @@description Delete an item from the Todo list
