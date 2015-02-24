@@ -28,3 +28,10 @@ angular.module('todomvc', ['ngRoute'])
         */
 
     });
+
+/**
+ @[scrap
+    @@name angularInit
+    @@angular require("todomvc") 
+ ]@
+ */

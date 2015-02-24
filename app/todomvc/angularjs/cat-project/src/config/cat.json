@@ -23,11 +23,15 @@
       "tests": [{
         "name": "InitialTest"
       }, {
-        "name": "domActionScrap"
+        "name": "angularInit"
       }, {
         "name": "inputTest"
       }, {
         "name": "deleteTest"
+      }, {
+        "name": "domActionScrap"
+      }, {
+        "name": "domActionScrap1"
       }]
     }
   },

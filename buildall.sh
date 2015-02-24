@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo ******** clean all applications
+echo ******** build all applications
 
 ARRAY=( '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/jquery' '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/angularjs' '/home/arik/dev/projects/lastboy/catjstests/app/todomvc/backbone_require')
 ELEMENTS=${#ARRAY[@]}
