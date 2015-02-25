@@ -6,3 +6,4 @@ node_modules
 cat-project/cache/**
 cat-project/reports/**/
 cat-project/logs/**/
+cat-project/target/**/
