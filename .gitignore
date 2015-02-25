@@ -3,7 +3,6 @@ node_modules
 .DS_Store
 .cat
 *.log
-cat-project/
 cat-project/cache/**
 cat-project/reports/**/
 cat-project/logs/**/

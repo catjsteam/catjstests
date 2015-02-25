@@ -1,0 +1,56 @@
+{
+    "name": "snapshot-test",
+
+    "source": "src/",
+    "target": "target/",
+    "cattarget": "./",
+    "jshint": {
+        "opt": {
+            "evil": true,
+            "strict": false,
+            "curly": true,
+            "eqeqeq": true,
+            "immed": false,
+            "latedef": true,
+            "newcap": false,
+            "noarg": true,
+            "sub": true,
+            "undef": true,
+            "boss": true,
+            "eqnull": true,
+            "node": true,
+            "es5": false
+        },
+        "globals": {
+         
+        }
+    },
+
+    "dependencies": [
+        {
+            "name": "html2canvas",
+            "exclude": false
+        }
+    ],
+    
+    "host": "localhost",
+    "port": "8080",
+    "protocol": "http",
+    "analytics" : "N",
+    "apppath": "./..",
+    "appserver": {
+        "host": "localhost",
+        "port": "8080",
+        "protocol": "http"
+    },
+
+    "plugins": [
+
+    ],
+
+    "tasks": [
+
+    ]
+
+
+}
