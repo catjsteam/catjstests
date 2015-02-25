@@ -1,10 +1,10 @@
 #!/bin/bash
 
 apparg="$1";
-echo ******** run an applications [jquery | angularjs | backbone_require]
+echo ******** run an applications [todomvc/jquery | todomvc/angularjs | todomvc/backbone_require | iframe | snapshot]
 echo running app $apparg
 
-PATHARG="/home/arik/dev/projects/lastboy/catjstests/app/todomvc/$apparg/cat-project"
+PATHARG="/home/arik/dev/projects/lastboy/catjstests/app/$apparg/cat-project"
 
 echo $PATHARG
 cd $PATHARG
