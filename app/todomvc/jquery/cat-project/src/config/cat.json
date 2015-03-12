@@ -21,9 +21,9 @@
   "scenarios": {
     "general": {
       "tests": [{
-        "name": "scrap_b341dc85-fb65-44d7-7530-e9ca2616bdd9"
+        "name": "inputTestScrap"
       }, {
-        "name": "scrap_a8da0806-784b-4d87-dc8d-13e5507261d6"
+        "name": "deleteTestScrap"
       }]
     }
   },

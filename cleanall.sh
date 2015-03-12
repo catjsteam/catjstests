@@ -2,7 +2,7 @@
 
 echo ******** clean all applications
 BASEPATH='/home/arik/dev/projects/lastboy/catjstests/app'
-ARRAY=( 'todomvc/jquery' 'todomvc/angularjs' 'todomvc/backbone_require' 'iframe' 'snapshot')
+ARRAY=( 'todomvc/jquery' 'todomvc/angularjs' 'todomvc/backbone_require' 'snapshot' 'events' 'iframe')
 ELEMENTS=${#ARRAY[@]}
 
 for (( i=0;i<$ELEMENTS;i++)); do

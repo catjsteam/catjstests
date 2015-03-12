@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Snapshot Test</title>
+
+    <script src="./../../common/app.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./../../common/app.css" />
+    <!--
+      @[scrap
+          @@name catImport
+          @@import[
+             ../../cat/lib/cat.js
+          ]
+      ]@
+    -->
+    
+    <script>
+        window.onload = function () {
+            
+             /*
+                @[scrap
+                    @@name native.eventDragTest
+                    @@context app                                     
+                    @@dom fire("mousedown", {element: "#drag2"})                                    
+                    @@dom fire("mousemove", {element: "#drag2", target:"#dropdiv", steps: {count: 20, delay:20}, offset: {x:35, y:35}})                                                                               
+                    @@dom fire("mouseup", {element: "#drag2"})                                                                               
+
+                    @@dom fire("mousedown", {element: "#drag2"})                                                                               
+                    @@dom fire("mousemove", {element: "#drag2", target:"#drag1", offset: {x:165, y:15}})                                                                               
+                    @@dom fire("mouseup", {element: "#drag2"})                                                                               
+
+                    @@dom fire("mousedown", {element: "#drag2"})                                                                               
+                    @@dom fire("mousemove", {element: "#drag2", target:{x:450, y:250}})                                                                               
+                    @@dom fire("mouseup", {element: "#drag2"})  
+
+                    @@dom fire("click", {element: "#drag2", cords:true})   
+                ]@
+             */
+   
+             /*
+                @[scrap
+                    @@name native.eventDragHTML5Test
+                    @@context app                                     
+                    @@dom fire("mousedown", {element: "#drag1"})                                    
+                    @@dom fire("mousemove", {element: "#drag1"})                                                                               
+                    @@dom fire("dragstart", {element: "#drag1"})
+                    @@dom fire("mousemove", {element: "#drag1"})                                                                                                   
+                    @@dom fire("dragover", {element: "#dropdiv"})
+                    @@dom fire("drop", {element: "#dropdiv"})
+                    @@dom fire("mouseup", {element: "#drag1"})                                                                                                                          
+                ]@
+             */
+
+            app.utils.draggable("#drag2");
+            app.utils.markPosition("#drag2");
+            app.utils.markPosition("#drag1");
+            app.utils.listenToAll("#dropdiv");
+            app.utils.listenToAll("#drag1");
+
+        };
+        
+        function allowDrop(e) {
+            e.preventDefault();
+            var data = e.dataTransfer.getData("text");
+            e.target.classList.add("allowdrag");
+        }
+        
+        function drag(e) {
+            e.dataTransfer.setData("text", e.target.id);           
+        }
+
+        function drop(e) {
+            e.preventDefault();
+
+            var data = e.dataTransfer.getData("text");
+            e.target.classList.remove("allowdrag");
+            e.target.appendChild(document.getElementById(data));           
+        }
+                
+        
+    </script>
+
+</head>
+<body>
+
+<h1>Events Test</h1>
+
+<ul>
+    <li> Drag and Drop Tests
+        <ul>
+           
+            <li>1st element, HTML5 Drag and Drop </li>
+            <li>2st element, Native JavaScript free drag </li>
+        </ul>
+    </li>
+   
+    
+    
+</ul>
+
+<div id="dropdiv" ondrop="drop(event)" ondragover="allowDrop(event)">Drop Area</div>
+
+<div id="drag1"  class="draggdiv" draggable="true" ondragstart="drag(event)" width="336" height="69">
+    <span class="number">1st</span>  Drag & Drop Test
+</div>
+<div id="drag2"   style="left: 130px" class="draggdiv"  width="336" height="69" >
+    <span class="number">2nd</span> Free Drag Test
+</div>
+
+
+</body>
+</html>

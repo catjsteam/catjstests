@@ -51,11 +51,13 @@ jQuery(function ($) {
                     
                      /*
                         @[scrap
+                            @@name inputTestScrap
                             @@assert ok(my.tests.inputTest(thi$), "Failed to insert Todo item")
                             @@description Insert an item to the Todo list                            
                         ]@
                                             
                         @[scrap
+                            @@name deleteTestScrap
                             @@assert ok(my.tests.deleteTest(thi$), "Failed to delete Todo item")
                             @@description Delete an item from the Todo list
                         ]@                    

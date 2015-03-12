@@ -11,32 +11,71 @@
         "report": "In case you wish to get a report data set its 'disable' property to false. Currently catjs supports the junit XML format",
         "test-failure-timeout": "This is a timeout for failing the tests in case of general application malfunction. Set the timeout in seconds. "
     },
-    "name": "snapshot-test",
+
+    "name": "events-test",
     "ip": null,
     "port": null,
     "context": "",
     "tests": [
         {
-            "name": "native",
-            "path": "/native"
+            "name": "jquery.drag",
+            "path": ["jquery/dnd"]
         },
         {
-            "name": "jquery",
-            "path": "/jquery"
+            "name": "native.drag",
+            "path": ["native/dnd"]
+        },
+        {
+            "name": "jquery.events",
+            "path": ["jquery/elements"]
+        },
+        {
+            "name": "native.events",
+            "path": ["native/elements"]
         }
     ],
     "scenarios": {
-        "native": {
+
+        "jquery.drag": {
             "tests": [
                 {
-                    "name": "native.snapshots"
+                    "name": "jquery.eventDragTest"
+                },
+                {
+                    "name": "jquery.eventDragHTML5Test"
+                }
+            ]
+        },  
+        
+        "native.drag": {
+            "tests": [
+                {
+                    "name": "native.eventDragTest"
+                },
+                {
+                    "name": "native.eventDragHTML5Test"
                 }
             ]
         },
-        "jquery": {
-            "tests": [                
+
+        "jquery.events": {
+            "tests": [
                 {
-                    "name": "jquery.snapshots"
+                    "name": "jquery.eventListen"
+                },
+                {
+                    "name": "jquery.eventFireNativeTest"
+                }
+            ]
+        },
+
+        "native.events": {
+            "tests": [
+                {
+                    "name": "native.eventListen"
+                },
+                {
+                    "name": "native.eventFireNativeTest"
                 }
             ]
         }

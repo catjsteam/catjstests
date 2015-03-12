@@ -1,5 +1,5 @@
 {
-    "name": "snapshot-test",
+    "name": "events-test",
 
     "source": "src/",
     "target": "target/",
@@ -26,19 +26,12 @@
         }
     },
 
-    "dependencies": [
-        {
-            "name": "html2canvas",
-            "exclude": false
-        }
-    ],
-
     "host": "localhost",
     "port": "8080",
     "protocol": "http",
     "analytics" : "N",
     "apppath": "./..",
-    "appserver": {
+    "appserver": {        
         "host": "localhost",
         "port": "8080",
         "protocol": "http"
