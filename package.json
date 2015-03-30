@@ -1,6 +1,6 @@
 {
-  "name": "gtac-catjs",
-  "description": "gtac - catjs",
+  "name": "catjs-test-apps",
+  "description": "catjs tests applications with common use-cases",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
