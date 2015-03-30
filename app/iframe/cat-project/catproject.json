@@ -27,13 +27,13 @@
     },
 
     "host": "localhost",
-    "port": "8089",
+    "port": "8080",
     "protocol": "http",
     "analytics" : "N",
     "apppath": "./../app",
     "appserver": {
         "host": "localhost",
-        "port": "8089",
+        "port": "8080",
         "protocol": "http"
     },
 
