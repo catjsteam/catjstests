@@ -1,0 +1,28 @@
+.elt {
+    border: 1px solid #efefef;
+    background-color: #2b81af;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    float: left;
+}
+
+.elt .header {
+    font-weight: bold;
+    position:relative;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.elt .msg {
+    font-size: 10px;
+    font-weight: normal;
+    position:relative;
+    top: 35px;
+    left: 20px;
+    color: greenyellow;
+}

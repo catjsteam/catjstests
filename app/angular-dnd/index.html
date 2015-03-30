@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dragon Drop for AngularJS</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/spruce/bootstrap.min.css">
+  <style>
+    [btf-dragon] {
+      padding: 20px;
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body ng-app="ExampleApp">
+
+  <div class="container" ng-controller="MainCtrl">
+    
+    <div class="row">
+      <h1>Dragon Drop Example</h1>
+    </div>
+    
+    <hr>
+  
+    <div class="row">
+      <div class="span6">
+        <h3>Things</h3>
+        <div btf-dragon="thing in things">{{thing}}</div>
+      </div>
+      <div class="span6">
+        <h3>Other Things</h3>
+        <div id="otherthingselt" btf-dragon="thing in otherThings">{{thing}}</div>
+      </div>
+    </div>
+    
+    <hr>
+
+    <div class="row">
+      <div class="span6">
+        <h3>Things</h3>
+        <pre>{{things | json}}</pre>
+      </div>
+      <div class="span6">
+        <h3>Other Things</h3>
+        <pre>{{otherThings | json}}</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+  <script src="dragon-drop.js"></script>
+
+  <!--
+  @[scrap
+      @@name catImport
+      @@import[
+         cat/lib/cat.js
+      ]
+  ]@
+-->
+  
+  <script>
+    angular.module('ExampleApp', ['btford.dragon-drop']).
+      controller('MainCtrl', function ($scope) {
+        $scope.things = ['one', 'two', 'three'];
+        $scope.otherThings = [];
+
+                angular.element(document).ready(function () {                   
+                    
+                    function _addEventListener(event, elem, fn) {
+                        if (!elem) {
+                            return undefined;
+                        }
+                        if (elem.addEventListener) {
+                            elem.addEventListener(event, fn, false);
+                        } else {
+                            elem.attachEvent("on" + event, function () {
+                                return(fn.call(elem, window.event));
+                            });
+                        }
+                    }
+                    
+                    function _mouseSniffer(elt) {
+                        if (elt) {
+                            if (elt[0]) {
+                                elt = elt[0];                                
+                            }
+                            
+                            for (var key in elt) {
+                                if (key.indexOf("on") === 0) {
+                                    _addEventListener(key.substring(2), elt, function(e) {
+                                        console.log("event:",  e.type, " tag: ", e.target.tagName, " class: ", e.target.className, " page: ", e.pageX, e.pageY );
+                                    })
+                                }
+                            }
+                        }
+                    }                  
+                                        
+                     
+                    /*
+                     @[scrap
+                         @@name eventDragElementTest
+                         @@dom fire("mousedown", {element: document.querySelector("#dragelt_one"), cords: true})
+                         @@dom fire("mousemove", {element: document.querySelector("#dragelt_one"), cords:true, steps: {count: 20, delay:20}, offset: {x:500, y:0}})
+                         @@dom fire("mouseup", {element: document.querySelector("#dragelt_one"), cords: true})
+                     ]@
+                     */
+                    
+                   /*
+                     @[scrap
+                         @@name eventDragDocumentTest1
+                         @@dom fire("mousedown", {element: document, cords: document.querySelector("#dragelt_two")})
+                         @@dom fire("mousemove", {element: document, cords:document.querySelector("#dragelt_two"), steps: {count: 20, delay:20}, offset: {x:500, y:0}})
+                         @@dom fire("mouseup", {element: document, cords:document.querySelector("#dragelt_two")})
+                     ]@
+                     */
+                    
+                    /*
+                     @[scrap
+                         @@name eventDragDocumentTest2
+                         @@dom fire("mousedown", {element: document, cords: document.querySelector("#dragelt_two")})
+                         @@dom fire("mousemove", {element: document, cords:document.querySelector("#dragelt_two"), steps: {count: 20, delay:20}, offset: {x:-500, y:0}})
+                         @@dom fire("mouseup", {element: document, cords:document.querySelector("#dragelt_two")})
+                     ]@
+                     */
+                    
+                  
+                });
+            });
+  </script>
+</body>
+</html>

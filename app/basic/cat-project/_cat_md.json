@@ -1,0 +1,444 @@
+{
+  "files": {
+    "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/basic-test/index.html": {
+      "catImport": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "import",
+          "cell": 0
+        }],
+        "name": ["catImport"],
+        "import": ["cat/lib/cat.js"],
+        "file": "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/basic-test/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 10,
+            "col": 6
+          },
+          "end": {
+            "line": 15,
+            "col": 8
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 9,
+            "col": 4
+          },
+          "end": {
+            "line": 16,
+            "col": 7
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "import": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "context": false,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "import": -1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "context": 1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "context": ["thi$"],
+        "auto": false,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_d9d3ad2e-b218-9ddb-56aa-242525334768",
+        "$type": "html",
+        "injectinfo": {
+          "start": {
+            "line": 16,
+            "col": 7
+          },
+          "end": {
+            "line": 16,
+            "col": 674
+          }
+        }
+      },
+      "flowTest1": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "context",
+          "cell": 0
+        }, {
+          "key": "code",
+          "cell": 0
+        }, {
+          "key": "code",
+          "cell": 1
+        }],
+        "name": ["flowTest1"],
+        "context": ["thi$", "app"],
+        "code": ["app.click(1)", "console.log(@d.next('.names'))"],
+        "file": "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/basic-test/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 22,
+            "col": 12
+          },
+          "end": {
+            "line": 27,
+            "col": 14
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 21,
+            "col": 8
+          },
+          "end": {
+            "line": 28,
+            "col": 11
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "context": false,
+          "code": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "context": 1,
+          "code": 1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "auto": true,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_22095ad0-1e02-d08a-b65a-15cf1afc11b8",
+        "$type": "js",
+        "pkgName": "basic-test.index.html.flowTest1",
+        "injectinfo": {
+          "start": {
+            "line": 28,
+            "col": 11
+          },
+          "end": {
+            "line": 28,
+            "col": 127
+          }
+        }
+      },
+      "flowTest2": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "context",
+          "cell": 0
+        }, {
+          "key": "code",
+          "cell": 0
+        }],
+        "name": ["flowTest2"],
+        "context": ["thi$", "app"],
+        "code": ["app.click(2)             "],
+        "file": "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/basic-test/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 31,
+            "col": 12
+          },
+          "end": {
+            "line": 35,
+            "col": 14
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 30,
+            "col": 8
+          },
+          "end": {
+            "line": 36,
+            "col": 11
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "context": false,
+          "code": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "context": 1,
+          "code": 1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "auto": true,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_b46817c2-d172-52a9-f5e9-4d33ecfb2ee0",
+        "$type": "js",
+        "pkgName": "basic-test.index.html.flowTest2",
+        "injectinfo": {
+          "start": {
+            "line": 36,
+            "col": 11
+          },
+          "end": {
+            "line": 36,
+            "col": 127
+          }
+        }
+      },
+      "flowTest3": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "context",
+          "cell": 0
+        }, {
+          "key": "code",
+          "cell": 0
+        }],
+        "name": ["flowTest3"],
+        "context": ["thi$", "app"],
+        "code": ["app.click(3)             "],
+        "file": "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/basic-test/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 39,
+            "col": 12
+          },
+          "end": {
+            "line": 43,
+            "col": 14
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 38,
+            "col": 10
+          },
+          "end": {
+            "line": 44,
+            "col": 11
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "context": false,
+          "code": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "context": 1,
+          "code": 1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "auto": true,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_a80cb77e-0a17-6d0f-685f-a5e23794de45",
+        "$type": "js",
+        "pkgName": "basic-test.index.html.flowTest3",
+        "injectinfo": {
+          "start": {
+            "line": 44,
+            "col": 11
+          },
+          "end": {
+            "line": 44,
+            "col": 127
+          }
+        }
+      },
+      "flowTest4": {
+        "stack": [{
+          "key": "name",
+          "cell": 0
+        }, {
+          "key": "context",
+          "cell": 0
+        }, {
+          "key": "code",
+          "cell": 0
+        }],
+        "name": ["flowTest4"],
+        "context": ["thi$", "app"],
+        "code": ["app.click(4)             "],
+        "file": "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/basic-test/index.html",
+        "scrapinfo": {
+          "start": {
+            "line": 47,
+            "col": 12
+          },
+          "end": {
+            "line": 51,
+            "col": 14
+          }
+        },
+        "commentinfo": {
+          "start": {
+            "line": 46,
+            "col": 9
+          },
+          "end": {
+            "line": 52,
+            "col": 11
+          }
+        },
+        "single": {
+          "stack": true,
+          "name": true,
+          "context": false,
+          "code": false,
+          "file": true,
+          "scrapinfo": true,
+          "commentinfo": true,
+          "single": true,
+          "singleton": true,
+          "arguments": true,
+          "auto": true,
+          "injectcode": true,
+          "$standalone": true,
+          "id": true,
+          "$type": true
+        },
+        "singleton": {
+          "stack": -1,
+          "name": -1,
+          "context": 1,
+          "code": 1,
+          "file": -1,
+          "scrapinfo": -1,
+          "commentinfo": -1,
+          "single": -1,
+          "singleton": -1,
+          "arguments": -1,
+          "auto": -1,
+          "injectcode": -1,
+          "$standalone": -1,
+          "id": -1,
+          "$type": -1
+        },
+        "arguments": [],
+        "auto": true,
+        "injectcode": false,
+        "$standalone": false,
+        "id": "scrap_1be3353c-36e7-22e8-4800-7124c6bb8968",
+        "$type": "js",
+        "pkgName": "basic-test.index.html.flowTest4",
+        "injectinfo": {
+          "start": {
+            "line": 52,
+            "col": 11
+          },
+          "end": {
+            "line": 52,
+            "col": 127
+          }
+        }
+      }
+    }
+  },
+  "project": {
+    "basepath": "/home/arik/dev/projects/lastboy/catjstests/app/basic/cat-project/target/",
+    "resources": []
+  }
+}
