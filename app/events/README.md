@@ -17,4 +17,4 @@ CatJS, try me:
     + http://localhost:8080/native/elements
     + http://localhost:8080/native/dnd    
     + http://localhost:8080/jquery/elements
-    + http://localhost:8080/juery/dnd
+    + http://localhost:8080/jquery/dnd
