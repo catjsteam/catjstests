@@ -22,7 +22,7 @@
             "es5": false
         },
         "globals": {
-         
+            "my": true
         }
     },
 

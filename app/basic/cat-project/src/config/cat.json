@@ -21,14 +21,10 @@
   "scenarios": {
     "general": {
       "tests": [{
-        "name": "flowTest1", "repeat":3
+        "name": "flowTest1"
       }, {
         "name": "flowTest2"
       }, {
-        "name": "flowTest1"
-      }, {
-        "name": "flowTest4"
-      },{
         "name": "flowTest3"
       }]
     }

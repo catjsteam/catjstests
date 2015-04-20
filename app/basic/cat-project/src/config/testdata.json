@@ -1,8 +1,10 @@
 {
     "_comment": "This is a test data JSON file, put in here any test data you wish to integrate with your tests (see the docs for more information)",
-    "names": [
-        { "name": "name1", "desc": "This is name 1"},
-        { "name": "name2", "desc": "This is name 2"},
-        { "name": "name3", "desc": "This is name 3"}
+    "ids": [
+        { "id": "1", "desc": "This is test 1"},
+        { "id": "2", "desc": "This is test 2"},
+        { "id": "3", "desc": "This is test 3"},
+        { "id": "4", "desc": "This is test 4"},
+        { "id": "5", "desc": "This is test 5"}
     ]
 }

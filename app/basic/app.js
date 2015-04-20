@@ -43,7 +43,10 @@ var app = function () {
                 
                 elt.fireEvent("on" + type);
             }
-        };
+        },
+        
+        size = metadata.size, 
+        idx = 0;
 
     _module = {
 
@@ -55,45 +58,76 @@ var app = function () {
             }
         },
         
+        insert: function(counter) {
+            var tpl = metadata.template,
+                elt = document.createElement("div"),
+                ref;
+
+            elt.innerHTML = _compile(tpl, {index: counter});
+            ref = document.body.appendChild(elt);
+            
+            _module.listener(ref);                     
+        },
+        
+        listener: function(elt) {
+            
+            _addEventListener("click", elt, function (e) {
+                
+                var elt = e.target, 
+                    eltmsg = elt.querySelector(".msg"),
+                    eltid = elt.id,
+                    counter = eltid.substring(eltid.length-1);
+
+                eltmsg.innerHTML = "[app] clicked, elt: test" + counter;
+                setTimeout(function() {
+                    eltmsg.innerHTML = "";
+                }, 2000);
+
+                console.log("[app] clicked, elt: test", counter);
+                
+            });
+
+        },
+        
         init: function() {
 
-            var size = metadata.size, idx = 0,
-                tpl = metadata.template,
-                counter = 0;
+            console.log("[app] The application is ready ");
 
-
-            window.onload = function (e) {
-
-                console.log("[app] The application is ready ");
-
-                for (; idx < size; idx++) {
-                    counter++;
-                    document.body.innerHTML += _compile(tpl, {index: counter});
-
+            var h = setInterval(function() {
+                idx++;
+                _module.insert(idx);
+                if (idx >= size) {
+                    clearInterval(h);
                 }
+            }, 2500);                        
+            
+            /*
+             @[scrap
+                 @@name flowTest1
+                 @@context app
+                 @@wait object("#test1")
+                 @@code app.click(1)
+             ]@
+             */
 
-                counter = 0;
-                idx = 0;
-                for (; idx < size; idx++) {
-                    counter++;
-                    (function (counter) {
-                        
-                        var elt = _getElt("#test" + counter);
-                        _addEventListener("click", elt, function (e) {
-                            
-                            var elt = _getElt("#test" + counter + " .msg");
-                            elt.innerHTML = "[app] clicked, elt: test" + counter;
-                            setTimeout(function() {
-                                elt.innerHTML = "";
-                            }, 500);
-                            
-                            console.log("[app] clicked, elt: test", counter);                            
-                        });
-                        
-                    })(counter);
+            /*
+             @[scrap
+                 @@name flowTest2
+                 @@context app                 
+                 @@code my.clickTest1(app)
+             ]@
+             */
 
-                }
-            }
+            /*
+             @[scrap
+                 @@name flowTest3
+                 @@context app                 
+                 @@code my.clickTest2(app)
+             ]@
+             */
+
+ 
+        
         },
 
         getElt: _getElt
@@ -102,3 +136,7 @@ var app = function () {
 
     return _module;
 }();
+
+window.onload = function (e) {
+    app.init();
+};

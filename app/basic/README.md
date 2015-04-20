@@ -1,4 +1,7 @@
 # Basic application with couple of thumbnails cubes that has notification display on mouse click - Tested with CatJS
+The test is going over the test-data, fetching the elements ids to be clicked on. The test is waiting for the elements to be ready and then it clicks on them.
+
+**Note:** this project is working with the latest canary build (catjs.canary 0.4.88)
 
 For Installation CatJS installation guide visit: https://www.npmjs.com/package/catjs  
 
