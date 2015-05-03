@@ -29,7 +29,7 @@
     "host": "localhost",
     "port": "8080",
     "protocol": "http",
-    "analytics" : "N",
+    "analytics" : "Y",
     "apppath": "./..",
     "appserver": {
         "host": "localhost",

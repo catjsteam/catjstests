@@ -30,6 +30,10 @@
         {
             "name": "html2canvas",
             "exclude": false
+        },
+        {
+            "name": "canvg",
+            "exclude": false
         }
     ],
 
