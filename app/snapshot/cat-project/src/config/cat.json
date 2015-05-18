@@ -30,6 +30,9 @@
             "tests": [
                 {
                     "name": "native.snapshots"
+                },
+                {
+                    "name": "native.snapshots.api"
                 }
             ]
         },
