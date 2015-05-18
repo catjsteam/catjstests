@@ -25,16 +25,13 @@
             "my": true
         }
     },
-
-    "host": "localhost",
-    "port": "8080",
-    "protocol": "http",
-    "analytics" : "Y",
+    
+    "analytics" : "N",
     "apppath": "./..",
-    "appserver": {
-        "host": "localhost",
-        "port": "8080",
-        "protocol": "http"
+    "server": {
+        "services": {
+            "static-pages": true           
+        }
     },
 
     "plugins": [

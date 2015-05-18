@@ -12,8 +12,9 @@
     "test-failure-timeout": "This is a timeout for failing the tests in case of general application malfunction. Set the timeout in seconds. "
   },
   "name": "basic-test",
-  "ip": null,
-  "port": null,
+  "ip": "localhost",
+  "port": "8089",
+  "protocol": "http://",
   "context": "",
   "tests": [{
     "name": "general"
@@ -26,6 +27,8 @@
         "name": "flowTest2"
       }, {
         "name": "flowTest3"
+      }, {
+        "name": "done"
       }]
     }
   },
@@ -40,5 +43,5 @@
   "run-mode": "tests",
   "run-test-delay": 500,
   "test-failure-timeout": 20,
-  "auto-override": false
+  "auto-override": true
 }

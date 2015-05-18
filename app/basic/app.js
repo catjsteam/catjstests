@@ -105,7 +105,7 @@ var app = function () {
              @[scrap
                  @@name flowTest1
                  @@context app
-                 @@wait object("#test1")
+                 @@wait object("#test1", 3500)
                  @@code app.click(1)
              ]@
              */
@@ -123,6 +123,12 @@ var app = function () {
                  @@name flowTest3
                  @@context app                 
                  @@code my.clickTest2(app)
+             ]@
+             */
+
+            /*
+             @[scrap
+                 @@name done
              ]@
              */
 
