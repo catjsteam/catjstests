@@ -1,0 +1,221 @@
+<html>
+
+<title>Timing API test 1</title>
+<link href="index.css" rel="stylesheet" type="text/css"/>
+
+<script>
+    function _onload() {
+        var now = new Date().getTime();
+        var page_load_time = now - performance.timing.navigationStart;
+        console.log("User-perceived page loading time: " + page_load_time);
+    }
+
+    function _timingEntriesBase(prefs, name) {
+        
+        function _print(item) {
+            
+            var values = ["\n Performance: \n"];
+
+            if (!prefs || (prefs && prefs.length === 0)) {
+                for (var key in item) {
+                    if (item.hasOwnProperty(key)) {
+                        prefs.push(key);
+                    }
+                }
+            }
+            
+            prefs.forEach(function(pref) {
+                values.push(pref, ":", (item[pref]), "\n");
+            });
+            
+            
+            values.push("\n");
+            console.log(values.join(" "));
+        }
+
+        if (prefs && prefs.length > 0) {
+            prefs.unshift("name");
+        }
+        
+        var pe = (!name ? performance.getEntries() : performance.getEntriesByName(name));
+        for (var i = 0; i < pe.length; i++) {
+                _print(pe[i]);
+        }
+    }
+    
+    function _timingEntriesByName(name, prefs) {
+        _timingEntriesBase((prefs || []), name);
+    }
+    
+    function _timingEntries(prefs) {
+        _timingEntriesBase(prefs || []);
+    }
+    
+    function _consolePrinter(key) {
+        console.log(key.name, this[key.name]);
+    }
+    
+    function _tablePrinter(key) {
+        var timingdatarow = document.querySelector("#timingdatarow"),
+                tpl = '<div style="display: table-cell;  padding-right: 18px; font-weight:normal">  ${label} </div>';
+        
+        timingdatarow.innerHTML += (tpl.split('${label}').join(new Date(this[key.name]).getMilliseconds()));
+    }
+    
+    function _timing(printer) {
+        
+        var pe = performance.timing;
+        
+        if (!printer) {
+            printer = _consolePrinter;
+        }
+        
+        for (var i = 0; i < _metadata.length; i++) {
+           printer.call(pe, _metadata[i]);
+        }       
+    }
+    
+    var _metadata = (function() {
+        
+        var map = [
+            {name: "navigationStart", desc: "Navigation Start"}, 
+            {name: "unloadEventStart", desc: "Unload Event Start"}, 
+            {name: "unloadEventEnd", desc: "Unload Event End"}, 
+            {name: "redirectStart", desc: "Redirect Start"}, 
+            {name: "redirectEnd", desc: "Redirect End"}, 
+            {name: "fetchStart", desc: "fetch Start"}, 
+            {name: "domainLookupStart", desc: "Domain Lookup Start"}, 
+            {name: "domainLookupEnd", desc: "Domain Lookup End"}, 
+            {name: "connectStart", desc: "Connect Start"}, 
+            {name: "connectEnd", desc: "Connect End"}, 
+            {name: "secureConnectionStart", desc: "Secure Connection Start"}, 
+            {name: "requestStart", desc: "Request Start"}, 
+            {name: "responseStart", desc: "Response Start"}, 
+            {name: "responseEnd", desc: "Response End"}, 
+            {name: "domLoading", desc: "DOM Loading"}, 
+            {name: "domInteractive", desc: "DOM Interactive"}, 
+            {name: "domContentLoadedEventStart", desc: "DOM Content Loaded Event Start"}, 
+            {name: "domContentLoadedEventEnd", desc: "DOM Content Loaded Event End"}, 
+            {name: "domComplete", desc: "DOM Complete"}, 
+            {name: "loadEventStart", desc: "Load Event Start"}, 
+            {name: "loadEventEnd", desc: "Load Event End"} 
+        ];          
+        
+        return map;
+    })();
+    
+    function _getMetaDataByIndex(idx) {
+        return _metadata[idx];
+    }
+
+    function _onresources() {
+        var now = new Date().getTime();
+        var page_load_time = now - performance.timing.connectStart;
+        console.log("User-perceived page loading time: " + page_load_time);
+    }
+
+    function _loadExternalResources(url, callback) {
+    
+        // Adding the script tag to the head as suggested before
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+
+        script.onload = function(e) {
+            if (callback) {
+                callback.call(e);
+            }
+        }
+        
+        // Fire the loading
+        head.appendChild(script);
+      
+    }
+    
+    function render() {
+        window.performance.mark('_start');
+        
+        function _create() {
+            var elt = document.createElement("div");
+            elt.style.border="1px solid black";
+            elt.style.margin="2px";
+            elt.innerHTML = "div.. :)";
+            
+            return elt;
+        }
+        
+        for (var i=0; i<100; i++) {
+            document.body.appendChild(_create());
+                        
+        }
+
+        window.performance.mark('_stop');
+        window.performance.measure('measure_render', '_start', '_stop');
+
+        // Delete the Measure "durationFoo"
+        //performance.clearMeasures('measure_render');
+    }
+    
+
+</script>
+
+<body>
+
+<h1>Testing Timing API</h1>
+
+<div class="test1 logo"></div>
+
+</body>
+
+
+<script>
+
+    
+window.onload = function(e) {
+        
+    _timingEntries([
+        "startTime",
+        "duration"
+    ]);
+    
+    render();
+    _timingEntriesByName([]);
+
+    _loadExternalResources("resources/test1.js", function(e){
+        _timingEntries();        
+    });
+
+    (function() {
+        // create timing table UI
+        var tmplcell = '<div style="display: table-cell;  padding-right: 18px"> <label> ${label} </label></div>',
+            tmplrow = '<div style="display: table-row; font-size: 10px; font-weight:bold; white-space: nowrap;">${cells}</div>',
+                size = _metadata.length,
+                uitimeline = document.querySelector("#uitimeline"),
+                rows = [],
+                cells = [];               
+        
+        for (var i=0; i<size; i++) {
+            var item = _metadata[i];
+            cells.push(tmplcell.split("${label}").join(item.desc));
+        }
+        rows.push(tmplrow.split("${cells}").join(cells.join("")));
+        rows.push('<div id="timingdatarow" style="display: table-row; background-color: #EFEFEF; font-size: 10px; font-weight:bold; white-space: nowrap;"></div>')
+        
+        uitimeline.innerHTML = rows.join("\n");
+
+        _timing(_tablePrinter);
+
+    })();
+
+}
+</script>
+
+
+<div id="uitimeline" style="width: 100%; height: 400px;">
+
+    
+</div>
+   
+
+</html>

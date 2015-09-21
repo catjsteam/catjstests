@@ -1,5 +1,5 @@
 {
-    "name": "snapshot-test",
+    "name": "amcharts-test",
 
     "source": "src/",
     "target": "target/",
@@ -26,34 +26,15 @@
         }
     },
 
-    "dependencies": [
-        {
-            "name": "html2canvas",
-            "exclude": false
-        },
-        {
-            "name": "canvg",
-            "exclude": false
-        },
-        {
-            "name": "resemble",
-            "exclude": false
-        },
-        {
-            "name": "jasmine",
-            "exclude": false
-        }
-    ],
-
-    "host": "localhost",
-    "port": "8080",
-    "protocol": "http",
     "analytics" : "N",
     "apppath": "./..",
-    "appserver": {
+    "server": {
         "host": "localhost",
-        "port": "8080",
-        "protocol": "http"
+        "port": "8089",
+        "protocol": "http",
+        "services": {
+            "static-pages": true
+        }
     },
 
     "plugins": [

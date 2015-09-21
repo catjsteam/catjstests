@@ -25,21 +25,87 @@
             "my": true
         }
     },
+
+    "runner": {
+        "run": {
+            "devices": [
+                {
+                    "disable": false,
+                    "type": "localpc",
+                    "runner": {
+                        "name": "chrome",
+                        "address": "/index.html",
+                        "options": {
+                            "instances": 1
+                        }
+                    }
+
+                },
+                {
+                    "disable": true,
+                    "type": "android",
+                    "id": "all",
+                    "runner": {
+                        "name": "apk"
+                    }
+                }
+            ]
+        },
+        "server": {
+            "host" : "localhost",
+            "port" : "8089"
+        }
+    },
     
     "analytics" : "N",
     "apppath": "./..",
     "server": {
         "services": {
-            "static-pages": true           
+            "static-pages": true            
         }
     },
 
     "plugins": [
-
+        {
+            "name": "p@reports",
+            "type": "reports",    
+            "report": "test",
+            "from": "./reports",
+            "to": "reports-tmp"
+        },
+        {
+            "name": "p@copy.report",
+            "type": "copy",
+            "from": {
+                "path": "./reports"
+            },
+            "to": {
+                "path": "./reportstmp"
+            },
+            "filters": [
+                {
+                    "type": "file",
+                    "pattern": ["*.*"],
+                    "exclude": true
+                },
+                {
+                    "type": "file",
+                    "pattern": ["*.xml"],
+                    "exclude": false
+                }
+            ]
+        }
     ],
 
     "tasks": [
-
+        {
+            "name": "copy.report",
+            "plugins":["p@copy.report"]
+        },
+        {
+            "name": "reports",
+            "plugins":["p@custom.plugin", "p@reports"]
+        }
     ]
 
 

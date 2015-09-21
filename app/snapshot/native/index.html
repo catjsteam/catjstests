@@ -39,9 +39,11 @@
             /*
                 @[scrap
                     @@name native.snapshots
-                    @@dom snapshot("#paper")
+                    @@context jasmineRequire
+                    @@dom snapshot("#paper", "test-name")
                     @@dom snapshot("body")
                     @@dom snapshot("#svgtest")
+                    @@js jasmineRequire.catjs.exec()
              ]@
              */
 

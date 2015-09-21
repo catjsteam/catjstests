@@ -81,7 +81,7 @@ var app = function () {
                 eltmsg.innerHTML = "[app] clicked, elt: test" + counter;
                 setTimeout(function() {
                     eltmsg.innerHTML = "";
-                }, 2000);
+                }, 500);
 
                 console.log("[app] clicked, elt: test", counter);
                 
@@ -92,42 +92,61 @@ var app = function () {
         init: function() {
 
             console.log("[app] The application is ready ");
-
+                      
             var h = setInterval(function() {
                 idx++;
                 _module.insert(idx);
                 if (idx >= size) {
                     clearInterval(h);
+                    
+                    //window.location.href = "main.html"
+                    
                 }
-            }, 2500);                        
+            }, 500);                        
             
             /*
              @[scrap
                  @@name flowTest1
-                 @@context app
-                 @@wait object("#test1", 3500)
-                 @@code app.click(1)
+                 @@context app                 
+                 @@js my.clickTest1(app)
              ]@
              */
-
+          
             /*
              @[scrap
                  @@name flowTest2
-                 @@context app                 
-                 @@code my.clickTest1(app)
+                 @@context app
+                 @@wait object("#test2", 5000)
+                 @@js my.clickTest2(app)
              ]@
              */
 
             /*
              @[scrap
                  @@name flowTest3
-                 @@context app                 
-                 @@code my.clickTest2(app)
+                 @@context app  
+                 @@js my.clickTest3(app)
              ]@
              */
 
             /*
              @[scrap
+                 @@name flowTest4
+                 @@wait object("#activateTest2")
+                 @@assert ok(true, "Flow test 3 failed")
+             ]@
+             */
+
+            /*
+             @[scrap
+                 @@name flowTest5
+                 @@js my.clickTest31()
+             ]@
+             */
+
+          
+            /*
+             [scrap
                  @@name done
              ]@
              */

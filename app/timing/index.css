@@ -1,0 +1,10 @@
+
+.test1 {
+    width: 256px;
+    height: 256px;
+}
+
+.logo {
+    background-image: url(./resources/Logo256x256-01.png);
+    background-size: contain;
+}

@@ -1,0 +1,9 @@
+<!--
+  @[scrap
+    @@import cat.js 
+
+  ]@
+
+-->
+
+<h1>test</h1>

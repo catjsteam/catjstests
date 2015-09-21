@@ -11,35 +11,21 @@
     "report": "In case you wish to get a report data set its 'disable' property to false. Currently catjs supports the junit XML format",
     "test-failure-timeout": "This is a timeout for failing the tests in case of general application malfunction. Set the timeout in seconds. "
   },
-  "name": "basic-test",
-  "ip": "localhost",
-  "port": "8089",
-  "protocol": "http",
+  "name": "amcharts-test",
+  "ip": null,
+  "port": null,
   "context": "",
   "tests": [{
-    "name": "single"
-  }, {
     "name": "general"
   }],
   "scenarios": {
-    "single": {
-      "tests": [{
-        "name": "flowTest1"
-      }, {
-        "name": "flowTest2"
-      },{
-        "name": "flowTest2"
-      }, {
-        "name": "flowTest3"
-      }]
-    },
     "general": {
-      "tests": [ {
-          "name": "flowTest2"
+      "tests": [{
+        "name": "chartHandleTest"
       },{
-        "name": "flowTest4"
-      }, {
-        "name": "flowTest5"
+        "name": "chartDataTest"
+      },{
+        "name": "chartDivTest"
       }]
     }
   },
@@ -52,7 +38,7 @@
     "errors": true
   },
   "run-mode": "tests",
-  "run-test-delay": 1500,
+  "run-test-delay": 500,
   "test-failure-timeout": 20,
-  "auto-override": true
+  "auto-override": false
 }

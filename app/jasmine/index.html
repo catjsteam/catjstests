@@ -1,0 +1,111 @@
+<html>
+
+<script src="lib/jasmine.js"></script>
+<script src="lib/reporters/myReporter.js"></script>
+<script src="lib/reporters/jasmine-console.js"></script>
+
+<script>
+
+    jasmineRequire.catjs = function() {
+    
+        var env, 
+            jasmineInterface,
+            _module;
+    
+        /**
+         * Helper function for readability above.
+         */
+        function extend(destination, source) {
+            for (var property in source) destination[property] = source[property];
+            return destination;
+        }
+    
+        function _exec(params) {
+            var top, suites, paramsMap = {}, newsutes = [], origsuites;
+            
+            function _search(name) {
+                
+                var idx = 0, size = 0, item;
+                
+                // direct access match
+                if (paramsMap[name]) {
+                    return true;
+                }
+                
+                size = params.length;
+                for (idx=0; idx<size; idx++) {
+                    item = params[idx];
+                    if (name.match(item)) {
+                        return true
+                    }
+                }
+                
+                return false;            
+            }
+            
+            if (params) {
+                
+                params.forEach(function(param) {
+                    paramsMap[param] = 1;
+                });
+    
+                top = env.topSuite();
+    
+                if (top) {
+                    suites = top.children;
+                    if (suites) {
+                        suites.forEach(function (suite) {
+                            var fullname = suite.getFullName();
+                            if (suite && _search(fullname)) {
+                                newsutes.push(suite);
+                            }
+                        });
+    
+                        origsuites = top.children;
+                        top.children = newsutes;
+                        env.execute();
+                        top.children = origsuites;
+                    }
+                }
+            } else {
+                env.execute();
+            }
+        }
+    
+        window.jasmine = jasmineRequire.core(jasmineRequire);
+    
+        env = jasmine.getEnv();
+        jasmineInterface = jasmineRequire.interface(jasmine, env);
+    
+        extend(window, jasmineInterface);
+    
+        /**
+         * Register the reporter with jasmine
+         */
+            //env.addReporter(myReporter);
+        env.addReporter(new consoleReporter());
+        
+        _module = {
+
+            exec: _exec
+        };
+        
+        return _module;
+        
+    }();
+    
+    window.onload = function () {
+        //jasmineRequire.catjs.exec();
+        jasmineRequire.catjs.exec([/Top Level suite1/g]);        
+    };
+
+</script>
+
+<script src="spec/test1.js"></script>
+<script src="spec/test2.js"></script>
+
+<body>
+<h1>Jasmine with CatJS Demo</h1>
+</body>
+
+</html>
