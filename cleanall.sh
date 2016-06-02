@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo ******** clean all applications
-BASEPATH='/home/arik/dev/projects/lastboy/catjstests/app'
+CWD="$(pwd)"
+BASEPATH="$CWD/app"
 ARRAY=( 'todomvc/jquery' 'todomvc/angularjs' 'todomvc/backbone_require' 'iframe' 'snapshot' 'events' 'iframe', 'basic', 'angular-dnd')
 ELEMENTS=${#ARRAY[@]}
 
