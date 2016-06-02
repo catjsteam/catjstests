@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Dragon Drop for AngularJS</title>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.1/spruce/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
   <style>
     [btf-dragon] {
       padding: 20px;
@@ -44,9 +44,21 @@
       </div>
     </div>
 
-  </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <div>
+      <h3>Drop Down Test</h3>
+      <!--
+          _cat.core.plugin("dom").actions.fire("mousedown", {element: "#select_test"}); 
+          $("#select_test")[0][0].selected = true;
+          _cat.core.plugin("dom").actions.fire("mousedown", {element: "#select_test"});
+      -->
+       <select id="select_test" data-ng-options="o.name for o in options" data-ng-model="selectedOption"  ng-change="update(selectedOption, '{{selectedOption}}')"></select>
+    </div>
+
+    </div>
+
+  <!-- 1.3.13 -->
+  <script src="bower_components/angular/angular.js"></script>
   <script src="dragon-drop.js"></script>
 
   <!--
@@ -61,11 +73,31 @@
   <script>
     angular.module('ExampleApp', ['btford.dragon-drop']).
       controller('MainCtrl', function ($scope) {
+
         $scope.things = ['one', 'two', 'three'];
         $scope.otherThings = [];
 
+        // drop down demo data
+        $scope.options = [{ name: "cell 1", id: 1 }, { name: "cell 2", id: 2 }, { name: "cell 3", id: 3 }];
+        $scope.selectedOption = $scope.options[1];
+
+        $scope.update = function(e) {
+            console.log("select-option change occured... ", e);
+        };
+
                 angular.element(document).ready(function () {                   
                     
+                   // track event listeners stack
+                   var a, fnc = function(e){
+                                console.log(e.type, e.target);
+                            };
+                          elt = document.querySelector("#select_test");
+                    for (a in elt) {
+                        if (a.indexOf("on")===0) { 
+                           // elt.addEventListener(a.substring(2), fnc);
+                        }   
+                    }
+
                     function _addEventListener(event, elem, fn) {
                         if (!elem) {
                             return undefined;
@@ -103,27 +135,40 @@
                          @@dom fire("mousemove", {element: document.querySelector("#dragelt_one"), cords:true, steps: {count: 20, delay:20}, offset: {x:500, y:0}})
                          @@dom fire("mouseup", {element: document.querySelector("#dragelt_one"), cords: true})
                      ]@
-                     */
                     
-                   /*
                      @[scrap
                          @@name eventDragDocumentTest1
                          @@dom fire("mousedown", {element: document, cords: document.querySelector("#dragelt_two")})
                          @@dom fire("mousemove", {element: document, cords:document.querySelector("#dragelt_two"), steps: {count: 20, delay:20}, offset: {x:500, y:0}})
                          @@dom fire("mouseup", {element: document, cords:document.querySelector("#dragelt_two")})
                      ]@
-                     */
                     
-                    /*
+                    
+                    
                      @[scrap
                          @@name eventDragDocumentTest2
                          @@dom fire("mousedown", {element: document, cords: document.querySelector("#dragelt_two")})
                          @@dom fire("mousemove", {element: document, cords:document.querySelector("#dragelt_two"), steps: {count: 20, delay:20}, offset: {x:-500, y:0}})
                          @@dom fire("mouseup", {element: document, cords:document.querySelector("#dragelt_two")})
                      ]@
-                     */
-                    
-                  
+                     
+                                          
+                     @[scrap
+                         @@name selectOptionTest1
+                         @@dom fire("mousedown", {element: document.querySelector("#select_test")})
+                         @@dom fire("mouseup", {element: document.querySelector("#select_test")})
+                         @@js document.querySelector("#select_test")[2].selected = true
+                         @@dom fire("mousedown", {element: document.querySelector("#select_test")})
+                        @@dom fire("mouseup", {element: document.querySelector("#select_test")})
+                     ]@
+
+                     @[scrap
+                         @@name selectOptionTest2
+                         @@dom select({element: "#select_test"}, 2)
+                      ]@
+
+                      */
+
                 });
             });
   </script>

@@ -15,8 +15,9 @@
   "ip": null,
   "port": null,
   "context": "",
-  "tests": [{
-    "name": "general"
+  "tests": [
+  {
+    "name": "options"
   }],
   "scenarios": {
     "general": {
@@ -26,6 +27,11 @@
         "name": "eventDragDocumentTest1"
       }, {
         "name": "eventDragDocumentTest2"
+      }]
+    },
+    "options": {
+      "tests": [{
+        "name": "selectOptionTest2"
       }]
     }
   },
