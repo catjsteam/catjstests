@@ -1,0 +1,50 @@
+{
+    "name": "ajax-test",
+
+    "source": "src/",
+    "target": "target/",
+    "cattarget": "./",
+    "jshint": {
+        "opt": {
+            "evil": true,
+            "strict": false,
+            "curly": true,
+            "eqeqeq": true,
+            "immed": false,
+            "latedef": true,
+            "newcap": false,
+            "noarg": true,
+            "sub": true,
+            "undef": true,
+            "boss": true,
+            "eqnull": true,
+            "node": true,
+            "es5": false,
+            "smarttabs": true
+        },
+        "globals": {
+            "mytestscripts": true
+        }
+    },
+
+    "analytics" : "N",
+    "apppath": "./..",
+    "server": {
+        "host": "localhost",
+        "port": "8089",
+        "protocol": "http",
+        "services": {
+            "static-pages": true
+        }
+    },
+
+    "plugins": [
+
+    ],
+
+    "tasks": [
+
+    ]
+
+
+}
