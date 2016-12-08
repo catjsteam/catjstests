@@ -19,7 +19,8 @@
             "boss": true,
             "eqnull": true,
             "node": true,
-            "es5": false
+            "es5": false,
+            "smarttabs": false
         },
         "globals": {
             "my": true
@@ -28,6 +29,13 @@
     
     "analytics" : "N",
     "apppath": "./..",
+    "appfilter": [
+        {
+            "type": "file",
+            "pattern": ["*.js"],
+            "exclude": true
+        }
+    ],
     "server": {
         "services": {
             "static-pages": true           
