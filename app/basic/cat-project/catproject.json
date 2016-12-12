@@ -32,7 +32,7 @@
     "appfilter": [
         {
             "type": "file",
-            "pattern": ["*.js"],
+            "pattern": ["*.txt"],
             "exclude": true
         }
     ],
